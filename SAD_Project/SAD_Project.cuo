@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CellUserOptions>
+  <Controller Name="Controller">
+    <Application>Disk://sad_project_1/sad_project_1.pjx</Application>
+  </Controller>
+  <Option Name="SynchronizerMode">
+    <Synchronizers>
+      <Synchronizer Controller="Controller" Mode="Emulator" />
+    </Synchronizers>
+  </Option>
+  <Option Name="3DView">
+    <_3DView Visible="true" />
+  </Option>
+  <Option Name="DataTreeView">
+    <Nodes>
+      <Node Path="SAD_Project" IsExpanded="true" />
+      <Node Path="SAD_Project\Controller" IsExpanded="true" />
+      <Node Path="SAD_Project\Controller\sad_project_1" IsExpanded="true" />
+      <Node Path="SAD_Project\Controller\sad_project_1\mdesc" IsExpanded="true" />
+    </Nodes>
+  </Option>
+  <Option Name="CellExplorer">
+    <Nodes>
+      <Node Path="SAD_Project" IsExpanded="true" />
+      <Node Path="SAD_Project\Controller" IsExpanded="true" />
+      <Node Path="SAD_Project\Controller\sad_project_1" IsExpanded="true" />
+    </Nodes>
+  </Option>
+  <Option Name="GeometryView">
+    <Nodes>
+      <Node Path="SAD_Project" IsExpanded="true" />
+      <Node Path="SAD_Project\Controller" IsExpanded="true" />
+    </Nodes>
+  </Option>
+</CellUserOptions>
