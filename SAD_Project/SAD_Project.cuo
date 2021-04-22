@@ -2,6 +2,7 @@
 <CellUserOptions>
   <Controller Name="Controller">
     <Application>Disk://sad_project_1/sad_project_1.pjx</Application>
+    <Application>#Computer://D:/VAL3/trj_path_1/trj_path_1.pjx</Application>
   </Controller>
   <Option Name="SynchronizerMode">
     <Synchronizers>
@@ -16,7 +17,16 @@
       <Node Path="SAD_Project" IsExpanded="true" />
       <Node Path="SAD_Project\Controller" IsExpanded="true" />
       <Node Path="SAD_Project\Controller\sad_project_1" IsExpanded="true" />
+      <Node Path="SAD_Project\Controller\sad_project_1\jointRx" IsExpanded="true" />
       <Node Path="SAD_Project\Controller\sad_project_1\mdesc" IsExpanded="true" />
+      <Node Path="SAD_Project\Controller\sad_project_1\mdesc\mNomSpeed" IsExpanded="true" />
+      <Node Path="SAD_Project\Controller\sad_project_1\pointRx" IsExpanded="true" />
+      <Node Path="SAD_Project\Controller\sad_project_1\tool" IsExpanded="true" />
+      <Node Path="SAD_Project\Controller\trj_path_1" IsExpanded="true" />
+      <Node Path="SAD_Project\Controller\trj_path_1\jointRx" IsExpanded="true" />
+      <Node Path="SAD_Project\Controller\trj_path_1\mdesc" IsExpanded="true" />
+      <Node Path="SAD_Project\Controller\trj_path_1\pointRx" IsExpanded="true" />
+      <Node Path="SAD_Project\Controller\trj_path_1\tool" IsExpanded="true" />
     </Nodes>
   </Option>
   <Option Name="CellExplorer">
@@ -30,6 +40,18 @@
     <Nodes>
       <Node Path="SAD_Project" IsExpanded="true" />
       <Node Path="SAD_Project\Controller" IsExpanded="true" />
+      <Node Path="SAD_Project\Controller\sad_project_1" IsExpanded="true" />
+      <Node Path="SAD_Project\Controller\sad_project_1\world[0]" IsExpanded="true" />
+      <Node Path="SAD_Project\Controller\sad_project_1\world[0]\fReference" IsExpanded="true" />
+      <Node Path="SAD_Project\Controller\sad_project_1\world[0]\fReference\fReference[0]" IsExpanded="true" />
+      <Node Path="SAD_Project\Controller\sad_project_1\flange[0]" IsExpanded="true" />
+      <Node Path="SAD_Project\Controller\sad_project_1\flange[0]\tTool" IsExpanded="true" />
+      <Node Path="SAD_Project\Controller\sad_project_1\Orphans" IsExpanded="true" />
+      <Node Path="SAD_Project\Controller\trj_path_1" IsExpanded="true" />
+      <Node Path="SAD_Project\Controller\trj_path_1\world[0]" IsExpanded="true" />
+      <Node Path="SAD_Project\Controller\trj_path_1\world[0]\fReference" IsExpanded="true" />
+      <Node Path="SAD_Project\Controller\trj_path_1\world[0]\fReference\fReference[0]" IsExpanded="true" />
+      <Node Path="SAD_Project\Controller\trj_path_1\world[0]\fReference\fReference[0]\Pnt_3rd_lyr" IsExpanded="true" />
     </Nodes>
   </Option>
 </CellUserOptions>

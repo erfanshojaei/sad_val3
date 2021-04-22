@@ -1839,3 +1839,631 @@ Mcp = connected
 [04/01/21 16:55:06]: <0x5403> Saving controller context... (2)
 [04/01/21 17:04:27]: <0x5403> sad_project_1 application stopped
 [04/01/21 17:04:36]: <0x2402> COM-PC: destroy session 127.0.0.1 on port 51231 id=#44259536
+[04/07/21 14:58:47]: -----------------------------------------------
+[04/07/21 14:58:47]: Logger started
+[04/07/21 14:58:51]: <0x0003> CPU board: TEKNOR ?Mhz; ?Mb RAM; ?Mb disk; bios: ?; fpga: ?; ataIde: ?
+[04/07/21 14:58:51]: <0x0003> Cycle time set to 0.004s
+[04/07/21 14:58:51]: <0x0003> Simulation cycle time set to 0.1s
+[04/07/21 14:58:51]: <0x0002> Controller IP address could not be updated
+[04/07/21 14:58:51]: <0x0003> Mcp = TSimulated
+[04/07/21 14:58:51]: <0x0002> Default user payload used.
+[04/07/21 14:58:51]: <0x0003> Payload default: mass=100 kg, gravity center: x=0 y=0 z=181 mm, diag inertia: xx=6.4224 yy=6.4224 zz=6.1754 kg.m^2
+[04/07/21 14:58:51]: <0x340A> Mcp communication established
+[04/07/21 14:58:51]: <0x2401> Power hour count = 7:25:12
+[04/07/21 14:58:51]: <0x2401> Mac Address = 9c-fc-e8-07-07-83
+[04/07/21 14:58:51]: <0x1805> Working mode:invalid.
+[04/07/21 14:58:51]: <0x2402> COM-PC: server created on all interfaces [5660]
+[04/07/21 14:58:51]: <0x2401> System: s7.7.1 Sep 10 2014
+[04/07/21 14:58:51]: <0x2401> Configuration Version: c1.026 
+[04/07/21 14:58:51]: <0x2401> CPU: TEKNOR 
+[04/07/21 14:58:51]: <0x2401> Option testMode: enabled 
+[04/07/21 14:58:51]: <0x2401> Option alter: enabled 
+[04/07/21 14:58:51]: <0x2401> Option VAL 3: enabled 
+[04/07/21 14:58:51]: <0x2401> Machine Number: ? 
+[04/07/21 14:58:51]: <0x2401> Arm: tx200-S3-R3 floor
+[04/07/21 14:58:51]: <0x2401> Arm serial number: ? 
+[04/07/21 14:58:51]: <0x2401> Robot name:  
+[04/07/21 14:58:51]: <0x2401> EP: s7.7 Jul 23 2014
+[04/07/21 14:58:51]: <0x2401> SCA: s7.7 Jul 23 2014
+[04/07/21 14:58:51]: <0x2201> New profile : default
+[04/07/21 14:58:51]: <0x2401> End of controller initialization
+[04/07/21 14:58:51]: <0x1A03> System event INTERFACE-Stopped  (Main menu)
+[04/07/21 14:58:51]: <0x1A04> System event INTERFACE-Stopped  (Main menu). 5 events lost.
+[04/07/21 14:58:51]: <0x2402> COM-PC: create session 127.0.0.1 on port 59407 id=#9211584
+[04/07/21 14:58:52]: <0x1801> Working mode:automatic.
+[04/07/21 14:58:52]: <0x1602> End of arm power shutdown phase.
+[04/07/21 14:58:56]: <0x2401> Saving controller context...
+[04/07/21 14:58:56]: <0x2402> Controller temperature: 28°C
+[04/07/21 14:58:56]: <0x2402> CPU temperature: 28°C
+[04/07/21 14:59:03]: <0x2402> COM-PC: create session 127.0.0.1 on port 59412 id=#9211792
+[04/07/21 14:59:03]: <0x2401> COM-PC: start WCF Client on '127.0.0.1:5660'
+[04/07/21 14:59:03]: <0x2402> COM-CLIENT: Connected to http://127.0.0.1:5656
+[04/07/21 14:59:04]: <0x5402> sad_project_1 application started
+[04/07/21 14:59:04]: <0x2402> COM-PC: destroy session 127.0.0.1 on port 59412 id=#9211792
+[04/07/21 14:59:12]: <0x2402> COM-PC: destroy session 127.0.0.1 on port 59407 id=#9211584
+[04/07/21 15:03:56]: <0x5403> sad_project_1 application stopped
+[04/07/21 15:04:01]: <0x2402> COM-PC: create session 127.0.0.1 on port 59567 id=#9213976
+[04/07/21 15:04:01]: <0x2401> COM-PC: start WCF Client on '127.0.0.1:5660'
+[04/07/21 15:04:01]: <0x2402> COM-CLIENT: Connected to http://127.0.0.1:5656
+[04/07/21 15:04:01]: <0x5402> sad_project_1 application started
+[04/07/21 15:04:01]: <0x2402> COM-PC: destroy session 127.0.0.1 on port 59567 id=#9213976
+[04/07/21 15:20:07]: <0x5403> sad_project_1 application stopped
+[04/07/21 17:00:20]: -----------------------------------------------
+[04/07/21 17:00:20]: Logger started
+[04/07/21 17:00:24]: <0x0003> CPU board: TEKNOR ?Mhz; ?Mb RAM; ?Mb disk; bios: ?; fpga: ?; ataIde: ?
+[04/07/21 17:00:24]: <0x0003> Cycle time set to 0.004s
+[04/07/21 17:00:24]: <0x0003> Simulation cycle time set to 0.1s
+[04/07/21 17:00:24]: <0x0002> Controller IP address could not be updated
+[04/07/21 17:00:24]: <0x0003> Mcp = TSimulated
+[04/07/21 17:00:24]: <0x0002> Default user payload used.
+[04/07/21 17:00:24]: <0x0003> Payload default: mass=100 kg, gravity center: x=0 y=0 z=181 mm, diag inertia: xx=6.4224 yy=6.4224 zz=6.1754 kg.m^2
+[04/07/21 17:00:24]: <0x340A> Mcp communication established
+[04/07/21 17:00:24]: <0x2401> Power hour count = 7:25:12
+[04/07/21 17:00:24]: <0x2401> Mac Address = 9c-fc-e8-07-07-83
+[04/07/21 17:00:24]: <0x2402> COM-PC: server created on all interfaces [5660]
+[04/07/21 17:00:24]: <0x2401> System: s7.7.1 Sep 10 2014
+[04/07/21 17:00:24]: <0x2401> Configuration Version: c1.026 
+[04/07/21 17:00:24]: <0x2401> CPU: TEKNOR 
+[04/07/21 17:00:24]: <0x2401> Option testMode: enabled 
+[04/07/21 17:00:24]: <0x2401> Option alter: enabled 
+[04/07/21 17:00:24]: <0x2401> Option VAL 3: enabled 
+[04/07/21 17:00:24]: <0x2401> Machine Number: ? 
+[04/07/21 17:00:24]: <0x2401> Arm: tx200-S3-R3 floor
+[04/07/21 17:00:24]: <0x2401> Arm serial number: ? 
+[04/07/21 17:00:24]: <0x2401> Robot name:  
+[04/07/21 17:00:24]: <0x2401> EP: s7.7 Jul 23 2014
+[04/07/21 17:00:24]: <0x2401> SCA: s7.7 Jul 23 2014
+[04/07/21 17:00:24]: <0x2201> New profile : default
+[04/07/21 17:00:24]: <0x2401> End of controller initialization
+[04/07/21 17:00:25]: <0x2402> COM-PC: create session 127.0.0.1 on port 65204 id=#8491728
+[04/07/21 17:00:25]: <0x1801> Working mode:automatic.
+[04/07/21 17:00:25]: <0x1602> End of arm power shutdown phase.
+[04/07/21 17:00:42]: <0x2402> COM-PC: destroy session 127.0.0.1 on port 65204 id=#8491728
+[04/09/21 10:52:28]: -----------------------------------------------
+[04/09/21 10:52:28]: Logger started
+[04/09/21 10:52:33]: <0x0003> CPU board: TEKNOR ?Mhz; ?Mb RAM; ?Mb disk; bios: ?; fpga: ?; ataIde: ?
+[04/09/21 10:52:33]: <0x0003> Cycle time set to 0.004s
+[04/09/21 10:52:33]: <0x0003> Simulation cycle time set to 0.1s
+[04/09/21 10:52:33]: <0x0002> Controller IP address could not be updated
+[04/09/21 10:52:33]: <0x0003> Mcp = TSimulated
+[04/09/21 10:52:33]: <0x0002> Default user payload used.
+[04/09/21 10:52:33]: <0x0003> Payload default: mass=100 kg, gravity center: x=0 y=0 z=181 mm, diag inertia: xx=6.4224 yy=6.4224 zz=6.1754 kg.m^2
+[04/09/21 10:52:33]: <0x340A> Mcp communication established
+[04/09/21 10:52:33]: <0x2401> Power hour count = 7:25:12
+[04/09/21 10:52:33]: <0x2401> Mac Address = c0-3e-ba-66-a9-42
+[04/09/21 10:52:33]: <0x1805> Working mode:invalid.
+[04/09/21 10:52:33]: <0x2402> COM-PC: server created on all interfaces [5660]
+[04/09/21 10:52:33]: <0x2401> System: s7.7.1 Sep 10 2014
+[04/09/21 10:52:33]: <0x2401> Configuration Version: c1.026 
+[04/09/21 10:52:33]: <0x2401> CPU: TEKNOR 
+[04/09/21 10:52:33]: <0x2401> Option testMode: enabled 
+[04/09/21 10:52:33]: <0x2401> Option alter: enabled 
+[04/09/21 10:52:33]: <0x2401> Option VAL 3: enabled 
+[04/09/21 10:52:33]: <0x2401> Machine Number: ? 
+[04/09/21 10:52:33]: <0x2401> Arm: tx200-S3-R3 floor
+[04/09/21 10:52:33]: <0x2401> Arm serial number: ? 
+[04/09/21 10:52:33]: <0x2401> Robot name:  
+[04/09/21 10:52:33]: <0x2401> EP: s7.7 Jul 23 2014
+[04/09/21 10:52:33]: <0x2401> SCA: s7.7 Jul 23 2014
+[04/09/21 10:52:33]: <0x2201> New profile : default
+[04/09/21 10:52:33]: <0x2401> End of controller initialization
+[04/09/21 10:52:33]: <0x2402> COM-PC: create session 127.0.0.1 on port 50490 id=#44466224
+[04/09/21 10:52:33]: <0x1801> Working mode:automatic.
+[04/09/21 10:52:33]: <0x1602> End of arm power shutdown phase.
+[04/09/21 10:52:39]: <0x2402> COM-PC: create session 127.0.0.1 on port 50497 id=#44464456
+[04/09/21 10:52:39]: <0x2401> COM-PC: start WCF Client on '127.0.0.1:5660'
+[04/09/21 10:52:39]: <0x2402> COM-CLIENT: Connected to http://127.0.0.1:5656
+[04/09/21 10:52:39]: <0x5402> sad_project_1 application started
+[04/09/21 10:52:39]: <0x2402> COM-PC: destroy session 127.0.0.1 on port 50497 id=#44464456
+[04/09/21 10:52:52]: <0x2402> COM-PC: create session 127.0.0.1 on port 50508 id=#44466640
+[04/09/21 10:52:52]: <0x2401> COM-PC: start WCF Client on '127.0.0.1:5660'
+[04/09/21 10:52:52]: <0x2402> COM-CLIENT: Connected to http://127.0.0.1:5656
+[04/09/21 10:52:52]: <0x5403> sad_project_1 application stopped
+[04/09/21 10:52:52]: <0x5402> sad_project_1 application started
+[04/09/21 10:52:53]: <0x2402> COM-PC: destroy session 127.0.0.1 on port 50508 id=#44466640
+[04/09/21 10:52:53]: <0x2402> COM-PC: destroy session 127.0.0.1 on port 50490 id=#44466224
+[04/09/21 10:52:56]: -----------------------------------------------
+[04/09/21 10:52:56]: Logger started
+[04/09/21 10:53:01]: <0x0003> CPU board: TEKNOR ?Mhz; ?Mb RAM; ?Mb disk; bios: ?; fpga: ?; ataIde: ?
+[04/09/21 10:53:01]: <0x0003> Cycle time set to 0.004s
+[04/09/21 10:53:01]: <0x0003> Simulation cycle time set to 0.1s
+[04/09/21 10:53:01]: <0x0002> Controller IP address could not be updated
+[04/09/21 10:53:01]: <0x0003> Mcp = TSimulated
+[04/09/21 10:53:01]: <0x0002> Default user payload used.
+[04/09/21 10:53:01]: <0x0003> Payload default: mass=100 kg, gravity center: x=0 y=0 z=181 mm, diag inertia: xx=6.4224 yy=6.4224 zz=6.1754 kg.m^2
+[04/09/21 10:53:01]: <0x340A> Mcp communication established
+[04/09/21 10:53:01]: <0x2401> Power hour count = 7:25:12
+[04/09/21 10:53:01]: <0x2401> Mac Address = c0-3e-ba-66-a9-42
+[04/09/21 10:53:01]: <0x2402> COM-PC: server created on all interfaces [5660]
+[04/09/21 10:53:01]: <0x2401> System: s7.7.1 Sep 10 2014
+[04/09/21 10:53:01]: <0x2401> Configuration Version: c1.026 
+[04/09/21 10:53:01]: <0x2401> CPU: TEKNOR 
+[04/09/21 10:53:01]: <0x2401> Option testMode: enabled 
+[04/09/21 10:53:01]: <0x2401> Option alter: enabled 
+[04/09/21 10:53:01]: <0x2401> Option VAL 3: enabled 
+[04/09/21 10:53:01]: <0x2401> Machine Number: ? 
+[04/09/21 10:53:01]: <0x2401> Arm: tx200-S3-R3 floor
+[04/09/21 10:53:01]: <0x2401> Arm serial number: ? 
+[04/09/21 10:53:01]: <0x2401> Robot name:  
+[04/09/21 10:53:01]: <0x2401> EP: s7.7 Jul 23 2014
+[04/09/21 10:53:01]: <0x2401> SCA: s7.7 Jul 23 2014
+[04/09/21 10:53:01]: <0x2201> New profile : default
+[04/09/21 10:53:01]: <0x2401> End of controller initialization
+[04/09/21 10:53:01]: <0x1801> Working mode:automatic.
+[04/09/21 10:53:01]: <0x1602> End of arm power shutdown phase.
+[04/09/21 10:53:04]: <0x2402> COM-PC: create session 127.0.0.1 on port 50525 id=#41128136
+[04/09/21 10:53:04]: <0x2401> COM-PC: start WCF Client on '127.0.0.1:5660'
+[04/09/21 10:53:04]: <0x2402> COM-CLIENT: Connected to http://127.0.0.1:5656
+[04/09/21 10:53:04]: <0x5402> sad_project_1 application started
+[04/09/21 10:53:04]: <0x2402> COM-PC: destroy session 127.0.0.1 on port 50525 id=#41128136
+[04/09/21 14:22:24]: <0x5403> sad_project_1 application stopped
+[04/09/21 14:22:29]: <0x2402> COM-PC: create session 127.0.0.1 on port 57359 id=#41128968
+[04/09/21 14:22:29]: <0x2401> COM-PC: start WCF Client on '127.0.0.1:5660'
+[04/09/21 14:22:29]: <0x2402> COM-CLIENT: Connected to http://127.0.0.1:5656
+[04/09/21 14:22:29]: <0x5402> sad_project_1 application started
+[04/09/21 14:22:29]: <0x2402> COM-PC: destroy session 127.0.0.1 on port 57359 id=#41128968
+[04/09/21 14:22:42]: <0x2402> COM-PC: create session 127.0.0.1 on port 57367 id=#41127200
+[04/09/21 14:22:42]: <0x2401> COM-PC: start WCF Client on '127.0.0.1:5660'
+[04/09/21 14:22:42]: <0x2402> COM-CLIENT: Connected to http://127.0.0.1:5656
+[04/09/21 14:22:43]: <0x5403> sad_project_1 application stopped
+[04/09/21 14:22:43]: <0x5402> sad_project_1 application started
+[04/09/21 14:22:43]: <0x2402> COM-PC: destroy session 127.0.0.1 on port 57367 id=#41127200
+[04/09/21 14:24:33]: <0x2402> COM-PC: create session 127.0.0.1 on port 57428 id=#41127304
+[04/09/21 14:24:33]: <0x2401> COM-PC: start WCF Client on '127.0.0.1:5660'
+[04/09/21 14:24:33]: <0x2402> COM-CLIENT: Connected to http://127.0.0.1:5656
+[04/09/21 14:24:33]: <0x5403> sad_project_1 application stopped
+[04/09/21 14:24:33]: <0x5402> sad_project_1 application started
+[04/09/21 14:24:33]: <0x2402> COM-PC: destroy session 127.0.0.1 on port 57428 id=#41127304
+[04/09/21 14:25:10]: <0x5A03> Deadman validated
+[04/09/21 14:25:10]: <0x1603> Settling arm power...
+[04/09/21 14:25:11]: <0x1601> Arm power settled.
+[04/09/21 14:25:24]: <0x2402> COM-PC: create session 127.0.0.1 on port 57455 id=#41126992
+[04/09/21 14:25:25]: <0x5A01> Deadman enabled.
+[04/09/21 14:26:54]: <0x2402> COM-PC: create session 127.0.0.1 on port 57516 id=#41129592
+[04/09/21 14:26:54]: <0x2401> COM-PC: start WCF Client on '127.0.0.1:5660'
+[04/09/21 14:26:54]: <0x2402> COM-CLIENT: Connected to http://127.0.0.1:5656
+[04/09/21 14:26:54]: <0x5403> sad_project_1 application stopped
+[04/09/21 14:26:54]: <0x5402> sad_project_1 application started
+[04/09/21 14:26:54]: <0x2402> COM-PC: destroy session 127.0.0.1 on port 57516 id=#41129592
+[04/09/21 14:39:10]: <0x2402> COM-PC: create session 127.0.0.1 on port 57539 id=#41129696
+[04/09/21 14:39:10]: <0x2401> COM-PC: start WCF Client on '127.0.0.1:5660'
+[04/09/21 14:39:10]: <0x2402> COM-CLIENT: Connected to http://127.0.0.1:5656
+[04/09/21 14:39:10]: <0x5403> sad_project_1 application stopped
+[04/09/21 14:39:10]: <0x5402> sad_project_1 application started
+[04/09/21 14:39:10]: <0x2402> COM-PC: destroy session 127.0.0.1 on port 57539 id=#41129696
+[04/09/21 14:46:58]: <0x2402> COM-PC: create session 127.0.0.1 on port 58141 id=#41129592
+[04/09/21 14:46:59]: <0x2401> COM-PC: start WCF Client on '127.0.0.1:5660'
+[04/09/21 14:46:59]: <0x2402> COM-CLIENT: Connected to http://127.0.0.1:5656
+[04/09/21 14:46:59]: <0x5403> sad_project_1 application stopped
+[04/09/21 14:46:59]: <0x5402> sad_project_1 application started
+[04/09/21 14:46:59]: <0x2402> COM-PC: destroy session 127.0.0.1 on port 58141 id=#41129592
+[04/09/21 14:51:21]: <0x2402> COM-PC: create session 127.0.0.1 on port 58230 id=#41130008
+[04/09/21 14:51:21]: <0x2401> COM-PC: start WCF Client on '127.0.0.1:5660'
+[04/09/21 14:51:21]: <0x2402> COM-CLIENT: Connected to http://127.0.0.1:5656
+[04/09/21 14:51:21]: <0x5403> sad_project_1 application stopped
+[04/09/21 14:51:21]: <0x5402> sad_project_1 application started
+[04/09/21 14:51:21]: <0x2402> COM-PC: destroy session 127.0.0.1 on port 58230 id=#41130008
+[04/09/21 14:53:01]: <0x5403> sad_project_1 application stopped
+[04/09/21 14:53:37]: <0x2402> COM-PC: create session 127.0.0.1 on port 58340 id=#41129800
+[04/09/21 14:53:37]: <0x2401> COM-PC: start WCF Client on '127.0.0.1:5660'
+[04/09/21 14:53:37]: <0x2402> COM-CLIENT: Connected to http://127.0.0.1:5656
+[04/09/21 14:53:38]: <0x5402> sad_project_1 application started
+[04/09/21 14:53:38]: <0x2402> COM-PC: destroy session 127.0.0.1 on port 58340 id=#41129800
+[04/09/21 14:54:06]: <0x5404> ERR 103 'tvel' field in mdesc is negative or too high.. sad_project_1~. 
+[04/09/21 14:55:03]: <0x2402> COM-PC: create session 127.0.0.1 on port 58386 id=#41128656
+[04/09/21 14:55:03]: <0x2401> COM-PC: start WCF Client on '127.0.0.1:5660'
+[04/09/21 14:55:03]: <0x2402> COM-CLIENT: Connected to http://127.0.0.1:5656
+[04/09/21 14:55:03]: <0x5403> sad_project_1 application stopped
+[04/09/21 14:55:04]: <0x5402> sad_project_1 application started
+[04/09/21 14:55:04]: <0x2402> COM-PC: destroy session 127.0.0.1 on port 58386 id=#41128656
+[04/09/21 14:55:04]: <0x5403> sad_project_1 application stopped
+[04/09/21 14:55:12]: <0x2401> Saving controller context...
+[04/09/21 14:55:12]: <0x2402> Controller temperature: 28°C
+[04/09/21 14:55:12]: <0x2402> CPU temperature: 28°C
+[04/09/21 14:55:22]: <0x2402> COM-PC: create session 127.0.0.1 on port 58398 id=#41126888
+[04/09/21 14:55:22]: <0x2401> COM-PC: start WCF Client on '127.0.0.1:5660'
+[04/09/21 14:55:22]: <0x2402> COM-CLIENT: Connected to http://127.0.0.1:5656
+[04/09/21 14:55:22]: <0x5402> sad_project_1 application started
+[04/09/21 14:55:22]: <0x2402> COM-PC: destroy session 127.0.0.1 on port 58398 id=#41126888
+[04/09/21 14:55:31]: <0x2402> COM-PC: create session 127.0.0.1 on port 58398 id=#41127304
+[04/09/21 14:55:31]: <0x2401> COM-PC: start WCF Client on '127.0.0.1:5660'
+[04/09/21 14:55:31]: <0x2402> COM-CLIENT: Connected to http://127.0.0.1:5656
+[04/09/21 14:55:31]: <0x5403> sad_project_1 application stopped
+[04/09/21 14:55:31]: <0x5402> sad_project_1 application started
+[04/09/21 14:55:31]: <0x2402> COM-PC: destroy session 127.0.0.1 on port 58398 id=#41127304
+[04/09/21 14:57:25]: <0x5403> sad_project_1 application stopped
+[04/09/21 15:11:13]: <0x2402> COM-PC: create session 127.0.0.1 on port 58894 id=#41128552
+[04/09/21 15:11:13]: <0x2401> COM-PC: start WCF Client on '127.0.0.1:5660'
+[04/09/21 15:11:13]: <0x2402> COM-CLIENT: Connected to http://127.0.0.1:5656
+[04/09/21 15:11:13]: <0x5402> sad_project_1 application started
+[04/09/21 15:11:14]: <0x2402> COM-PC: destroy session 127.0.0.1 on port 58894 id=#41128552
+[04/09/21 15:11:46]: <0x2402> COM-PC: create session 127.0.0.1 on port 58920 id=#41128864
+[04/09/21 15:11:46]: <0x2401> COM-PC: start WCF Client on '127.0.0.1:5660'
+[04/09/21 15:11:46]: <0x2402> COM-CLIENT: Connected to http://127.0.0.1:5656
+[04/09/21 15:11:46]: <0x5403> sad_project_1 application stopped
+[04/09/21 15:11:47]: <0x5402> sad_project_1 application started
+[04/09/21 15:11:47]: <0x2402> COM-PC: destroy session 127.0.0.1 on port 58920 id=#41128864
+[04/09/21 15:21:58]: <0x2402> COM-PC: create session 127.0.0.1 on port 58920 id=#41127824
+[04/09/21 15:21:58]: <0x2401> COM-PC: start WCF Client on '127.0.0.1:5660'
+[04/09/21 15:21:58]: <0x2402> COM-CLIENT: Connected to http://127.0.0.1:5656
+[04/09/21 15:21:58]: <0x5403> sad_project_1 application stopped
+[04/09/21 15:21:59]: <0x5402> sad_project_1 application started
+[04/09/21 15:21:59]: <0x2402> COM-PC: destroy session 127.0.0.1 on port 58920 id=#41127824
+[04/09/21 15:22:47]: <0x2402> COM-PC: create session 127.0.0.1 on port 58920 id=#41126888
+[04/09/21 15:22:47]: <0x2401> COM-PC: start WCF Client on '127.0.0.1:5660'
+[04/09/21 15:22:47]: <0x2402> COM-CLIENT: Connected to http://127.0.0.1:5656
+[04/09/21 15:22:47]: <0x5403> sad_project_1 application stopped
+[04/09/21 15:22:47]: <0x5402> sad_project_1 application started
+[04/09/21 15:22:47]: <0x2402> COM-PC: destroy session 127.0.0.1 on port 58920 id=#41126888
+[04/09/21 15:25:15]: <0x2401> Saving controller context...
+[04/09/21 15:27:50]: <0x2402> COM-PC: create session 127.0.0.1 on port 58920 id=#41128448
+[04/09/21 15:27:50]: <0x2401> COM-PC: start WCF Client on '127.0.0.1:5660'
+[04/09/21 15:27:50]: <0x2402> COM-CLIENT: Connected to http://127.0.0.1:5656
+[04/09/21 15:27:50]: <0x5403> sad_project_1 application stopped
+[04/09/21 15:27:50]: <0x5402> sad_project_1 application started
+[04/09/21 15:27:50]: <0x2402> COM-PC: destroy session 127.0.0.1 on port 58920 id=#41128448
+[04/09/21 15:28:18]: <0x5403> sad_project_1 application stopped
+[04/09/21 15:28:21]: <0x2402> COM-PC: create session 127.0.0.1 on port 58920 id=#41129696
+[04/09/21 15:28:21]: <0x2401> COM-PC: start WCF Client on '127.0.0.1:5660'
+[04/09/21 15:28:21]: <0x2402> COM-CLIENT: Connected to http://127.0.0.1:5656
+[04/09/21 15:28:22]: <0x5402> sad_project_1 application started
+[04/09/21 15:28:22]: <0x2402> COM-PC: destroy session 127.0.0.1 on port 58920 id=#41129696
+[04/09/21 15:29:57]: <0x2402> COM-PC: create session 127.0.0.1 on port 58920 id=#41128760
+[04/09/21 15:29:57]: <0x2401> COM-PC: start WCF Client on '127.0.0.1:5660'
+[04/09/21 15:29:57]: <0x2402> COM-CLIENT: Connected to http://127.0.0.1:5656
+[04/09/21 15:29:57]: <0x5403> sad_project_1 application stopped
+[04/09/21 15:29:57]: <0x5402> sad_project_1 application started
+[04/09/21 15:29:57]: <0x2402> COM-PC: destroy session 127.0.0.1 on port 58920 id=#41128760
+[04/09/21 15:29:58]: <0x5403> sad_project_1 application stopped
+[04/09/21 15:30:14]: <0x2402> COM-PC: create session 127.0.0.1 on port 58920 id=#41128448
+[04/09/21 15:30:14]: <0x2401> COM-PC: start WCF Client on '127.0.0.1:5660'
+[04/09/21 15:30:14]: <0x2402> COM-CLIENT: Connected to http://127.0.0.1:5656
+[04/09/21 15:30:14]: <0x5402> sad_project_1 application started
+[04/09/21 15:30:14]: <0x2402> COM-PC: destroy session 127.0.0.1 on port 58920 id=#41128448
+[04/09/21 15:31:21]: <0x2402> COM-PC: create session 127.0.0.1 on port 59511 id=#41128448
+[04/09/21 15:31:21]: <0x2401> COM-PC: start WCF Client on '127.0.0.1:5660'
+[04/09/21 15:31:21]: <0x2402> COM-CLIENT: Connected to http://127.0.0.1:5656
+[04/09/21 15:31:21]: <0x5403> sad_project_1 application stopped
+[04/09/21 15:31:21]: <0x5402> sad_project_1 application started
+[04/09/21 15:31:22]: <0x2402> COM-PC: destroy session 127.0.0.1 on port 59511 id=#41128448
+[04/09/21 15:55:18]: <0x2401> Saving controller context...
+[04/09/21 16:25:21]: <0x2402> Saving controller context... (1)
+[04/09/21 16:44:03]: <0x2402> COM-PC: create session 127.0.0.1 on port 50945 id=#41128032
+[04/09/21 16:44:03]: <0x2401> COM-PC: start WCF Client on '127.0.0.1:5660'
+[04/09/21 16:44:03]: <0x2402> COM-CLIENT: Connected to http://127.0.0.1:5656
+[04/09/21 16:44:03]: <0x5403> sad_project_1 application stopped
+[04/09/21 16:44:04]: <0x5402> sad_project_1 application started
+[04/09/21 16:44:04]: <0x2402> COM-PC: destroy session 127.0.0.1 on port 50945 id=#41128032
+[04/09/21 16:44:11]: <0x5403> sad_project_1 application stopped
+[04/09/21 16:44:19]: <0x2402> COM-PC: create session 127.0.0.1 on port 50964 id=#41130008
+[04/09/21 16:44:19]: <0x2401> COM-PC: start WCF Client on '127.0.0.1:5660'
+[04/09/21 16:44:19]: <0x2402> COM-CLIENT: Connected to http://127.0.0.1:5656
+[04/09/21 16:44:19]: <0x5402> sad_project_1 application started
+[04/09/21 16:44:20]: <0x2402> COM-PC: destroy session 127.0.0.1 on port 50964 id=#41130008
+[04/09/21 16:44:34]: <0x2402> COM-PC: create session 127.0.0.1 on port 50999 id=#41128968
+[04/09/21 16:44:34]: <0x2401> COM-PC: start WCF Client on '127.0.0.1:5660'
+[04/09/21 16:44:34]: <0x2402> COM-CLIENT: Connected to http://127.0.0.1:5656
+[04/09/21 16:44:34]: <0x5403> sad_project_1 application stopped
+[04/09/21 16:44:34]: <0x5402> sad_project_1 application started
+[04/09/21 16:44:34]: <0x2402> COM-PC: destroy session 127.0.0.1 on port 50999 id=#41128968
+[04/09/21 16:48:03]: <0x2402> COM-PC: create session 127.0.0.1 on port 51171 id=#41128240
+[04/09/21 16:48:03]: <0x2401> COM-PC: start WCF Client on '127.0.0.1:5660'
+[04/09/21 16:48:03]: <0x2402> COM-CLIENT: Connected to http://127.0.0.1:5656
+[04/09/21 16:48:03]: <0x5403> sad_project_1 application stopped
+[04/09/21 16:48:03]: <0x5402> sad_project_1 application started
+[04/09/21 16:48:03]: <0x2402> COM-PC: destroy session 127.0.0.1 on port 51171 id=#41128240
+[04/09/21 16:55:24]: <0x2401> Saving controller context...
+[04/09/21 16:56:31]: <0x2402> COM-PC: destroy session 127.0.0.1 on port 57455 id=#41126992
+[04/14/21 12:45:55]: -----------------------------------------------
+[04/14/21 12:45:55]: Logger started
+[04/14/21 12:46:00]: <0x0003> CPU board: TEKNOR ?Mhz; ?Mb RAM; ?Mb disk; bios: ?; fpga: ?; ataIde: ?
+[04/14/21 12:46:00]: <0x0003> Cycle time set to 0.004s
+[04/14/21 12:46:00]: <0x0003> Simulation cycle time set to 0.1s
+[04/14/21 12:46:00]: <0x0002> Controller IP address could not be updated
+[04/14/21 12:46:00]: <0x0003> Mcp = TSimulated
+[04/14/21 12:46:00]: <0x0002> Default user payload used.
+[04/14/21 12:46:00]: <0x0003> Payload default: mass=100 kg, gravity center: x=0 y=0 z=181 mm, diag inertia: xx=6.4224 yy=6.4224 zz=6.1754 kg.m^2
+[04/14/21 12:46:00]: <0x340A> Mcp communication established
+[04/14/21 12:46:00]: <0x2401> Power hour count = 9:54:40
+[04/14/21 12:46:00]: <0x2401> Mac Address = 9c-fc-e8-07-07-83
+[04/14/21 12:46:00]: <0x1805> Working mode:invalid.
+[04/14/21 12:46:00]: <0x2402> COM-PC: server created on all interfaces [5660]
+[04/14/21 12:46:00]: <0x2401> System: s7.7.1 Sep 10 2014
+[04/14/21 12:46:00]: <0x2401> Configuration Version: c1.026 
+[04/14/21 12:46:00]: <0x2401> CPU: TEKNOR 
+[04/14/21 12:46:00]: <0x2401> Option testMode: enabled 
+[04/14/21 12:46:00]: <0x2401> Option alter: enabled 
+[04/14/21 12:46:00]: <0x2401> Option VAL 3: enabled 
+[04/14/21 12:46:00]: <0x2401> Machine Number: ? 
+[04/14/21 12:46:00]: <0x2401> Arm: tx200-S3-R3 floor
+[04/14/21 12:46:00]: <0x2401> Arm serial number: ? 
+[04/14/21 12:46:00]: <0x2401> Robot name:  
+[04/14/21 12:46:00]: <0x2401> EP: s7.7 Jul 23 2014
+[04/14/21 12:46:00]: <0x2401> SCA: s7.7 Jul 23 2014
+[04/14/21 12:46:00]: <0x2201> New profile : default
+[04/14/21 12:46:00]: <0x2401> End of controller initialization
+[04/14/21 12:46:00]: <0x1801> Working mode:automatic.
+[04/14/21 12:46:00]: <0x2402> COM-PC: create session 127.0.0.1 on port 61306 id=#9672416
+[04/14/21 12:46:00]: <0x1602> End of arm power shutdown phase.
+[04/14/21 12:46:05]: <0x2401> Saving controller context...
+[04/14/21 12:46:05]: <0x2402> Controller temperature: 28°C
+[04/14/21 12:46:05]: <0x2402> CPU temperature: 28°C
+[04/14/21 12:46:19]: <0x2402> COM-PC: destroy session 127.0.0.1 on port 61306 id=#9672416
+[04/22/21 14:17:24]: -----------------------------------------------
+[04/22/21 14:17:24]: Logger started
+[04/22/21 14:17:29]: <0x0003> CPU board: TEKNOR ?Mhz; ?Mb RAM; ?Mb disk; bios: ?; fpga: ?; ataIde: ?
+[04/22/21 14:17:29]: <0x0003> Cycle time set to 0.004s
+[04/22/21 14:17:29]: <0x0003> Simulation cycle time set to 0.1s
+[04/22/21 14:17:29]: <0x0002> Controller IP address could not be updated
+[04/22/21 14:17:29]: <0x0003> Mcp = TSimulated
+[04/22/21 14:17:29]: <0x0002> Default user payload used.
+[04/22/21 14:17:29]: <0x0003> Payload default: mass=100 kg, gravity center: x=0 y=0 z=181 mm, diag inertia: xx=6.4224 yy=6.4224 zz=6.1754 kg.m^2
+[04/22/21 14:17:29]: <0x340A> Mcp communication established
+[04/22/21 14:17:29]: <0x2401> Power hour count = 9:54:40
+[04/22/21 14:17:29]: <0x2401> Mac Address = 9c-fc-e8-07-07-83
+[04/22/21 14:17:29]: <0x2402> COM-PC: server created on all interfaces [5660]
+[04/22/21 14:17:29]: <0x2402> COM-PC: create session 127.0.0.1 on port 56539 id=#40998208
+[04/22/21 14:17:29]: <0x2401> System: s7.7.1 Sep 10 2014
+[04/22/21 14:17:29]: <0x2401> Configuration Version: c1.026 
+[04/22/21 14:17:29]: <0x2401> CPU: TEKNOR 
+[04/22/21 14:17:29]: <0x2401> Option testMode: enabled 
+[04/22/21 14:17:29]: <0x2401> Option alter: enabled 
+[04/22/21 14:17:29]: <0x2401> Option VAL 3: enabled 
+[04/22/21 14:17:29]: <0x2401> Machine Number: ? 
+[04/22/21 14:17:29]: <0x2401> Arm: tx200-S3-R3 floor
+[04/22/21 14:17:29]: <0x2401> Arm serial number: ? 
+[04/22/21 14:17:29]: <0x2401> Robot name:  
+[04/22/21 14:17:29]: <0x2401> EP: s7.7 Jul 23 2014
+[04/22/21 14:17:29]: <0x2401> SCA: s7.7 Jul 23 2014
+[04/22/21 14:17:29]: <0x2201> New profile : default
+[04/22/21 14:17:29]: <0x2401> End of controller initialization
+[04/22/21 14:17:29]: <0x1A03> System event INTERFACE-Stopped  (Main menu)
+[04/22/21 14:17:29]: <0x1A04> System event INTERFACE-Stopped  (Main menu). 5 events lost.
+[04/22/21 14:17:29]: <0x1801> Working mode:automatic.
+[04/22/21 14:17:29]: <0x1602> End of arm power shutdown phase.
+[04/22/21 14:17:34]: <0x2401> Saving controller context...
+[04/22/21 14:17:34]: <0x2402> Controller temperature: 28°C
+[04/22/21 14:17:34]: <0x2402> CPU temperature: 28°C
+[04/22/21 14:17:48]: <0x2402> COM-PC: destroy session 127.0.0.1 on port 56539 id=#40998208
+[04/22/21 14:34:29]: <0x2402> COM-PC: create session 127.0.0.1 on port 57211 id=#40996960
+[04/22/21 14:34:29]: <0x2401> COM-PC: start WCF Client on '127.0.0.1:5660'
+[04/22/21 14:34:29]: <0x2402> COM-CLIENT: Connected to http://127.0.0.1:5656
+[04/22/21 14:34:29]: <0x5402> sad_project_1 application started
+[04/22/21 14:34:30]: <0x2402> COM-PC: destroy session 127.0.0.1 on port 57211 id=#40996960
+[04/22/21 14:34:30]: <0x5A03> Deadman validated
+[04/22/21 14:34:30]: <0x1603> Settling arm power...
+[04/22/21 14:34:31]: <0x1601> Arm power settled.
+[04/22/21 14:34:38]: <0x2402> COM-PC: create session 127.0.0.1 on port 57222 id=#40995712
+[04/22/21 14:34:41]: <0x5403> sad_project_1 application stopped
+[04/22/21 14:34:45]: <0x5A01> Deadman enabled.
+[04/22/21 14:38:45]: <0x2402> COM-PC: create session 127.0.0.1 on port 57389 id=#40998832
+[04/22/21 14:38:45]: <0x2401> COM-PC: start WCF Client on '127.0.0.1:5660'
+[04/22/21 14:38:45]: <0x2402> COM-CLIENT: Connected to http://127.0.0.1:5656
+[04/22/21 14:38:46]: <0x5402> sad_project_1 application started
+[04/22/21 14:38:46]: <0x5404> ERR 163 Frame not linked to a reference frame. See VAL3 reference manual.. sad_project_1~. 
+[04/22/21 14:38:46]: <0x2402> COM-PC: destroy session 127.0.0.1 on port 57389 id=#40998832
+[04/22/21 14:38:52]: <0x5403> sad_project_1 application stopped
+[04/22/21 14:39:26]: <0x2402> COM-PC: create session 127.0.0.1 on port 57425 id=#40997584
+[04/22/21 14:39:26]: <0x2401> COM-PC: start WCF Client on '127.0.0.1:5660'
+[04/22/21 14:39:26]: <0x2402> COM-CLIENT: Connected to http://127.0.0.1:5656
+[04/22/21 14:39:27]: <0x5402> sad_project_1 application started
+[04/22/21 14:39:27]: <0x2402> COM-PC: destroy session 127.0.0.1 on port 57425 id=#40997584
+[04/22/21 14:39:52]: <0x5403> sad_project_1 application stopped
+[04/22/21 14:50:10]: <0x2402> COM-PC: create session 127.0.0.1 on port 57844 id=#40998832
+[04/22/21 14:50:12]: <0x2401> COM-PC: start WCF Client on '127.0.0.1:5660'
+[04/22/21 14:50:12]: <0x2402> COM-CLIENT: Connected to http://127.0.0.1:5656
+[04/22/21 14:50:12]: <0x5402> sad_project_1 application started
+[04/22/21 14:50:12]: <0x2402> COM-PC: destroy session 127.0.0.1 on port 57844 id=#40998832
+[04/22/21 14:50:43]: <0x2402> COM-PC: destroy session 127.0.0.1 on port 57222 id=#40995712
+[04/22/21 14:51:15]: -----------------------------------------------
+[04/22/21 14:51:15]: Logger started
+[04/22/21 14:51:20]: <0x0003> CPU board: TEKNOR ?Mhz; ?Mb RAM; ?Mb disk; bios: ?; fpga: ?; ataIde: ?
+[04/22/21 14:51:20]: <0x0003> Cycle time set to 0.004s
+[04/22/21 14:51:20]: <0x0003> Simulation cycle time set to 0.1s
+[04/22/21 14:51:20]: <0x0002> Controller IP address could not be updated
+[04/22/21 14:51:20]: <0x0003> Mcp = TSimulated
+[04/22/21 14:51:20]: <0x0002> Default user payload used.
+[04/22/21 14:51:20]: <0x0003> Payload default: mass=100 kg, gravity center: x=0 y=0 z=181 mm, diag inertia: xx=6.4224 yy=6.4224 zz=6.1754 kg.m^2
+[04/22/21 14:51:20]: <0x340A> Mcp communication established
+[04/22/21 14:51:20]: <0x2401> Power hour count = 9:54:40
+[04/22/21 14:51:20]: <0x2401> Mac Address = 9c-fc-e8-07-07-83
+[04/22/21 14:51:20]: <0x2402> COM-PC: server created on all interfaces [5660]
+[04/22/21 14:51:20]: <0x2402> COM-PC: create session 127.0.0.1 on port 57900 id=#41913736
+[04/22/21 14:51:20]: <0x2401> System: s7.7.1 Sep 10 2014
+[04/22/21 14:51:20]: <0x2401> Configuration Version: c1.026 
+[04/22/21 14:51:20]: <0x2401> CPU: TEKNOR 
+[04/22/21 14:51:20]: <0x2401> Option testMode: enabled 
+[04/22/21 14:51:20]: <0x2401> Option alter: enabled 
+[04/22/21 14:51:20]: <0x2401> Option VAL 3: enabled 
+[04/22/21 14:51:20]: <0x2401> Machine Number: ? 
+[04/22/21 14:51:20]: <0x2401> Arm: tx200-S3-R3 floor
+[04/22/21 14:51:20]: <0x2401> Arm serial number: ? 
+[04/22/21 14:51:20]: <0x2401> Robot name:  
+[04/22/21 14:51:20]: <0x2401> EP: s7.7 Jul 23 2014
+[04/22/21 14:51:20]: <0x2401> SCA: s7.7 Jul 23 2014
+[04/22/21 14:51:20]: <0x2201> New profile : default
+[04/22/21 14:51:20]: <0x2401> End of controller initialization
+[04/22/21 14:51:20]: <0x1801> Working mode:automatic.
+[04/22/21 14:51:20]: <0x1602> End of arm power shutdown phase.
+[04/22/21 14:51:25]: <0x2402> COM-PC: create session 127.0.0.1 on port 57907 id=#41916024
+[04/22/21 14:51:25]: <0x2401> COM-PC: start WCF Client on '127.0.0.1:5660'
+[04/22/21 14:51:25]: <0x2402> COM-CLIENT: Connected to http://127.0.0.1:5656
+[04/22/21 14:51:25]: <0x5402> sad_project_1 application started
+[04/22/21 14:51:25]: <0x2402> COM-PC: destroy session 127.0.0.1 on port 57907 id=#41916024
+[04/22/21 14:51:30]: <0x5A03> Deadman validated
+[04/22/21 14:51:30]: <0x1603> Settling arm power...
+[04/22/21 14:51:30]: <0x1601> Arm power settled.
+[04/22/21 14:51:40]: <0x2402> COM-PC: destroy session 127.0.0.1 on port 57900 id=#41913736
+[04/22/21 14:51:40]: <0x2402> COM-PC: create session 127.0.0.1 on port 57919 id=#41914776
+[04/22/21 14:51:45]: <0x5A01> Deadman enabled.
+[04/22/21 14:51:52]: <0x5403> sad_project_1 application stopped
+[04/22/21 14:53:34]: <0x2402> COM-PC: create session 127.0.0.1 on port 57919 id=#41914464
+[04/22/21 14:53:34]: <0x2401> COM-PC: start WCF Client on '127.0.0.1:5660'
+[04/22/21 14:53:34]: <0x2402> COM-CLIENT: Connected to http://127.0.0.1:5656
+[04/22/21 14:53:35]: <0x5402> sad_project_1 application started
+[04/22/21 14:53:35]: <0x2402> COM-PC: destroy session 127.0.0.1 on port 57919 id=#41914464
+[04/22/21 14:54:20]: <0x5403> sad_project_1 application stopped
+[04/22/21 14:55:23]: <0x2402> COM-PC: create session 127.0.0.1 on port 58056 id=#41913736
+[04/22/21 14:55:23]: <0x2401> COM-PC: start WCF Client on '127.0.0.1:5660'
+[04/22/21 14:55:23]: <0x2402> COM-CLIENT: Connected to http://127.0.0.1:5656
+[04/22/21 14:55:23]: <0x5402> sad_project_1 application started
+[04/22/21 14:55:23]: <0x2402> COM-PC: destroy session 127.0.0.1 on port 58056 id=#41913736
+[04/22/21 14:56:28]: <0x3B12> MOTION-AlterOff
+[04/22/21 14:56:28]: <0x5403> sad_project_1 application stopped
+[04/22/21 15:04:38]: <0x2402> COM-PC: create session 127.0.0.1 on port 58135 id=#41914880
+[04/22/21 15:04:38]: <0x2401> COM-PC: start WCF Client on '127.0.0.1:5660'
+[04/22/21 15:04:38]: <0x2402> COM-CLIENT: Connected to http://127.0.0.1:5656
+[04/22/21 15:04:38]: <0x5402> sad_project_1 application started
+[04/22/21 15:04:38]: <0x2402> COM-PC: destroy session 127.0.0.1 on port 58135 id=#41914880
+[04/22/21 15:06:03]: <0x2402> COM-PC: create session 127.0.0.1 on port 58135 id=#41915192
+[04/22/21 15:06:03]: <0x2401> COM-PC: start WCF Client on '127.0.0.1:5660'
+[04/22/21 15:06:03]: <0x2402> COM-CLIENT: Connected to http://127.0.0.1:5656
+[04/22/21 15:06:03]: <0x3B12> MOTION-AlterOff
+[04/22/21 15:06:03]: <0x5403> sad_project_1 application stopped
+[04/22/21 15:06:03]: <0x5402> sad_project_1 application started
+[04/22/21 15:06:03]: <0x2402> COM-PC: destroy session 127.0.0.1 on port 58135 id=#41915192
+[04/22/21 15:08:02]: <0x2402> COM-PC: create session 127.0.0.1 on port 58135 id=#41913632
+[04/22/21 15:08:02]: <0x2401> COM-PC: start WCF Client on '127.0.0.1:5660'
+[04/22/21 15:08:02]: <0x2402> COM-CLIENT: Connected to http://127.0.0.1:5656
+[04/22/21 15:08:02]: <0x3B12> MOTION-AlterOff
+[04/22/21 15:08:02]: <0x5403> sad_project_1 application stopped
+[04/22/21 15:08:02]: <0x5402> sad_project_1 application started
+[04/22/21 15:08:02]: <0x2402> COM-PC: destroy session 127.0.0.1 on port 58135 id=#41913632
+[04/22/21 15:09:13]: <0x3B12> MOTION-AlterOff
+[04/22/21 15:09:13]: <0x5403> sad_project_1 application stopped
+[04/22/21 15:11:57]: <0x2402> COM-PC: create session 127.0.0.1 on port 58135 id=#41915712
+[04/22/21 15:11:57]: <0x2401> COM-PC: start WCF Client on '127.0.0.1:5660'
+[04/22/21 15:11:57]: <0x2402> COM-CLIENT: Connected to http://127.0.0.1:5656
+[04/22/21 15:11:57]: <0x5402> sad_project_1 application started
+[04/22/21 15:11:57]: <0x2402> COM-PC: destroy session 127.0.0.1 on port 58135 id=#41915712
+[04/22/21 15:14:40]: <0x2402> COM-PC: create session 127.0.0.1 on port 58805 id=#41915192
+[04/22/21 15:14:40]: <0x2401> COM-PC: start WCF Client on '127.0.0.1:5660'
+[04/22/21 15:14:40]: <0x2402> COM-CLIENT: Connected to http://127.0.0.1:5656
+[04/22/21 15:14:40]: <0x3B12> MOTION-AlterOff
+[04/22/21 15:14:40]: <0x5403> sad_project_1 application stopped
+[04/22/21 15:14:41]: <0x5402> sad_project_1 application started
+[04/22/21 15:14:41]: <0x2402> COM-PC: destroy session 127.0.0.1 on port 58805 id=#41915192
+[04/22/21 15:16:08]: <0x3B12> MOTION-AlterOff
+[04/22/21 15:16:08]: <0x5403> sad_project_1 application stopped
+[04/22/21 15:18:05]: <0x2402> COM-PC: create session 127.0.0.1 on port 58926 id=#41914880
+[04/22/21 15:18:05]: <0x2401> COM-PC: start WCF Client on '127.0.0.1:5660'
+[04/22/21 15:18:05]: <0x2402> COM-CLIENT: Connected to http://127.0.0.1:5656
+[04/22/21 15:18:05]: <0x5402> sad_project_1 application started
+[04/22/21 15:18:05]: <0x2402> COM-PC: destroy session 127.0.0.1 on port 58926 id=#41914880
+[04/22/21 15:21:33]: <0x2401> Saving controller context...
+[04/22/21 15:21:33]: <0x2402> Controller temperature: 28°C
+[04/22/21 15:21:33]: <0x2402> CPU temperature: 28°C
+[04/22/21 15:23:04]: <0x2402> COM-PC: create session 127.0.0.1 on port 59042 id=#41915192
+[04/22/21 15:23:04]: <0x2401> COM-PC: start WCF Client on '127.0.0.1:5660'
+[04/22/21 15:23:04]: <0x2402> COM-CLIENT: Connected to http://127.0.0.1:5656
+[04/22/21 15:23:04]: <0x3B12> MOTION-AlterOff
+[04/22/21 15:23:04]: <0x5403> sad_project_1 application stopped
+[04/22/21 15:23:05]: <0x5402> sad_project_1 application started
+[04/22/21 15:23:05]: <0x2402> COM-PC: destroy session 127.0.0.1 on port 59042 id=#41915192
+[04/22/21 15:24:30]: <0x3B12> MOTION-AlterOff
+[04/22/21 15:24:30]: <0x5403> sad_project_1 application stopped
+[04/22/21 15:25:44]: <0x2402> COM-PC: create session 127.0.0.1 on port 59190 id=#41913528
+[04/22/21 15:25:44]: <0x2401> COM-PC: start WCF Client on '127.0.0.1:5660'
+[04/22/21 15:25:44]: <0x2402> COM-CLIENT: Connected to http://127.0.0.1:5656
+[04/22/21 15:25:45]: <0x5402> sad_project_1 application started
+[04/22/21 15:25:45]: <0x2402> COM-PC: destroy session 127.0.0.1 on port 59190 id=#41913528
+[04/22/21 15:27:29]: <0x3B12> MOTION-AlterOff
+[04/22/21 15:27:29]: <0x5403> sad_project_1 application stopped
+[04/22/21 15:28:41]: <0x2402> COM-PC: create session 127.0.0.1 on port 59383 id=#41913528
+[04/22/21 15:28:41]: <0x2401> COM-PC: start WCF Client on '127.0.0.1:5660'
+[04/22/21 15:28:41]: <0x2402> COM-CLIENT: Connected to http://127.0.0.1:5656
+[04/22/21 15:28:42]: <0x5402> sad_project_1 application started
+[04/22/21 15:28:42]: <0x2402> COM-PC: destroy session 127.0.0.1 on port 59383 id=#41913528
+[04/22/21 15:30:26]: <0x3B12> MOTION-AlterOff
+[04/22/21 15:30:26]: <0x5403> sad_project_1 application stopped
+[04/22/21 15:32:01]: <0x2402> COM-PC: create session 127.0.0.1 on port 59383 id=#41916232
+[04/22/21 15:32:01]: <0x2401> COM-PC: start WCF Client on '127.0.0.1:5660'
+[04/22/21 15:32:01]: <0x2402> COM-CLIENT: Connected to http://127.0.0.1:5656
+[04/22/21 15:32:01]: <0x5405> (File start.pgx-line 44) 'waitEndMove' : invalid name
+[04/22/21 15:32:01]: <0x2402> COM-PC: destroy session 127.0.0.1 on port 59383 id=#41916232
+[04/22/21 15:32:17]: <0x2402> COM-PC: create session 127.0.0.1 on port 59383 id=#41913840
+[04/22/21 15:32:17]: <0x2401> COM-PC: start WCF Client on '127.0.0.1:5660'
+[04/22/21 15:32:17]: <0x2402> COM-CLIENT: Connected to http://127.0.0.1:5656
+[04/22/21 15:32:17]: <0x5405> (File start.pgx-line 44) 'waitEndMove' : invalid name
+[04/22/21 15:32:17]: <0x2402> COM-PC: destroy session 127.0.0.1 on port 59383 id=#41913840
+[04/22/21 15:32:29]: <0x2402> COM-PC: create session 127.0.0.1 on port 59383 id=#41913528
+[04/22/21 15:32:29]: <0x2401> COM-PC: start WCF Client on '127.0.0.1:5660'
+[04/22/21 15:32:29]: <0x2402> COM-CLIENT: Connected to http://127.0.0.1:5656
+[04/22/21 15:32:29]: <0x5405> (File start.pgx-line 44) 'waitEndMove' : invalid name
+[04/22/21 15:32:29]: <0x2402> COM-PC: destroy session 127.0.0.1 on port 59383 id=#41913528
+[04/22/21 15:32:58]: <0x2402> COM-PC: create session 127.0.0.1 on port 59574 id=#41913840
+[04/22/21 15:32:58]: <0x2401> COM-PC: start WCF Client on '127.0.0.1:5660'
+[04/22/21 15:32:58]: <0x2402> COM-CLIENT: Connected to http://127.0.0.1:5656
+[04/22/21 15:32:59]: <0x5402> sad_project_1 application started
+[04/22/21 15:32:59]: <0x2402> COM-PC: destroy session 127.0.0.1 on port 59574 id=#41913840
+[04/22/21 15:35:29]: <0x2402> COM-PC: create session 127.0.0.1 on port 59660 id=#41913632
+[04/22/21 15:35:29]: <0x2401> COM-PC: start WCF Client on '127.0.0.1:5660'
+[04/22/21 15:35:29]: <0x2402> COM-CLIENT: Connected to http://127.0.0.1:5656
+[04/22/21 15:35:29]: <0x3B12> MOTION-AlterOff
+[04/22/21 15:35:29]: <0x5403> sad_project_1 application stopped
+[04/22/21 15:35:29]: <0x5402> sad_project_1 application started
+[04/22/21 15:35:29]: <0x2402> COM-PC: destroy session 127.0.0.1 on port 59660 id=#41913632
+[04/22/21 15:36:09]: <0x2402> COM-PC: create session 127.0.0.1 on port 59660 id=#41914880
+[04/22/21 15:36:09]: <0x2401> COM-PC: start WCF Client on '127.0.0.1:5660'
+[04/22/21 15:36:09]: <0x2402> COM-CLIENT: Connected to http://127.0.0.1:5656
+[04/22/21 15:36:10]: <0x5403> sad_project_1 application stopped
+[04/22/21 15:36:10]: <0x5402> sad_project_1 application started
+[04/22/21 15:36:10]: <0x2402> COM-PC: destroy session 127.0.0.1 on port 59660 id=#41914880
+[04/22/21 15:36:13]: <0x5403> sad_project_1 application stopped
+[04/22/21 15:36:19]: <0x2402> COM-PC: create session 127.0.0.1 on port 59730 id=#41914464
+[04/22/21 15:36:19]: <0x2401> COM-PC: start WCF Client on '127.0.0.1:5660'
+[04/22/21 15:36:19]: <0x2402> COM-CLIENT: Connected to http://127.0.0.1:5656
+[04/22/21 15:36:19]: <0x5402> sad_project_1 application started
+[04/22/21 15:36:19]: <0x2402> COM-PC: destroy session 127.0.0.1 on port 59730 id=#41914464
+[04/22/21 15:39:31]: <0x3B12> MOTION-AlterOff
+[04/22/21 15:39:31]: <0x5403> sad_project_1 application stopped
+[04/22/21 15:41:46]: <0x2402> COM-PC: create session 127.0.0.1 on port 59775 id=#41916024
+[04/22/21 15:41:46]: <0x2401> COM-PC: start WCF Client on '127.0.0.1:5660'
+[04/22/21 15:41:46]: <0x2402> COM-CLIENT: Connected to http://127.0.0.1:5656
+[04/22/21 15:41:46]: <0x5402> sad_project_1 application started
+[04/22/21 15:41:46]: <0x2402> COM-PC: destroy session 127.0.0.1 on port 59775 id=#41916024
+[04/22/21 15:44:33]: <0x2402> COM-PC: create session 127.0.0.1 on port 59962 id=#41913736
+[04/22/21 15:44:33]: <0x2401> COM-PC: start WCF Client on '127.0.0.1:5660'
+[04/22/21 15:44:33]: <0x2402> COM-CLIENT: Connected to http://127.0.0.1:5656
+[04/22/21 15:44:34]: <0x3B12> MOTION-AlterOff
+[04/22/21 15:44:34]: <0x5403> sad_project_1 application stopped
+[04/22/21 15:44:34]: <0x5402> sad_project_1 application started
+[04/22/21 15:44:34]: <0x2402> COM-PC: destroy session 127.0.0.1 on port 59962 id=#41913736
+[04/22/21 15:51:35]: <0x2401> Saving controller context...
+[04/22/21 15:53:21]: <0x2402> COM-PC: create session 127.0.0.1 on port 60072 id=#41915608
+[04/22/21 15:53:21]: <0x2401> COM-PC: start WCF Client on '127.0.0.1:5660'
+[04/22/21 15:53:21]: <0x2402> COM-CLIENT: Connected to http://127.0.0.1:5656
+[04/22/21 15:53:21]: <0x3B12> MOTION-AlterOff
+[04/22/21 15:53:21]: <0x5403> sad_project_1 application stopped
+[04/22/21 15:53:21]: <0x5402> sad_project_1 application started
+[04/22/21 15:53:21]: <0x2402> COM-PC: destroy session 127.0.0.1 on port 60072 id=#41915608
+[04/22/21 15:56:16]: <0x2402> COM-PC: create session 127.0.0.1 on port 60546 id=#41915296
+[04/22/21 15:56:16]: <0x2401> COM-PC: start WCF Client on '127.0.0.1:5660'
+[04/22/21 15:56:16]: <0x2402> COM-CLIENT: Connected to http://127.0.0.1:5656
+[04/22/21 15:56:16]: <0x3B12> MOTION-AlterOff
+[04/22/21 15:56:16]: <0x5403> sad_project_1 application stopped
+[04/22/21 15:56:16]: <0x5402> sad_project_1 application started
+[04/22/21 15:56:16]: <0x2402> COM-PC: destroy session 127.0.0.1 on port 60546 id=#41915296
+[04/22/21 15:56:17]: <0x5403> sad_project_1 application stopped
+[04/22/21 15:56:25]: <0x2402> COM-PC: create session 127.0.0.1 on port 60562 id=#41914464
+[04/22/21 15:56:25]: <0x2401> COM-PC: start WCF Client on '127.0.0.1:5660'
+[04/22/21 15:56:25]: <0x2402> COM-CLIENT: Connected to http://127.0.0.1:5656
+[04/22/21 15:56:26]: <0x5402> sad_project_1 application started
+[04/22/21 15:56:26]: <0x2402> COM-PC: destroy session 127.0.0.1 on port 60562 id=#41914464
+[04/22/21 16:21:38]: <0x2401> Saving controller context...
+[04/22/21 16:32:35]: <0x2402> COM-PC: create session 127.0.0.1 on port 61939 id=#41916336
+[04/22/21 16:32:35]: <0x2401> COM-PC: start WCF Client on '127.0.0.1:5660'
+[04/22/21 16:32:35]: <0x2402> COM-CLIENT: Connected to http://127.0.0.1:5656
+[04/22/21 16:32:35]: <0x3B12> MOTION-AlterOff
+[04/22/21 16:32:35]: <0x5403> sad_project_1 application stopped
+[04/22/21 16:32:35]: <0x5402> sad_project_1 application started
+[04/22/21 16:32:35]: <0x2402> COM-PC: destroy session 127.0.0.1 on port 61939 id=#41916336
+[04/22/21 16:35:46]: <0x3B12> MOTION-AlterOff
+[04/22/21 16:35:46]: <0x5403> sad_project_1 application stopped
+[04/22/21 16:36:11]: <0x2402> COM-PC: create session 127.0.0.1 on port 62131 id=#41913528
+[04/22/21 16:36:11]: <0x2401> COM-PC: start WCF Client on '127.0.0.1:5660'
+[04/22/21 16:36:11]: <0x2402> COM-CLIENT: Connected to http://127.0.0.1:5656
+[04/22/21 16:36:11]: <0x5402> sad_project_1 application started
+[04/22/21 16:36:11]: <0x2402> COM-PC: destroy session 127.0.0.1 on port 62131 id=#41913528
+[04/22/21 16:39:19]: <0x3B12> MOTION-AlterOff
+[04/22/21 16:39:40]: <0x5403> sad_project_1 application stopped

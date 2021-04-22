@@ -7,77 +7,62 @@
   title(" Concrete 3D Printer ") 
   putln("Written by Erfan.")
   
-  taskCreate "SocketOpening",10,open_socket()
-  taskCreate "CheckComnunic",20,check_cmt()
-  wait(check_status == true)
-  taskCreate "DataReading",40,read_data()
-  taskCreate "MotionControl",40,motion_cntl()
-  taskCreate "DataDisplay",40,show_data()
+  //taskCreate "SocketOpening",10,open_socket()
+  //taskCreate "CheckComnunic",20,check_cmt()
+  //wait(check_status == true)
+  //taskCreate "DataReading",40,read_data()
+  //taskCreate "MotionControl",40,motion_cntl()
+  //taskCreate "DataDisplay",40,show_data()
   
   //////////////////////////////////////////
-  movej(jJoint[0],tTool[0],mSpeed)
+  // Go to configuration 
+  movej(Jnt_cnfg[0],tTool[0],cnst_vel[0])
   waitEndMove()
-  movel(pPoint[0],tTool[0],mNomSpeed)
+  
+  // Go to Start point - 1st Layer
+  movel(Pnt_1st_lyr[0],tTool[0],cnst_vel[0])
   waitEndMove()
-  movel(pPoint[1],tTool[0],mNomSpeed)
+  
+  alterBegin(fReference[0],mNomSpeed[0])
+  
+  // Printing - 1st Layer  
+  alterMovel(Pnt_1st_lyr[1],tTool[0],mNomSpeed[0])
   waitEndMove()
-  movel(pPoint[2],tTool[0],mNomSpeed)
+    
+    
+  // Go to Start point - 2nd Layer
+  alterMovel(Pnt_2nd_lyr[0],tTool[0],cnst_vel[0])
   waitEndMove()
-  movel(pPoint[3],tTool[0],mNomSpeed)
+  alterMovel(Pnt_2nd_lyr[1],tTool[0],cnst_vel[0])
   waitEndMove()
-  movel(pPoint[4],tTool[0],mNomSpeed)
+  
+  // Printing - 2nd Layer
+  alterMovel(Pnt_2nd_lyr[2],tTool[0],mNomSpeed[0])
   waitEndMove()
-  movel(pPoint[5],tTool[0],mNomSpeed)
+  
+  // Go to Start point - 3rd Layer
+  alterMovel(Pnt_3rd_lyr[0],tTool[0],cnst_vel[0])
   waitEndMove()
-  movel(pPoint[6],tTool[0],mNomSpeed)
+  alterMovel(Pnt_3rd_lyr[1],tTool[0],cnst_vel[0])
   waitEndMove()
-  movel(pPoint[7],tTool[0],mNomSpeed)
-  waitEndMove()
-  movel(pPoint[8],tTool[0],mNomSpeed)
-  waitEndMove()
-  movel(pPoint[9],tTool[0],mNomSpeed)
-  waitEndMove()
-  movel(pPoint[10],tTool[0],mNomSpeed)
-  waitEndMove()
-  movel(pPoint[11],tTool[0],mNomSpeed)
-  waitEndMove()
-  movel(pPoint[12],tTool[0],mNomSpeed)
-  waitEndMove()
-  movel(pPoint[13],tTool[0],mNomSpeed)
-  waitEndMove()
-  movel(pPoint[14],tTool[0],mNomSpeed)
-  waitEndMove()
-  movel(pPoint[15],tTool[0],mNomSpeed)
-  waitEndMove()
-  movel(pPoint[16],tTool[0],mNomSpeed)
-  waitEndMove()
-  movel(pPoint[17],tTool[0],mNomSpeed)
-  waitEndMove()
-  movel(pPoint[18],tTool[0],mNomSpeed)
-  waitEndMove()
-  movel(pPoint[19],tTool[0],mNomSpeed)
-  waitEndMove()
-  movel(pPoint[20],tTool[0],mNomSpeed)
-  waitEndMove()
-  movel(pPoint[21],tTool[0],mNomSpeed)
-  waitEndMove()
-  movel(pPoint[22],tTool[0],mNomSpeed)
-  waitEndMove()
-  movel(pPoint[23],tTool[0],mNomSpeed)
-  waitEndMove()
-  movel(pPoint[24],tTool[0],mNomSpeed)
-  waitEndMove()
-  movel(pPoint[25],tTool[0],mNomSpeed)
-  waitEndMove()
-  movel(pPoint[26],tTool[0],mNomSpeed)
-  waitEndMove()
-  movel(pPoint[27],tTool[0],mNomSpeed)
-  waitEndMove()
-  movel(pPoint[28],tTool[0],mNomSpeed)
-  waitEndMove()
-  movel(pPoint[29],tTool[0],mNomSpeed)
+  
+  // Printing - 3rd Layer
+  alterMovel(Pnt_3rd_lyr[2],tTool[0],mNomSpeed[0])
   waitEndMove()  
   
+  // Go to Start point - 4th Layer
+  alterMovel(Pnt_4th_lyr[0],tTool[0],cnst_vel[0])
+  waitEndMove()
+  alterMovel(Pnt_4th_lyr[1],tTool[0],cnst_vel[0])
+  waitEndMove()
+  
+  // Printing - 3rd Layer
+  alterMovel(Pnt_4th_lyr[2],tTool[0],mNomSpeed[0])
+  waitEndMove()  
+  
+  
+  alterEnd()
+  resetMotion()
   ///////////////////////////////////////////
   
   
