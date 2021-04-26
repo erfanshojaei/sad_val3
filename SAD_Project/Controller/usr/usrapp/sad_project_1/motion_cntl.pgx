@@ -5,7 +5,8 @@
   
   do
     
-    mNomSpeed.tvel = Ref_Vel
+    wait(spd_cntl == true)
+    setMonitorSpeed(Ref_Vel)
     
   until check_status != true
   

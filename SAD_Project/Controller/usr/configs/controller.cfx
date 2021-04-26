@@ -1,6 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <controller>
-  <String name="testMode" value="Demo" />
   <String name="alter" value="Demo" />
   <Bool name="buildBio" value="false" />
   <Bool name="buildBio2" value="false" />
@@ -33,5 +32,5 @@
   <Float name="powerShutdownDelay" value="-1" />
   <String name="standardFiles" value="" />
   <Float name="lliCycleTime" value="-1" />
-  <Float name="powerHourCount" value="11.40531" />
+  <Float name="powerHourCount" value="16.650165" />
 </controller>

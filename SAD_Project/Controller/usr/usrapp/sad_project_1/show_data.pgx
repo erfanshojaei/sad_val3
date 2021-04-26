@@ -20,8 +20,8 @@
     put("Current position: ")
     put(getMoveId())
     putln("")
-       
     
+        
     delay(0.001)
     //putln("")
   until check_status != true

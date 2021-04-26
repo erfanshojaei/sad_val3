@@ -2,67 +2,97 @@
 <Programs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.staubli.com/robotics/VAL3/Program/2">
   <Program name="start">
     <Code><![CDATA[begin
+  disablePower()
   cls()
   userPage()
   title(" Concrete 3D Printer ") 
   putln("Written by Erfan.")
-  
-  //taskCreate "SocketOpening",10,open_socket()
-  //taskCreate "CheckComnunic",20,check_cmt()
-  //wait(check_status == true)
-  //taskCreate "DataReading",40,read_data()
-  //taskCreate "MotionControl",40,motion_cntl()
-  //taskCreate "DataDisplay",40,show_data()
-  
+  setProfile("Erfan","123")
+  if getProfile() == "Erfan"
+    putln("Profile is set to Remote Control.")
+  endIf
+  delay(3)
+  enablePower()
+  if(watch(isPowered(),3) == false)
+    putln("Arm power supply cannot be swithced on.")
+  endIf
+  putln("Arm power is now switched on.")
+  delay(5)
+  taskCreate "SocketOpening",10,open_socket()
+  taskCreate "CheckComnunic",20,check_cmt()
+  wait(check_status == true)
+  delay(2)
+  taskCreate "DataReading",40,read_data()
+  taskCreate "MotionControl",40,motion_cntl()
+  taskCreate "DataDisplay",40,show_data()
+   
+    
   //////////////////////////////////////////
-  // Go to configuration 
+  // Go to configuration
+  spd_cntl = false
+  resetMotion()
+  setMonitorSpeed(100)
   movej(Jnt_cnfg[0],tTool[0],cnst_vel[0])
   waitEndMove()
   
   // Go to Start point - 1st Layer
-  movel(Pnt_1st_lyr[0],tTool[0],cnst_vel[0])
+  spd_cntl = false
+  setMonitorSpeed(100)
+  movel(Pnt_1st_lyr[0],tTool[0],mNomSpeed[0])
+  waitEndMove()
+     
+  // Printing - 1st Layer
+  spd_cntl = true
+  resetMotion()
+  movel(Pnt_1st_lyr[1],tTool[0],mNomSpeed[0])
   waitEndMove()
   
-  alterBegin(fReference[0],mNomSpeed[0])
   
-  // Printing - 1st Layer  
-  alterMovel(Pnt_1st_lyr[1],tTool[0],mNomSpeed[0])
-  waitEndMove()
-    
-    
+  //resetMotion()
   // Go to Start point - 2nd Layer
-  alterMovel(Pnt_2nd_lyr[0],tTool[0],cnst_vel[0])
+  spd_cntl = false
+  resetMotion()
+  setMonitorSpeed(100)
+  movel(Pnt_2nd_lyr[0],tTool[0],cnst_vel[0])
   waitEndMove()
-  alterMovel(Pnt_2nd_lyr[1],tTool[0],cnst_vel[0])
+  movel(Pnt_2nd_lyr[1],tTool[0],cnst_vel[0])
   waitEndMove()
   
   // Printing - 2nd Layer
-  alterMovel(Pnt_2nd_lyr[2],tTool[0],mNomSpeed[0])
+  spd_cntl = true
+  resetMotion()
+  movel(Pnt_2nd_lyr[2],tTool[0],mNomSpeed[0])
   waitEndMove()
   
   // Go to Start point - 3rd Layer
-  alterMovel(Pnt_3rd_lyr[0],tTool[0],cnst_vel[0])
+  spd_cntl = false
+  resetMotion()
+  setMonitorSpeed(100)
+  movel(Pnt_3rd_lyr[0],tTool[0],cnst_vel[0])
   waitEndMove()
-  alterMovel(Pnt_3rd_lyr[1],tTool[0],cnst_vel[0])
+  movel(Pnt_3rd_lyr[1],tTool[0],cnst_vel[0])
   waitEndMove()
   
   // Printing - 3rd Layer
-  alterMovel(Pnt_3rd_lyr[2],tTool[0],mNomSpeed[0])
+  spd_cntl = true
+  resetMotion()
+  movel(Pnt_3rd_lyr[2],tTool[0],mNomSpeed[0])
   waitEndMove()  
+  
   
   // Go to Start point - 4th Layer
-  alterMovel(Pnt_4th_lyr[0],tTool[0],cnst_vel[0])
-  waitEndMove()
-  alterMovel(Pnt_4th_lyr[1],tTool[0],cnst_vel[0])
-  waitEndMove()
-  
-  // Printing - 3rd Layer
-  alterMovel(Pnt_4th_lyr[2],tTool[0],mNomSpeed[0])
-  waitEndMove()  
-  
-  
-  alterEnd()
+  spd_cntl = false
   resetMotion()
+  setMonitorSpeed(100)
+  movel(Pnt_4th_lyr[0],tTool[0],cnst_vel[0])
+  waitEndMove()
+  movel(Pnt_4th_lyr[1],tTool[0],cnst_vel[0])
+  waitEndMove()
+  
+  disablePower()
+  
+ 
+  
   ///////////////////////////////////////////
   
   

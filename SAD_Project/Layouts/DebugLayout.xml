@@ -8,7 +8,7 @@
 						<UIElement xsi:type="Workspace" AutoHideSize="1198,395" DockedSize="1198,395" DocumentSize="1309,593" FloatingSize="1198,395" Size="1309,593">
 							<Content xsi:type="TabbedMdiHost">
 								<Content xsi:type="SplitContainer" AutoHideSize="1309,593" DockedSize="1309,593" DocumentSize="1309,593" FloatingSize="1309,593" Size="1309,593" Orientation="Horizontal">
-									<UIElement xsi:type="TabbedMdiContainer" AutoHideSize="1309,593" DockedSize="1309,593" DocumentSize="1309,593" FloatingSize="1309,593" Size="1309,593" SelectedWindowUniqueId="d32683af-3bb5-4cfe-b0a4-f0da122bc4a4" />
+									<UIElement xsi:type="TabbedMdiContainer" AutoHideSize="1309,593" DockedSize="1309,593" DocumentSize="1309,593" FloatingSize="1309,593" Size="1309,593" SelectedWindowUniqueId="9760fb5f-c108-42e8-9cfb-ce443229acf4" />
 								</Content>
 							</Content>
 						</UIElement>
@@ -326,7 +326,7 @@
 	</RaftingHosts>
 	<ToolWindows>
 		<ToolWindow UniqueId="bb188f4c-a7b6-45e4-83dd-538b1f58db11" AutoHideSize="550,200" DockedSize="652,258" DocumentSize="550,200" FloatingSize="550,200" Size="652,258" IsOpen="true" LastState="Floating" Name="ErrorList" RaftingLocation="178,795" StandardMdiBounds="0,0,300,200" State="Docked" />
-		<ToolWindow UniqueId="e70de856-5d28-4edf-abb4-db78a37ac4b5" AutoHideSize="550,200" DockedSize="622,258" DocumentSize="550,200" FloatingSize="550,200" Size="622,258" IsOpen="false" LastState="Floating" Name="OutputList" RaftingLocation="178,795" StandardMdiBounds="0,0,300,200" State="Docked" />
+		<ToolWindow UniqueId="e70de856-5d28-4edf-abb4-db78a37ac4b5" AutoHideSize="550,200" DockedSize="622,258" DocumentSize="550,200" FloatingSize="550,200" Size="622,258" IsOpen="false" LastState="Floating" Name="OutputList" RaftingLocation="178,795" StandardMdiBounds="0,0,300,200" State="Floating" />
 		<ToolWindow UniqueId="681f4d77-8faa-41f8-a0bb-cf09306a5d74" AutoHideSize="200,200" DockedSize="200,200" DocumentSize="200,200" FloatingSize="200,200" Size="200,200" IsOpen="false" LastState="Docked" Name="CartesianMoveTo" StandardMdiBounds="0,0,300,200" State="Docked" />
 		<ToolWindow UniqueId="5fb21f48-98a0-4269-8dbb-f74896afc90d" AutoHideSize="200,200" DockedSize="200,200" DocumentSize="200,200" FloatingSize="200,200" Size="200,200" IsOpen="false" LastState="Docked" Name="EditPosition" StandardMdiBounds="0,0,300,200" State="Docked" />
 		<ToolWindow UniqueId="59225f2f-c9b1-4148-b052-0c0a6b60a81b" AutoHideSize="200,200" DockedSize="652,258" DocumentSize="200,200" FloatingSize="550,200" Size="652,258" IsOpen="true" LastState="Floating" Name="Breakpoints" RaftingLocation="178,795" StandardMdiBounds="0,0,300,200" State="Docked" />
@@ -345,6 +345,12 @@
 		<ToolWindow UniqueId="2661df08-4ec6-499e-a829-b924c1758b5c" AutoHideSize="200,200" DockedSize="311,283.697142857143" DocumentSize="200,200" FloatingSize="200,200" Size="311,283.697142857143" IsOpen="false" LastState="Floating" Name="Properties" RaftingLocation="1342,770" StandardMdiBounds="0,0,300,200" State="Docked" />
 		<ToolWindow UniqueId="4f56d732-bbfa-445f-b874-8c7228be4cd8" AutoHideSize="200,200" DockedSize="200,862" DocumentSize="200,200" FloatingSize="200,200" Size="200,862" IsOpen="true" LastState="Docked" Name="_DN_dbdcc4a245c3a11dda50fded38586206" StandardMdiBounds="0,0,300,200" State="Docked">
 			<Tag xsi:type="xsd:string">SRS.Emulator.Views.EmulatorView?Controller=Controller</Tag>
+		</ToolWindow>
+		<ToolWindow UniqueId="68d41be2-89b3-4dce-96e1-e2138c476c3f" AutoHideSize="200,200" DockedSize="197.830396815427,200" DocumentSize="200,200" FloatingSize="200,200" Size="197.830396815427,200" IsOpen="false" LastState="Docked" Name="_DN_f58aa779e579e5eb70e74d8e521a850d" StandardMdiBounds="0,0,300,200" State="Docked">
+			<Tag xsi:type="xsd:string">SRS._3DView.Views.CartesianView?Controller=Controller&amp;Arm=tx200</Tag>
+		</ToolWindow>
+		<ToolWindow UniqueId="6bb047a5-71bd-4fec-b2a6-e337feb5219d" AutoHideSize="200,200" DockedSize="200,200" DocumentSize="200,200" FloatingSize="200,200" Size="200,200" IsOpen="false" LastState="Docked" Name="_DN_70e75ef9e26bc883c0ed79b16891d84c" StandardMdiBounds="0,0,300,200" State="Docked">
+			<Tag xsi:type="xsd:string">SRS._3DView.Views.JointsView?Controller=Controller&amp;Arm=tx200</Tag>
 		</ToolWindow>
 	</ToolWindows>
 </DockSiteLayout>
