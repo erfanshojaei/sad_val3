@@ -17,11 +17,7 @@
       <Node Path="SAD_Project\Controller" IsExpanded="true" />
       <Node Path="SAD_Project\Controller\sad_project_1" IsExpanded="true" />
       <Node Path="SAD_Project\Controller\sad_project_1\mdesc" IsExpanded="true" />
-      <Node Path="SAD_Project\Controller\sad_project_1\mdesc\mNomSpeed" IsExpanded="true" />
-      <Node Path="SAD_Project\Controller\sad_project_1\num" IsExpanded="true" />
-      <Node Path="SAD_Project\Controller\sad_project_1\num\dis" IsExpanded="true" />
-      <Node Path="SAD_Project\Controller\sad_project_1\pointRx\Pnt_1st_lyr" IsExpanded="true" />
-      <Node Path="SAD_Project\Controller\sad_project_1\trsf" IsExpanded="true" />
+      <Node Path="SAD_Project\Controller\sad_project_1\sio" IsExpanded="true" />
     </Nodes>
   </Option>
   <Option Name="CellExplorer">
@@ -29,16 +25,13 @@
       <Node Path="SAD_Project" IsExpanded="true" />
       <Node Path="SAD_Project\Controller" IsExpanded="true" />
       <Node Path="SAD_Project\Controller\sad_project_1" IsExpanded="true" />
+      <Node Path="SAD_Project\Controller\sad_project_1\read_data" IsExpanded="true" />
     </Nodes>
   </Option>
   <Option Name="GeometryView">
     <Nodes>
       <Node Path="SAD_Project" IsExpanded="true" />
       <Node Path="SAD_Project\Controller" IsExpanded="true" />
-      <Node Path="SAD_Project\Controller\sad_project_1" IsExpanded="true" />
-      <Node Path="SAD_Project\Controller\sad_project_1\world[0]" IsExpanded="true" />
-      <Node Path="SAD_Project\Controller\sad_project_1\world[0]\fReference" IsExpanded="true" />
-      <Node Path="SAD_Project\Controller\sad_project_1\world[0]\fReference\fReference[0]" IsExpanded="true" />
     </Nodes>
   </Option>
 </CellUserOptions>

@@ -1,13 +1,13 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Profile>
-  <Password name="password" value="e6c307" />
-  <Password name="connectionPassword" value="e6c307" />
+  <Password name="password" value="" />
+  <Password name="connectionPassword" value="" />
   <Bool name="writeAccess" value="true" />
   <Bool name="readAccess" value="true" />
-  <Bool name="armWriteAccess" value="true" />
+  <Bool name="armWriteAccess" value="false" />
   <Bool name="recovery" value="true" />
-  <Bool name="ioWriteAccess" value="true" />
-  <Bool name="123KeysControl" value="true" />
+  <Bool name="ioWriteAccess" value="false" />
+  <Bool name="123KeysControl" value="false" />
   <Bool name="manualMode" value="true" />
   <Bool name="testMode" value="true" />
   <Bool name="localMode" value="true" />

@@ -23,7 +23,8 @@
       check_status = false
       stopMove()
       cls()      
-      putln("Communication error !")        
+      putln("Communication error !") 
+      enablePower()
     endIf
     
     toNum(sInputData_1 , nInputData_1, check_status) 
@@ -36,7 +37,7 @@
    // putln(Ref_Vel)
     
     
-    delay(0.001)    
+  // delay(0.001)    
     
   until check_status != true
   

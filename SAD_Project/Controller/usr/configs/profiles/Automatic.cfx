@@ -12,7 +12,7 @@
   <Bool name="testMode" value="true" />
   <Bool name="localMode" value="true" />
   <Bool name="remoteMode" value="true" />
-  <Bool name="monitorSpeed" value="true" />
+  <Bool name="monitorSpeed" value="false" />
   <Bool name="powerButton" value="true" />
   <Bool name="moveHoldKey" value="true" />
   <Bool name="stopKey" value="true" />
