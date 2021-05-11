@@ -7,8 +7,8 @@
   userPage()
   title(" Concrete 3D Printer ") 
   putln("Written by Erfan.")
-  setProfile("Erfan","123")
-  if getProfile() == "Erfan"
+  setProfile("Manual","123")
+  if getProfile() == "Manual"
     putln("Profile is set to Remote Control.")
   endIf
   delay(3)
@@ -42,13 +42,15 @@
   waitEndMove()
      
   // Printing - 1st Layer
+  setProfile("Automatic","123")
   spd_cntl = true
   resetMotion()
   movel(Pnt_1st_lyr[1],tTool[0],mNomSpeed[0])
   waitEndMove()
   
   
-  //resetMotion()
+  resetMotion()
+  setProfile("Manual","123")
   // Go to Start point - 2nd Layer
   spd_cntl = false
   resetMotion()
@@ -57,14 +59,18 @@
   waitEndMove()
   movel(Pnt_2nd_lyr[1],tTool[0],cnst_vel[0])
   waitEndMove()
+  movel(Pnt_2nd_lyr[2],tTool[0],cnst_vel[0])
+  waitEndMove()
   
   // Printing - 2nd Layer
+  setProfile("Automatic","123")
   spd_cntl = true
   resetMotion()
-  movel(Pnt_2nd_lyr[2],tTool[0],mNomSpeed[0])
+  movel(Pnt_2nd_lyr[3],tTool[0],mNomSpeed[0])
   waitEndMove()
   
   // Go to Start point - 3rd Layer
+  setProfile("Manual","123")
   spd_cntl = false
   resetMotion()
   setMonitorSpeed(100)
@@ -72,15 +78,19 @@
   waitEndMove()
   movel(Pnt_3rd_lyr[1],tTool[0],cnst_vel[0])
   waitEndMove()
+  movel(Pnt_3rd_lyr[2],tTool[0],cnst_vel[0])
+  waitEndMove()
   
   // Printing - 3rd Layer
+  setProfile("Automatic","123")
   spd_cntl = true
   resetMotion()
-  movel(Pnt_3rd_lyr[2],tTool[0],mNomSpeed[0])
+  movel(Pnt_3rd_lyr[3],tTool[0],mNomSpeed[0])
   waitEndMove()  
   
   
   // Go to Start point - 4th Layer
+  setProfile("Manual","123")
   spd_cntl = false
   resetMotion()
   setMonitorSpeed(100)
@@ -88,10 +98,20 @@
   waitEndMove()
   movel(Pnt_4th_lyr[1],tTool[0],cnst_vel[0])
   waitEndMove()
+  movel(Pnt_4th_lyr[2],tTool[0],cnst_vel[0])
+  waitEndMove()
   
+  
+  // Printing - 4th Layer
+  setProfile("Automatic","123")
+  spd_cntl = true
+  resetMotion()
+  movel(Pnt_4th_lyr[3],tTool[0],mNomSpeed[0])
+  waitEndMove()  
+  
+  stopMove()
   disablePower()
   
- 
   
   ///////////////////////////////////////////
   

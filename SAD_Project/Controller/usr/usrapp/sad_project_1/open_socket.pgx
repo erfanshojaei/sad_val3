@@ -4,8 +4,8 @@
     <Code><![CDATA[begin
   
   sioCtrl(sioASCII,"port",11002)
-  //sioCtrl(sioASCII,"target","169.254.209.18")
-  sioCtrl(sioASCII,"target","127.0.0.1")
+  sioCtrl(sioASCII,"target","10.3.1.185")
+  //sioCtrl(sioASCII,"target","10.10.5.1")
   sioCtrl(sioASCII,"timeout",10)
   sioCtrl(sioASCII,"endOfString",13)
   sioCtrl(sioASCII,"nangle",true)  
