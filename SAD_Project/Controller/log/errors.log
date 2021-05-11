@@ -5054,3 +5054,7 @@ Mcp = connected
 [05/11/21 11:58:22]: <0x2201> New profile : Manual
 [05/11/21 11:59:04]: <0x2201> New profile : Automatic
 [05/11/21 11:59:38]: <0x2201> New profile : Manual
+[05/11/21 12:00:11]: <0x2201> New profile : Automatic
+[05/11/21 12:01:00]: <0x1604> Arm power shutdown...
+[05/11/21 12:01:01]: <0x1602> End of arm power shutdown phase.
+[05/11/21 12:01:04]: <0x2401> Saving controller context...
