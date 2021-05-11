@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Programs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.staubli.com/robotics/VAL3/Program/2">
+  <Program name="send_data">
+    <Locals>
+      <Local name="snd_msg" type="string" xsi:type="array" size="1" />
+    </Locals>
+    <Code><![CDATA[begin
+  
+  //snd_msg = toString(".3",getSpeed(tTool))  
+  
+  delay(0.1) 
+  
+end]]></Code>
+  </Program>
+</Programs>
