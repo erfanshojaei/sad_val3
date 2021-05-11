@@ -5018,3 +5018,4 @@ Mcp = connected
 [05/11/21 14:52:29]: <0x2401> Saving controller context...
 [05/11/21 14:52:29]: <0x2402> Controller temperature: 28°C
 [05/11/21 14:52:29]: <0x2402> CPU temperature: 28°C
+[05/11/21 14:52:36]: <0x2402> COM-PC: destroy session 127.0.0.1 on port 51554 id=#53704992
