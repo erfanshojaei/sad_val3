@@ -25,7 +25,7 @@
   taskCreate "DataReading",40,read_data()
   taskCreate "MotionControl",40,motion_cntl()
   taskCreate "DataDisplay",40,show_data()
-   
+  taskCreate "DataSending",50,send_data() 
     
   //////////////////////////////////////////
   // Go to configuration

@@ -3,12 +3,38 @@
   <Program name="send_data">
     <Locals>
       <Local name="snd_msg" type="string" xsi:type="array" size="1" />
+      <Local name="i" type="num" xsi:type="array" size="1" />
+      <Local name="nSent" type="num" xsi:type="array" size="1" />
     </Locals>
     <Code><![CDATA[begin
   
-  //snd_msg = toString(".3",getSpeed(tTool))  
+  putln("Start to send data !")
   
-  delay(0.1) 
+  do 
+  
+  snd_msg = toString(".4",getSpeed(tTool)) + chr(13) + chr(10)
+  
+  for i=0 to len(snd_msg)-1
+    nSent = sioSet(sioASCII,asc(snd_msg,i))
+    
+    if nSent != 1
+      check_status = false
+      stopMove()
+      cls()      
+      putln("Communication error !") 
+      disablePower()
+    endIf
+    
+    
+  endFor
+  
+  //putln(snd_msg)
+  
+  //cls()
+  delay(.4)
+  
+  until check_status != true
+  
   
 end]]></Code>
   </Program>

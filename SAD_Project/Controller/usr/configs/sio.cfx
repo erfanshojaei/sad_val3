@@ -11,7 +11,7 @@
   <socketSrv>
     <String name="name" value="trsf_sv" />
     <String name="desc" value="" />
-    <Uint name="portNumber" value="1002" />
+    <Uint name="portNumber" value="11002" />
     <Int name="endOfString" value="13" />
     <Float name="timeOut" value="10" />
     <Bool name="nagle" value="true" />

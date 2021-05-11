@@ -6,6 +6,7 @@
     <Program file="motion_cntl.pgx" />
     <Program file="open_socket.pgx" />
     <Program file="read_data.pgx" />
+    <Program file="send_data.pgx" />
     <Program file="show_data.pgx" />
     <Program file="start.pgx" />
     <Program file="stop.pgx" />
