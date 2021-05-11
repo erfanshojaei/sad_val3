@@ -4,8 +4,12 @@
     <Code><![CDATA[begin
   
   sioCtrl(sioASCII,"port",11002)
+<<<<<<< HEAD
   //sioCtrl(sioASCII,"port",1002)
   //sioCtrl(sioASCII,"target","10.3.1.185")
+=======
+  sioCtrl(sioASCII,"target","10.3.1.185")
+>>>>>>> 27985ea842831330766dc1bca9f5209cc1b5d07e
   //sioCtrl(sioASCII,"target","10.10.5.1")
   sioCtrl(sioASCII,"timeout",10)
   sioCtrl(sioASCII,"endOfString",13)
