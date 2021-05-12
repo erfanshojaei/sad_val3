@@ -1,7 +1,9 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <CellUserOptions>
   <Controller Name="Controller">
+    <Application>Disk://sad_project_1/sad_project_1.pjx</Application>
     <Application>Disk://sad_project_cal/sad_project_cal.pjx</Application>
+    <Application>Disk://sad_proj_sin/sad_proj_sin.pjx</Application>
   </Controller>
   <Option Name="SynchronizerMode">
     <Synchronizers>
@@ -15,29 +17,35 @@
     <Nodes>
       <Node Path="SAD_Project" IsExpanded="true" />
       <Node Path="SAD_Project\Controller" IsExpanded="true" />
-      <Node Path="SAD_Project\Controller\sad_project_cal" IsExpanded="true" />
-      <Node Path="SAD_Project\Controller\sad_project_cal\frame" IsExpanded="true" />
-      <Node Path="SAD_Project\Controller\sad_project_cal\jointRx" IsExpanded="true" />
-      <Node Path="SAD_Project\Controller\sad_project_cal\mdesc" IsExpanded="true" />
-      <Node Path="SAD_Project\Controller\sad_project_cal\pointRx" IsExpanded="true" />
-      <Node Path="SAD_Project\Controller\sad_project_cal\tool\tTool" IsExpanded="true" />
+      <Node Path="SAD_Project\Controller\sad_proj_sin\frame" IsExpanded="true" />
+      <Node Path="SAD_Project\Controller\sad_proj_sin\jointRx" IsExpanded="true" />
+      <Node Path="SAD_Project\Controller\sad_proj_sin\mdesc" IsExpanded="true" />
+      <Node Path="SAD_Project\Controller\sad_proj_sin\num" IsExpanded="true" />
+      <Node Path="SAD_Project\Controller\sad_proj_sin\pointRx" IsExpanded="true" />
+      <Node Path="SAD_Project\Controller\sad_project_1" IsExpanded="true" />
+      <Node Path="SAD_Project\Controller\sad_project_1\mdesc" IsExpanded="true" />
+      <Node Path="SAD_Project\Controller\sad_project_1\mdesc\mNomSpeed" IsExpanded="true" />
     </Nodes>
   </Option>
   <Option Name="CellExplorer">
     <Nodes>
       <Node Path="SAD_Project" IsExpanded="true" />
       <Node Path="SAD_Project\Controller" IsExpanded="true" />
+      <Node Path="SAD_Project\Controller\sad_proj_sin" IsExpanded="true" />
+      <Node Path="SAD_Project\Controller\sad_project_1" IsExpanded="true" />
     </Nodes>
   </Option>
   <Option Name="GeometryView">
     <Nodes>
       <Node Path="SAD_Project" IsExpanded="true" />
       <Node Path="SAD_Project\Controller" IsExpanded="true" />
-      <Node Path="SAD_Project\Controller\sad_project_cal" IsExpanded="true" />
+      <Node Path="SAD_Project\Controller\sad_proj_sin" IsExpanded="true" />
+      <Node Path="SAD_Project\Controller\sad_project_1" IsExpanded="true" />
+      <Node Path="SAD_Project\Controller\sad_project_1\world[0]" IsExpanded="true" />
+      <Node Path="SAD_Project\Controller\sad_project_1\world[0]\fReference" IsExpanded="true" />
       <Node Path="SAD_Project\Controller\sad_project_cal\world[0]" IsExpanded="true" />
       <Node Path="SAD_Project\Controller\sad_project_cal\world[0]\fReference" IsExpanded="true" />
       <Node Path="SAD_Project\Controller\sad_project_cal\world[0]\fReference\fReference[0]" IsExpanded="true" />
-      <Node Path="SAD_Project\Controller\sad_project_cal\jointRx" IsExpanded="true" />
     </Nodes>
   </Option>
 </CellUserOptions>

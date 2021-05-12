@@ -5606,3 +5606,632 @@ Mcp = connected
 [05/12/21 14:19:45]: <0x1601> Arm power settled.
 [05/12/21 14:19:46]: <0x2402> COM-PC: create session 127.0.0.1 on port 60520 id=#39358232
 [05/12/21 14:20:30]: <0x5403> sad_project_cal application stopped
+[05/12/21 14:49:46]: <0x2401> Saving controller context...
+[05/12/21 16:19:55]: <0x2402> Saving controller context... (3)
+[05/12/21 16:33:03]: <0x2402> COM-PC: create session 127.0.0.1 on port 58682 id=#39358336
+[05/12/21 16:33:03]: <0x2401> COM-PC: start WCF Client on '127.0.0.1:5660'
+[05/12/21 16:33:03]: <0x2402> COM-CLIENT: Connected to http://127.0.0.1:5656
+[05/12/21 16:33:03]: <0x5402> sad_proj_sine application started
+[05/12/21 16:33:04]: <0x2402> COM-PC: destroy session 127.0.0.1 on port 58682 id=#39358336
+[05/12/21 16:33:04]: <0x1604> Arm power shutdown...
+[05/12/21 16:33:05]: <0x1602> End of arm power shutdown phase.
+[05/12/21 16:33:05]: <0x2201> New profile : Manual
+[05/12/21 16:33:07]: <0x2401> Saving controller context...
+[05/12/21 16:33:08]: <0x1603> Settling arm power...
+[05/12/21 16:33:08]: <0x1601> Arm power settled.
+[05/12/21 16:33:40]: <0x2402> COM-PC: create session 127.0.0.1 on port 58979 id=#39358648
+[05/12/21 16:33:40]: <0x2401> COM-PC: start WCF Client on '127.0.0.1:5660'
+[05/12/21 16:33:40]: <0x2402> COM-CLIENT: Connected to http://127.0.0.1:5656
+[05/12/21 16:33:40]: <0x5403> sad_proj_sine application stopped
+[05/12/21 16:33:40]: <0x1604> Arm power shutdown...
+[05/12/21 16:33:40]: <0x5402> sad_proj_sine application started
+[05/12/21 16:33:41]: <0x2402> COM-PC: destroy session 127.0.0.1 on port 58979 id=#39358648
+[05/12/21 16:33:41]: <0x1602> End of arm power shutdown phase.
+[05/12/21 16:33:41]: <0x2201> New profile : Manual
+[05/12/21 16:33:42]: <0x2401> Saving controller context...
+[05/12/21 16:33:44]: <0x1603> Settling arm power...
+[05/12/21 16:33:45]: <0x1601> Arm power settled.
+[05/12/21 16:34:03]: <0x1604> Arm power shutdown...
+[05/12/21 16:34:04]: <0x1602> End of arm power shutdown phase.
+[05/12/21 16:34:04]: <0x5403> sad_proj_sine application stopped
+[05/12/21 16:34:08]: <0x2401> Saving controller context...
+[05/12/21 16:50:01]: <0x2402> COM-PC: destroy session 127.0.0.1 on port 60520 id=#39358232
+[05/12/21 16:50:13]: -----------------------------------------------
+[05/12/21 16:50:13]: Logger started
+[05/12/21 16:50:18]: <0x0003> CPU board: TEKNOR ?Mhz; ?Mb RAM; ?Mb disk; bios: ?; fpga: ?; ataIde: ?
+[05/12/21 16:50:18]: <0x0003> Cycle time set to 0.004s
+[05/12/21 16:50:18]: <0x0003> Simulation cycle time set to 0.1s
+[05/12/21 16:50:18]: <0x0002> Controller IP address could not be updated
+[05/12/21 16:50:18]: <0x0003> Mcp = TSimulated
+[05/12/21 16:50:18]: <0x0002> Default user payload used.
+[05/12/21 16:50:18]: <0x0003> Payload default: mass=100 kg, gravity center: x=0 y=0 z=181 mm, diag inertia: xx=6.4224 yy=6.4224 zz=6.1754 kg.m^2
+[05/12/21 16:50:18]: <0x340A> Mcp communication established
+[05/12/21 16:50:18]: <0x2401> Power hour count = 40:58:34
+[05/12/21 16:50:18]: <0x2401> Mac Address = c0-3e-ba-66-a9-42
+[05/12/21 16:50:18]: <0x2402> COM-PC: server created on all interfaces [5660]
+[05/12/21 16:50:18]: <0x2402> COM-PC: create session 127.0.0.1 on port 50318 id=#52336128
+[05/12/21 16:50:18]: <0x2401> System: s7.7.1 Sep 10 2014
+[05/12/21 16:50:18]: <0x2401> Configuration Version: c1.026 
+[05/12/21 16:50:18]: <0x2401> CPU: TEKNOR 
+[05/12/21 16:50:18]: <0x2401> Option alter: enabled 
+[05/12/21 16:50:18]: <0x2401> Option VAL 3: enabled 
+[05/12/21 16:50:18]: <0x2401> Machine Number: ? 
+[05/12/21 16:50:18]: <0x2401> Arm: tx200-S3-R3 floor
+[05/12/21 16:50:18]: <0x2401> Arm serial number: ? 
+[05/12/21 16:50:18]: <0x2401> Robot name:  
+[05/12/21 16:50:18]: <0x2401> EP: s7.7 Jul 23 2014
+[05/12/21 16:50:18]: <0x2401> SCA: s7.7 Jul 23 2014
+[05/12/21 16:50:18]: <0x2201> New profile : default
+[05/12/21 16:50:18]: <0x2401> End of controller initialization
+[05/12/21 16:50:18]: <0x1A03> System event INTERFACE-Stopped  (Main menu)
+[05/12/21 16:50:18]: <0x1A04> System event INTERFACE-Stopped  (Main menu). 4 events lost.
+[05/12/21 16:50:18]: <0x1804> Working mode:remote.
+[05/12/21 16:50:18]: <0x1602> End of arm power shutdown phase.
+[05/12/21 16:50:38]: <0x2402> COM-PC: destroy session 127.0.0.1 on port 50318 id=#52336128
+[05/12/21 16:51:37]: <0x2402> COM-PC: create session 127.0.0.1 on port 50370 id=#52336128
+[05/12/21 16:51:37]: <0x2401> COM-PC: start WCF Client on '127.0.0.1:5660'
+[05/12/21 16:51:37]: <0x2402> COM-CLIENT: Connected to http://127.0.0.1:5656
+[05/12/21 16:51:37]: <0x5402> sad_proj_sine application started
+[05/12/21 16:51:37]: <0x2201> New profile : Manual
+[05/12/21 16:51:37]: <0x2402> COM-PC: destroy session 127.0.0.1 on port 50370 id=#52336128
+[05/12/21 16:51:40]: <0x1603> Settling arm power...
+[05/12/21 16:51:41]: <0x1601> Arm power settled.
+[05/12/21 16:51:42]: <0x1604> Arm power shutdown...
+[05/12/21 16:51:43]: <0x1602> End of arm power shutdown phase.
+[05/12/21 16:51:46]: <0x2401> Saving controller context...
+[05/12/21 16:51:46]: <0x2402> Controller temperature: 28°C
+[05/12/21 16:51:46]: <0x2402> CPU temperature: 28°C
+[05/12/21 16:51:47]: <0x5A03> Deadman validated
+[05/12/21 16:51:48]: <0x4001> Arm power enable request refused: cabinet working mode is remote or invalid.
+[05/12/21 16:51:50]: <0x2402> COM-PC: create session 127.0.0.1 on port 50386 id=#52334464
+[05/12/21 16:51:50]: <0x2401> COM-PC: start WCF Client on '127.0.0.1:5660'
+[05/12/21 16:51:50]: <0x2402> COM-CLIENT: Connected to http://127.0.0.1:5656
+[05/12/21 16:51:50]: <0x5403> sad_proj_sine application stopped
+[05/12/21 16:51:51]: <0x5402> sad_proj_sine application started
+[05/12/21 16:51:51]: <0x2402> COM-PC: destroy session 127.0.0.1 on port 50386 id=#52334464
+[05/12/21 16:51:51]: <0x2201> New profile : Manual
+[05/12/21 16:51:54]: <0x1603> Settling arm power...
+[05/12/21 16:51:54]: <0x1601> Arm power settled.
+[05/12/21 16:52:00]: <0x5404> ERR 154 Invalid movement command: invalid destination point or mdesc.. sad_proj_sine~. 
+[05/12/21 16:52:02]: <0x5A01> Deadman enabled.
+[05/12/21 16:53:13]: <0x2402> COM-PC: create session 127.0.0.1 on port 50444 id=#52335088
+[05/12/21 16:53:13]: <0x2401> COM-PC: start WCF Client on '127.0.0.1:5660'
+[05/12/21 16:53:13]: <0x2402> COM-CLIENT: Connected to http://127.0.0.1:5656
+[05/12/21 16:53:14]: <0x5403> sad_proj_sine application stopped
+[05/12/21 16:53:14]: <0x1604> Arm power shutdown...
+[05/12/21 16:53:14]: <0x5402> sad_proj_sine application started
+[05/12/21 16:53:14]: <0x2402> COM-PC: destroy session 127.0.0.1 on port 50444 id=#52335088
+[05/12/21 16:53:15]: <0x1602> End of arm power shutdown phase.
+[05/12/21 16:53:15]: <0x2201> New profile : Manual
+[05/12/21 16:53:18]: <0x1603> Settling arm power...
+[05/12/21 16:53:18]: <0x2402> COM-PC: create session 127.0.0.1 on port 50456 id=#52333008
+[05/12/21 16:53:18]: <0x2401> Saving controller context...
+[05/12/21 16:53:18]: <0x1601> Arm power settled.
+[05/12/21 16:53:24]: <0x5404> ERR 154 Invalid movement command: invalid destination point or mdesc.. sad_proj_sine~. 
+[05/12/21 16:54:30]: <0x2402> COM-PC: create session 127.0.0.1 on port 50466 id=#52333736
+[05/12/21 16:54:30]: <0x2401> COM-PC: start WCF Client on '127.0.0.1:5660'
+[05/12/21 16:54:30]: <0x2402> COM-CLIENT: Connected to http://127.0.0.1:5656
+[05/12/21 16:54:30]: <0x5403> sad_proj_sine application stopped
+[05/12/21 16:54:30]: <0x1604> Arm power shutdown...
+[05/12/21 16:54:30]: <0x5402> sad_proj_sine application started
+[05/12/21 16:54:30]: <0x2402> COM-PC: destroy session 127.0.0.1 on port 50466 id=#52333736
+[05/12/21 16:54:31]: <0x1602> End of arm power shutdown phase.
+[05/12/21 16:54:31]: <0x2201> New profile : Manual
+[05/12/21 16:54:33]: <0x2401> Saving controller context...
+[05/12/21 16:54:34]: <0x1603> Settling arm power...
+[05/12/21 16:54:35]: <0x1601> Arm power settled.
+[05/12/21 16:54:41]: <0x1604> Arm power shutdown...
+[05/12/21 16:54:42]: <0x1602> End of arm power shutdown phase.
+[05/12/21 16:54:42]: <0x5403> sad_proj_sine application stopped
+[05/12/21 16:54:43]: <0x2401> Saving controller context...
+[05/12/21 16:55:12]: <0x2402> COM-PC: create session 127.0.0.1 on port 50519 id=#52332800
+[05/12/21 16:55:12]: <0x2401> COM-PC: start WCF Client on '127.0.0.1:5660'
+[05/12/21 16:55:12]: <0x2402> COM-CLIENT: Connected to http://127.0.0.1:5656
+[05/12/21 16:55:12]: <0x5402> sad_proj_sine application started
+[05/12/21 16:55:12]: <0x2201> New profile : Manual
+[05/12/21 16:55:12]: <0x2402> COM-PC: destroy session 127.0.0.1 on port 50519 id=#52332800
+[05/12/21 16:55:16]: <0x1603> Settling arm power...
+[05/12/21 16:55:16]: <0x1601> Arm power settled.
+[05/12/21 16:55:22]: <0x1604> Arm power shutdown...
+[05/12/21 16:55:23]: <0x1602> End of arm power shutdown phase.
+[05/12/21 16:55:23]: <0x5403> sad_proj_sine application stopped
+[05/12/21 16:55:26]: <0x2401> Saving controller context...
+[05/12/21 16:56:00]: <0x2402> COM-PC: create session 127.0.0.1 on port 50519 id=#52333320
+[05/12/21 16:56:00]: <0x2401> COM-PC: start WCF Client on '127.0.0.1:5660'
+[05/12/21 16:56:00]: <0x2402> COM-CLIENT: Connected to http://127.0.0.1:5656
+[05/12/21 16:56:00]: <0x5402> sad_proj_sine application started
+[05/12/21 16:56:00]: <0x2201> New profile : Manual
+[05/12/21 16:56:00]: <0x2402> COM-PC: destroy session 127.0.0.1 on port 50519 id=#52333320
+[05/12/21 16:56:03]: <0x1603> Settling arm power...
+[05/12/21 16:56:04]: <0x1601> Arm power settled.
+[05/12/21 16:56:09]: <0x5404> ERR 154 Invalid movement command: invalid destination point or mdesc.. sad_proj_sine~. 
+[05/12/21 16:58:43]: <0x2402> COM-PC: create session 127.0.0.1 on port 50519 id=#52333424
+[05/12/21 16:58:43]: <0x2401> COM-PC: start WCF Client on '127.0.0.1:5660'
+[05/12/21 16:58:43]: <0x2402> COM-CLIENT: Connected to http://127.0.0.1:5656
+[05/12/21 16:58:44]: <0x5403> sad_proj_sine application stopped
+[05/12/21 16:58:44]: <0x1604> Arm power shutdown...
+[05/12/21 16:58:44]: <0x5402> sad_proj_sine application started
+[05/12/21 16:58:44]: <0x2402> COM-PC: destroy session 127.0.0.1 on port 50519 id=#52333424
+[05/12/21 16:58:45]: <0x1602> End of arm power shutdown phase.
+[05/12/21 16:58:45]: <0x2201> New profile : Manual
+[05/12/21 16:58:46]: <0x2401> Saving controller context...
+[05/12/21 16:58:48]: <0x1603> Settling arm power...
+[05/12/21 16:58:49]: <0x1601> Arm power settled.
+[05/12/21 16:58:54]: <0x5404> ERR 154 Invalid movement command: invalid destination point or mdesc.. sad_proj_sine~. 
+[05/12/21 17:02:54]: <0x2402> COM-PC: create session 127.0.0.1 on port 50817 id=#52333632
+[05/12/21 17:02:54]: <0x2401> COM-PC: start WCF Client on '127.0.0.1:5660'
+[05/12/21 17:02:54]: <0x2402> COM-CLIENT: Connected to http://127.0.0.1:5656
+[05/12/21 17:02:54]: <0x5403> sad_proj_sine application stopped
+[05/12/21 17:02:54]: <0x1604> Arm power shutdown...
+[05/12/21 17:02:54]: <0x5402> sad_proj_sine application started
+[05/12/21 17:02:55]: <0x2402> COM-PC: destroy session 127.0.0.1 on port 50817 id=#52333632
+[05/12/21 17:02:55]: <0x1602> End of arm power shutdown phase.
+[05/12/21 17:02:55]: <0x2201> New profile : Manual
+[05/12/21 17:02:58]: <0x1603> Settling arm power...
+[05/12/21 17:02:59]: <0x2401> Saving controller context...
+[05/12/21 17:02:59]: <0x1601> Arm power settled.
+[05/12/21 17:04:22]: <0x1604> Arm power shutdown...
+[05/12/21 17:04:23]: <0x1602> End of arm power shutdown phase.
+[05/12/21 17:04:23]: <0x5403> sad_proj_sine application stopped
+[05/12/21 17:04:24]: <0x2401> Saving controller context...
+[05/12/21 17:05:32]: <0x2402> COM-PC: create session 127.0.0.1 on port 50870 id=#52334880
+[05/12/21 17:05:32]: <0x2401> COM-PC: start WCF Client on '127.0.0.1:5660'
+[05/12/21 17:05:32]: <0x2402> COM-CLIENT: Connected to http://127.0.0.1:5656
+[05/12/21 17:05:32]: <0x5402> sad_proj_sine application started
+[05/12/21 17:05:32]: <0x2201> New profile : Manual
+[05/12/21 17:05:32]: <0x2402> COM-PC: destroy session 127.0.0.1 on port 50870 id=#52334880
+[05/12/21 17:05:36]: <0x1603> Settling arm power...
+[05/12/21 17:05:36]: <0x1601> Arm power settled.
+[05/12/21 17:06:29]: <0x5404> ERR 154 Invalid movement command: invalid destination point or mdesc.. sad_proj_sine~. 
+[05/12/21 17:07:22]: <0x2402> COM-PC: create session 127.0.0.1 on port 50961 id=#52334360
+[05/12/21 17:07:22]: <0x2401> COM-PC: start WCF Client on '127.0.0.1:5660'
+[05/12/21 17:07:22]: <0x2402> COM-CLIENT: Connected to http://127.0.0.1:5656
+[05/12/21 17:07:23]: <0x5403> sad_proj_sine application stopped
+[05/12/21 17:07:23]: <0x1604> Arm power shutdown...
+[05/12/21 17:07:23]: <0x5402> sad_proj_sine application started
+[05/12/21 17:07:23]: <0x2402> COM-PC: destroy session 127.0.0.1 on port 50961 id=#52334360
+[05/12/21 17:07:24]: <0x1602> End of arm power shutdown phase.
+[05/12/21 17:07:24]: <0x2201> New profile : Manual
+[05/12/21 17:07:27]: <0x2401> Saving controller context...
+[05/12/21 17:07:27]: <0x1603> Settling arm power...
+[05/12/21 17:07:27]: <0x1601> Arm power settled.
+[05/12/21 17:10:07]: <0x5404> ERR 154 Invalid movement command: invalid destination point or mdesc.. sad_proj_sine~. 
+[05/12/21 17:13:04]: <0x2402> COM-PC: create session 127.0.0.1 on port 51023 id=#52335504
+[05/12/21 17:13:04]: <0x2401> COM-PC: start WCF Client on '127.0.0.1:5660'
+[05/12/21 17:13:04]: <0x2402> COM-CLIENT: Connected to http://127.0.0.1:5656
+[05/12/21 17:13:04]: <0x5403> sad_proj_sine application stopped
+[05/12/21 17:13:04]: <0x1604> Arm power shutdown...
+[05/12/21 17:13:04]: <0x5402> sad_proj_sine application started
+[05/12/21 17:13:05]: <0x2402> COM-PC: destroy session 127.0.0.1 on port 51023 id=#52335504
+[05/12/21 17:13:05]: <0x1602> End of arm power shutdown phase.
+[05/12/21 17:13:05]: <0x2201> New profile : Manual
+[05/12/21 17:13:07]: <0x2401> Saving controller context...
+[05/12/21 17:13:09]: <0x1603> Settling arm power...
+[05/12/21 17:13:09]: <0x1601> Arm power settled.
+[05/12/21 17:15:12]: <0x5404> ERR 154 Invalid movement command: invalid destination point or mdesc.. sad_proj_sine~. 
+[05/12/21 17:23:26]: <0x2402> COM-PC: create session 127.0.0.1 on port 51138 id=#52333216
+[05/12/21 17:23:26]: <0x2401> COM-PC: start WCF Client on '127.0.0.1:5660'
+[05/12/21 17:23:26]: <0x2402> COM-CLIENT: Connected to http://127.0.0.1:5656
+[05/12/21 17:23:26]: <0x5403> sad_proj_sine application stopped
+[05/12/21 17:23:26]: <0x1604> Arm power shutdown...
+[05/12/21 17:23:26]: <0x5402> sad_proj_sine application started
+[05/12/21 17:23:27]: <0x2402> COM-PC: destroy session 127.0.0.1 on port 51138 id=#52333216
+[05/12/21 17:23:27]: <0x1602> End of arm power shutdown phase.
+[05/12/21 17:23:27]: <0x2201> New profile : Manual
+[05/12/21 17:23:29]: <0x2401> Saving controller context...
+[05/12/21 17:23:30]: <0x1603> Settling arm power...
+[05/12/21 17:23:31]: <0x1601> Arm power settled.
+[05/12/21 17:25:12]: <0x5404> ERR 154 Invalid movement command: invalid destination point or mdesc.. sad_proj_sine~. 
+[05/12/21 17:35:23]: <0x2402> COM-PC: create session 127.0.0.1 on port 51770 id=#52332800
+[05/12/21 17:35:23]: <0x2401> COM-PC: start WCF Client on '127.0.0.1:5660'
+[05/12/21 17:35:23]: <0x2402> COM-CLIENT: Connected to http://127.0.0.1:5656
+[05/12/21 17:35:24]: <0x5403> sad_proj_sine application stopped
+[05/12/21 17:35:24]: <0x1604> Arm power shutdown...
+[05/12/21 17:35:25]: <0x1602> End of arm power shutdown phase.
+[05/12/21 17:35:26]: <0x5402> sad_proj_sine application started
+[05/12/21 17:35:26]: <0x2402> COM-PC: destroy session 127.0.0.1 on port 51770 id=#52332800
+[05/12/21 17:35:30]: <0x2401> Saving controller context...
+[05/12/21 17:42:08]: <0x2402> COM-PC: create session 127.0.0.1 on port 51984 id=#52335504
+[05/12/21 17:42:08]: <0x2401> COM-PC: start WCF Client on '127.0.0.1:5660'
+[05/12/21 17:42:08]: <0x2402> COM-CLIENT: Connected to http://127.0.0.1:5656
+[05/12/21 17:42:08]: <0x5403> sad_proj_sine application stopped
+[05/12/21 17:42:10]: <0x5402> sad_proj_sin application started
+[05/12/21 17:42:10]: <0x2402> COM-PC: destroy session 127.0.0.1 on port 51984 id=#52335504
+[05/12/21 17:42:26]: <0x2402> COM-PC: create session 127.0.0.1 on port 51996 id=#52334776
+[05/12/21 17:42:26]: <0x2401> COM-PC: start WCF Client on '127.0.0.1:5660'
+[05/12/21 17:42:26]: <0x2402> COM-CLIENT: Connected to http://127.0.0.1:5656
+[05/12/21 17:42:26]: <0x5403> sad_proj_sin application stopped
+[05/12/21 17:42:28]: <0x5402> sad_proj_sin application started
+[05/12/21 17:42:28]: <0x2402> COM-PC: destroy session 127.0.0.1 on port 51996 id=#52334776
+[05/12/21 17:43:25]: <0x5A02> Deadman disabled.
+[05/12/21 17:43:25]: <0x1801> Working mode:automatic.
+[05/12/21 17:43:27]: <0x5A03> Deadman validated
+[05/12/21 17:43:28]: <0x1603> Settling arm power...
+[05/12/21 17:43:28]: <0x1601> Arm power settled.
+[05/12/21 17:43:33]: <0x2402> COM-PC: create session 127.0.0.1 on port 52050 id=#52335400
+[05/12/21 17:43:33]: <0x2401> COM-PC: start WCF Client on '127.0.0.1:5660'
+[05/12/21 17:43:33]: <0x2402> COM-CLIENT: Connected to http://127.0.0.1:5656
+[05/12/21 17:43:34]: <0x5403> sad_proj_sin application stopped
+[05/12/21 17:43:34]: <0x1604> Arm power shutdown...
+[05/12/21 17:43:35]: <0x1602> End of arm power shutdown phase.
+[05/12/21 17:43:36]: <0x5402> sad_proj_sin application started
+[05/12/21 17:43:36]: <0x2402> COM-PC: destroy session 127.0.0.1 on port 52050 id=#52335400
+[05/12/21 17:43:37]: <0x2401> Saving controller context...
+[05/12/21 17:43:38]: <0x5A02> Deadman disabled.
+[05/12/21 17:43:38]: <0x5A03> Deadman validated
+[05/12/21 17:43:39]: <0x1603> Settling arm power...
+[05/12/21 17:43:39]: <0x1601> Arm power settled.
+[05/12/21 17:43:53]: <0x5A01> Deadman enabled.
+[05/12/21 17:44:11]: <0x1604> Arm power shutdown...
+[05/12/21 17:44:12]: <0x1602> End of arm power shutdown phase.
+[05/12/21 17:44:12]: <0x5403> sad_proj_sin application stopped
+[05/12/21 17:44:15]: <0x2401> Saving controller context...
+[05/12/21 17:47:32]: <0x2402> COM-PC: create session 127.0.0.1 on port 52173 id=#52333632
+[05/12/21 17:47:32]: <0x2401> COM-PC: start WCF Client on '127.0.0.1:5660'
+[05/12/21 17:47:32]: <0x2402> COM-CLIENT: Connected to http://127.0.0.1:5656
+[05/12/21 17:47:33]: <0x5402> sad_proj_sin application started
+[05/12/21 17:47:33]: <0x2402> COM-PC: destroy session 127.0.0.1 on port 52173 id=#52333632
+[05/12/21 17:47:35]: <0x5A02> Deadman disabled.
+[05/12/21 17:47:35]: <0x5A03> Deadman validated
+[05/12/21 17:47:36]: <0x1603> Settling arm power...
+[05/12/21 17:47:36]: <0x1601> Arm power settled.
+[05/12/21 17:47:51]: <0x5A01> Deadman enabled.
+[05/12/21 17:48:26]: <0x5404> ERR 20 Access to an array with index larger than the array's size.. sad_proj_sin~. 
+[05/12/21 17:50:08]: <0x2402> COM-PC: create session 127.0.0.1 on port 52256 id=#52334568
+[05/12/21 17:50:08]: <0x2401> COM-PC: start WCF Client on '127.0.0.1:5660'
+[05/12/21 17:50:08]: <0x2402> COM-CLIENT: Connected to http://127.0.0.1:5656
+[05/12/21 17:50:08]: <0x5403> sad_proj_sin application stopped
+[05/12/21 17:50:09]: <0x1604> Arm power shutdown...
+[05/12/21 17:50:09]: <0x5402> sad_proj_sin application started
+[05/12/21 17:50:09]: <0x2402> COM-PC: destroy session 127.0.0.1 on port 52256 id=#52334568
+[05/12/21 17:50:10]: <0x1602> End of arm power shutdown phase.
+[05/12/21 17:50:11]: <0x2401> Saving controller context...
+[05/12/21 17:50:16]: <0x2402> COM-PC: create session 127.0.0.1 on port 52238 id=#52334672
+[05/12/21 17:50:16]: <0x2401> COM-PC: start WCF Client on '127.0.0.1:5660'
+[05/12/21 17:50:16]: <0x2402> COM-CLIENT: Connected to http://127.0.0.1:5656
+[05/12/21 17:50:16]: <0x5403> sad_proj_sin application stopped
+[05/12/21 17:50:16]: <0x5402> sad_proj_sin application started
+[05/12/21 17:50:17]: <0x2402> COM-PC: destroy session 127.0.0.1 on port 52238 id=#52334672
+[05/12/21 17:50:18]: <0x5A02> Deadman disabled.
+[05/12/21 17:50:18]: <0x5A03> Deadman validated
+[05/12/21 17:50:18]: <0x1603> Settling arm power...
+[05/12/21 17:50:19]: <0x1601> Arm power settled.
+[05/12/21 17:50:33]: <0x5A01> Deadman enabled.
+[05/12/21 17:51:13]: <0x1604> Arm power shutdown...
+[05/12/21 17:51:14]: <0x1602> End of arm power shutdown phase.
+[05/12/21 17:51:14]: <0x5403> sad_proj_sin application stopped
+[05/12/21 17:51:16]: <0x2401> Saving controller context...
+[05/12/21 17:53:27]: <0x2402> COM-PC: create session 127.0.0.1 on port 52368 id=#52333112
+[05/12/21 17:53:27]: <0x2401> COM-PC: start WCF Client on '127.0.0.1:5660'
+[05/12/21 17:53:27]: <0x2402> COM-CLIENT: Connected to http://127.0.0.1:5656
+[05/12/21 17:53:27]: <0x5402> sad_proj_sin application started
+[05/12/21 17:53:28]: <0x2402> COM-PC: destroy session 127.0.0.1 on port 52368 id=#52333112
+[05/12/21 17:53:30]: <0x5A02> Deadman disabled.
+[05/12/21 17:53:31]: <0x5A03> Deadman validated
+[05/12/21 17:53:31]: <0x1603> Settling arm power...
+[05/12/21 17:53:31]: <0x1601> Arm power settled.
+[05/12/21 17:53:46]: <0x5A01> Deadman enabled.
+[05/12/21 17:54:24]: <0x1604> Arm power shutdown...
+[05/12/21 17:54:25]: <0x1602> End of arm power shutdown phase.
+[05/12/21 17:54:25]: <0x5403> sad_proj_sin application stopped
+[05/12/21 17:54:26]: <0x2401> Saving controller context...
+[05/12/21 17:59:36]: <0x2402> COM-PC: destroy session 127.0.0.1 on port 50456 id=#52333008
+[05/12/21 18:00:13]: -----------------------------------------------
+[05/12/21 18:00:13]: Logger started
+[05/12/21 18:00:17]: <0x0003> CPU board: TEKNOR ?Mhz; ?Mb RAM; ?Mb disk; bios: ?; fpga: ?; ataIde: ?
+[05/12/21 18:00:17]: <0x0003> Cycle time set to 0.004s
+[05/12/21 18:00:17]: <0x0003> Simulation cycle time set to 0.1s
+[05/12/21 18:00:17]: <0x0002> Controller IP address could not be updated
+[05/12/21 18:00:17]: <0x0003> Mcp = TSimulated
+[05/12/21 18:00:17]: <0x0002> Default user payload used.
+[05/12/21 18:00:17]: <0x0003> Payload default: mass=100 kg, gravity center: x=0 y=0 z=181 mm, diag inertia: xx=6.4224 yy=6.4224 zz=6.1754 kg.m^2
+[05/12/21 18:00:17]: <0x2401> Power hour count = 41:43:43
+[05/12/21 18:00:17]: <0x2401> Mac Address = c0-3e-ba-66-a9-42
+[05/12/21 18:00:17]: <0x2402> COM-PC: server created on all interfaces [5660]
+[05/12/21 18:00:17]: <0x2401> System: s7.7.1 Sep 10 2014
+[05/12/21 18:00:17]: <0x2401> Configuration Version: c1.026 
+[05/12/21 18:00:17]: <0x2401> CPU: TEKNOR 
+[05/12/21 18:00:17]: <0x2401> Option alter: enabled 
+[05/12/21 18:00:17]: <0x2401> Option VAL 3: enabled 
+[05/12/21 18:00:17]: <0x2401> Machine Number: ? 
+[05/12/21 18:00:17]: <0x2401> Arm: tx200-S3-R3 floor
+[05/12/21 18:00:17]: <0x2401> Arm serial number: ? 
+[05/12/21 18:00:17]: <0x2401> Robot name:  
+[05/12/21 18:00:17]: <0x2401> EP: s7.7 Jul 23 2014
+[05/12/21 18:00:17]: <0x2401> SCA: s7.7 Jul 23 2014
+[05/12/21 18:00:17]: <0x2201> New profile : default
+[05/12/21 18:00:17]: <0x2401> End of controller initialization
+[05/12/21 18:00:17]: <0x1A03> System event INTERFACE-Stopped  (Main menu)
+[05/12/21 18:00:17]: <0x1A04> System event INTERFACE-Stopped  (Main menu). 2 events lost.
+[05/12/21 18:00:17]: <0x340A> Mcp communication established
+[05/12/21 18:00:17]: <0x2402> COM-PC: create session 127.0.0.1 on port 52598 id=#53911368
+[05/12/21 18:00:18]: <0x1801> Working mode:automatic.
+[05/12/21 18:00:18]: <0x1602> End of arm power shutdown phase.
+[05/12/21 18:00:34]: <0x2402> COM-PC: destroy session 127.0.0.1 on port 52598 id=#53911368
+[05/12/21 18:03:06]: -----------------------------------------------
+[05/12/21 18:03:06]: Logger started
+[05/12/21 18:03:11]: <0x0003> CPU board: TEKNOR ?Mhz; ?Mb RAM; ?Mb disk; bios: ?; fpga: ?; ataIde: ?
+[05/12/21 18:03:11]: <0x0003> Cycle time set to 0.004s
+[05/12/21 18:03:11]: <0x0003> Simulation cycle time set to 0.1s
+[05/12/21 18:03:11]: <0x0002> Controller IP address could not be updated
+[05/12/21 18:03:11]: <0x0003> Mcp = TSimulated
+[05/12/21 18:03:11]: <0x0002> Default user payload used.
+[05/12/21 18:03:11]: <0x0003> Payload default: mass=100 kg, gravity center: x=0 y=0 z=181 mm, diag inertia: xx=6.4224 yy=6.4224 zz=6.1754 kg.m^2
+[05/12/21 18:03:11]: <0x2401> Power hour count = 41:43:43
+[05/12/21 18:03:11]: <0x2401> Mac Address = c0-3e-ba-66-a9-42
+[05/12/21 18:03:11]: <0x2402> COM-PC: server created on all interfaces [5660]
+[05/12/21 18:03:11]: <0x2401> System: s7.7.1 Sep 10 2014
+[05/12/21 18:03:11]: <0x2401> Configuration Version: c1.026 
+[05/12/21 18:03:11]: <0x2401> CPU: TEKNOR 
+[05/12/21 18:03:11]: <0x2401> Option alter: enabled 
+[05/12/21 18:03:11]: <0x2401> Option VAL 3: enabled 
+[05/12/21 18:03:11]: <0x2401> Machine Number: ? 
+[05/12/21 18:03:11]: <0x2401> Arm: tx200-S3-R3 floor
+[05/12/21 18:03:11]: <0x2401> Arm serial number: ? 
+[05/12/21 18:03:11]: <0x2401> Robot name:  
+[05/12/21 18:03:11]: <0x2401> EP: s7.7 Jul 23 2014
+[05/12/21 18:03:11]: <0x2401> SCA: s7.7 Jul 23 2014
+[05/12/21 18:03:11]: <0x2201> New profile : default
+[05/12/21 18:03:11]: <0x2401> End of controller initialization
+[05/12/21 18:03:11]: <0x340A> Mcp communication established
+[05/12/21 18:03:11]: <0x2402> COM-PC: create session 127.0.0.1 on port 52682 id=#39365424
+[05/12/21 18:03:11]: <0x1801> Working mode:automatic.
+[05/12/21 18:03:11]: <0x1602> End of arm power shutdown phase.
+[05/12/21 18:03:28]: <0x2402> COM-PC: destroy session 127.0.0.1 on port 52682 id=#39365424
+[05/12/21 18:17:51]: <0x2402> COM-PC: create session 127.0.0.1 on port 53097 id=#39365216
+[05/12/21 18:17:51]: <0x2401> COM-PC: start WCF Client on '127.0.0.1:5660'
+[05/12/21 18:17:51]: <0x2402> COM-CLIENT: Connected to http://127.0.0.1:5656
+[05/12/21 18:17:52]: <0x5402> sad_proj_sin application started
+[05/12/21 18:17:52]: <0x2402> COM-PC: destroy session 127.0.0.1 on port 53097 id=#39365216
+[05/12/21 18:17:54]: <0x5A03> Deadman validated
+[05/12/21 18:17:55]: <0x1603> Settling arm power...
+[05/12/21 18:17:55]: <0x1601> Arm power settled.
+[05/12/21 18:18:09]: <0x5A01> Deadman enabled.
+[05/12/21 18:18:11]: <0x2402> COM-PC: create session 127.0.0.1 on port 53110 id=#39367608
+[05/12/21 18:18:53]: <0x1604> Arm power shutdown...
+[05/12/21 18:18:54]: <0x1602> End of arm power shutdown phase.
+[05/12/21 18:18:54]: <0x5403> sad_proj_sin application stopped
+[05/12/21 18:18:57]: <0x2401> Saving controller context...
+[05/12/21 18:18:57]: <0x2402> Controller temperature: 28°C
+[05/12/21 18:18:57]: <0x2402> CPU temperature: 28°C
+[05/12/21 18:19:53]: <0x2402> COM-PC: create session 127.0.0.1 on port 53126 id=#39365528
+[05/12/21 18:19:53]: <0x2401> COM-PC: start WCF Client on '127.0.0.1:5660'
+[05/12/21 18:19:53]: <0x2402> COM-CLIENT: Connected to http://127.0.0.1:5656
+[05/12/21 18:19:54]: <0x5402> sad_proj_sin application started
+[05/12/21 18:19:54]: <0x2402> COM-PC: destroy session 127.0.0.1 on port 53126 id=#39365528
+[05/12/21 18:19:57]: <0x5A02> Deadman disabled.
+[05/12/21 18:19:57]: <0x5A03> Deadman validated
+[05/12/21 18:19:57]: <0x1603> Settling arm power...
+[05/12/21 18:19:58]: <0x1601> Arm power settled.
+[05/12/21 18:20:12]: <0x5A01> Deadman enabled.
+[05/12/21 18:21:30]: <0x1604> Arm power shutdown...
+[05/12/21 18:21:31]: <0x1602> End of arm power shutdown phase.
+[05/12/21 18:21:31]: <0x5403> sad_proj_sin application stopped
+[05/12/21 18:21:32]: <0x2401> Saving controller context...
+[05/12/21 18:40:11]: <0x2402> COM-PC: create session 127.0.0.1 on port 53737 id=#39366672
+[05/12/21 18:40:11]: <0x2401> COM-PC: start WCF Client on '127.0.0.1:5660'
+[05/12/21 18:40:11]: <0x2402> COM-CLIENT: Connected to http://127.0.0.1:5656
+[05/12/21 18:40:11]: <0x5402> sad_proj_sin application started
+[05/12/21 18:40:11]: <0x2402> COM-PC: destroy session 127.0.0.1 on port 53737 id=#39366672
+[05/12/21 18:40:13]: -----------------------------------------------
+[05/12/21 18:40:13]: Logger started
+[05/12/21 18:40:17]: <0x0003> CPU board: TEKNOR ?Mhz; ?Mb RAM; ?Mb disk; bios: ?; fpga: ?; ataIde: ?
+[05/12/21 18:40:17]: <0x0003> Cycle time set to 0.004s
+[05/12/21 18:40:17]: <0x0003> Simulation cycle time set to 0.1s
+[05/12/21 18:40:17]: <0x0002> Controller IP address could not be updated
+[05/12/21 18:40:17]: <0x0003> Mcp = TSimulated
+[05/12/21 18:40:17]: <0x0002> Default user payload used.
+[05/12/21 18:40:17]: <0x0003> Payload default: mass=100 kg, gravity center: x=0 y=0 z=181 mm, diag inertia: xx=6.4224 yy=6.4224 zz=6.1754 kg.m^2
+[05/12/21 18:40:17]: <0x340A> Mcp communication established
+[05/12/21 18:40:17]: <0x2401> Power hour count = 41:46:13
+[05/12/21 18:40:17]: <0x2401> Mac Address = c0-3e-ba-66-a9-42
+[05/12/21 18:40:17]: <0x2402> COM-PC: server created on all interfaces [5660]
+[05/12/21 18:40:17]: <0x2401> System: s7.7.1 Sep 10 2014
+[05/12/21 18:40:17]: <0x2401> Configuration Version: c1.026 
+[05/12/21 18:40:17]: <0x2401> CPU: TEKNOR 
+[05/12/21 18:40:17]: <0x2401> Option alter: enabled 
+[05/12/21 18:40:17]: <0x2401> Option VAL 3: enabled 
+[05/12/21 18:40:17]: <0x2401> Machine Number: ? 
+[05/12/21 18:40:17]: <0x2401> Arm: tx200-S3-R3 floor
+[05/12/21 18:40:17]: <0x2401> Arm serial number: ? 
+[05/12/21 18:40:17]: <0x2401> Robot name:  
+[05/12/21 18:40:17]: <0x2401> EP: s7.7 Jul 23 2014
+[05/12/21 18:40:17]: <0x2401> SCA: s7.7 Jul 23 2014
+[05/12/21 18:40:17]: <0x2201> New profile : default
+[05/12/21 18:40:17]: <0x2401> End of controller initialization
+[05/12/21 18:40:17]: <0x1801> Working mode:automatic.
+[05/12/21 18:40:18]: <0x1602> End of arm power shutdown phase.
+[05/12/21 18:40:19]: <0x2402> COM-PC: create session 127.0.0.1 on port 53758 id=#53641224
+[05/12/21 18:40:21]: <0x5A03> Deadman validated
+[05/12/21 18:40:21]: <0x1603> Settling arm power...
+[05/12/21 18:40:21]: <0x1601> Arm power settled.
+[05/12/21 18:40:27]: <0x2402> COM-PC: create session 127.0.0.1 on port 53764 id=#53642368
+[05/12/21 18:40:27]: <0x2401> COM-PC: start WCF Client on '127.0.0.1:5660'
+[05/12/21 18:40:27]: <0x2402> COM-CLIENT: Connected to http://127.0.0.1:5656
+[05/12/21 18:40:27]: <0x5402> sad_proj_sin application started
+[05/12/21 18:40:27]: <0x2402> COM-PC: destroy session 127.0.0.1 on port 53764 id=#53642368
+[05/12/21 18:40:28]: <0x1604> Arm power shutdown...
+[05/12/21 18:40:29]: <0x1602> End of arm power shutdown phase.
+[05/12/21 18:40:29]: <0x2402> COM-PC: destroy session 127.0.0.1 on port 53758 id=#53641224
+[05/12/21 18:40:32]: <0x2401> Saving controller context...
+[05/12/21 18:40:32]: <0x2402> Controller temperature: 28°C
+[05/12/21 18:40:32]: <0x2402> CPU temperature: 28°C
+[05/12/21 18:40:33]: <0x2402> COM-PC: create session 127.0.0.1 on port 53772 id=#53641848
+[05/12/21 18:40:35]: <0x5A02> Deadman disabled.
+[05/12/21 18:40:35]: <0x5A03> Deadman validated
+[05/12/21 18:40:37]: <0x2401> Saving controller context...
+[05/12/21 18:40:48]: <0x5A02> Deadman disabled.
+[05/12/21 18:40:48]: <0x5A03> Deadman validated
+[05/12/21 18:40:48]: <0x1603> Settling arm power...
+[05/12/21 18:40:49]: <0x1601> Arm power settled.
+[05/12/21 18:41:03]: <0x5A01> Deadman enabled.
+[05/12/21 18:41:54]: <0x5404> ERR 162 Point not linked to a reference frame. See VAL3 reference manual.. sad_proj_sin~. 
+[05/12/21 18:51:03]: <0x2402> COM-PC: create session 127.0.0.1 on port 54079 id=#53640184
+[05/12/21 18:51:03]: <0x2401> COM-PC: start WCF Client on '127.0.0.1:5660'
+[05/12/21 18:51:03]: <0x2402> COM-CLIENT: Connected to http://127.0.0.1:5656
+[05/12/21 18:51:04]: <0x5403> sad_proj_sin application stopped
+[05/12/21 18:51:04]: <0x1604> Arm power shutdown...
+[05/12/21 18:51:05]: <0x1602> End of arm power shutdown phase.
+[05/12/21 18:51:06]: <0x5402> sad_proj_sin application started
+[05/12/21 18:51:06]: <0x2402> COM-PC: destroy session 127.0.0.1 on port 54079 id=#53640184
+[05/12/21 18:51:06]: <0x5A02> Deadman disabled.
+[05/12/21 18:51:07]: <0x5A03> Deadman validated
+[05/12/21 18:51:07]: <0x1603> Settling arm power...
+[05/12/21 18:51:07]: <0x1601> Arm power settled.
+[05/12/21 18:51:18]: <0x1604> Arm power shutdown...
+[05/12/21 18:51:19]: <0x1602> End of arm power shutdown phase.
+[05/12/21 18:51:19]: <0x5403> sad_proj_sin application stopped
+[05/12/21 18:51:22]: <0x5A01> Deadman enabled.
+[05/12/21 18:51:22]: <0x2401> Saving controller context...
+[05/12/21 18:53:43]: <0x2402> COM-PC: create session 127.0.0.1 on port 54183 id=#53642576
+[05/12/21 18:53:43]: <0x2401> COM-PC: start WCF Client on '127.0.0.1:5660'
+[05/12/21 18:53:43]: <0x2402> COM-CLIENT: Connected to http://127.0.0.1:5656
+[05/12/21 18:53:45]: <0x5402> sad_proj_sin application started
+[05/12/21 18:53:45]: <0x2402> COM-PC: destroy session 127.0.0.1 on port 54183 id=#53642576
+[05/12/21 18:53:47]: <0x5A02> Deadman disabled.
+[05/12/21 18:53:47]: <0x5A03> Deadman validated
+[05/12/21 18:53:47]: <0x1603> Settling arm power...
+[05/12/21 18:53:47]: <0x1601> Arm power settled.
+[05/12/21 18:54:02]: <0x5A01> Deadman enabled.
+[05/12/21 18:58:01]: <0x1604> Arm power shutdown...
+[05/12/21 18:58:02]: <0x1602> End of arm power shutdown phase.
+[05/12/21 18:58:02]: <0x5403> sad_proj_sin application stopped
+[05/12/21 18:58:03]: <0x2401> Saving controller context...
+[05/12/21 18:59:46]: <0x2402> COM-PC: create session 127.0.0.1 on port 54353 id=#53640184
+[05/12/21 18:59:46]: <0x2401> COM-PC: start WCF Client on '127.0.0.1:5660'
+[05/12/21 18:59:46]: <0x2402> COM-CLIENT: Connected to http://127.0.0.1:5656
+[05/12/21 18:59:48]: <0x5402> sad_proj_sin application started
+[05/12/21 18:59:49]: <0x2402> COM-PC: destroy session 127.0.0.1 on port 54353 id=#53640184
+[05/12/21 18:59:50]: <0x5A02> Deadman disabled.
+[05/12/21 18:59:50]: <0x5A03> Deadman validated
+[05/12/21 18:59:50]: <0x1603> Settling arm power...
+[05/12/21 18:59:51]: <0x1601> Arm power settled.
+[05/12/21 18:59:53]: <0x1604> Arm power shutdown...
+[05/12/21 18:59:54]: <0x1602> End of arm power shutdown phase.
+[05/12/21 18:59:54]: <0x5403> sad_proj_sin application stopped
+[05/12/21 18:59:56]: <0x2401> Saving controller context...
+[05/12/21 19:00:05]: <0x5A01> Deadman enabled.
+[05/12/21 19:06:56]: <0x2402> COM-PC: create session 127.0.0.1 on port 54608 id=#53642160
+[05/12/21 19:06:56]: <0x2401> COM-PC: start WCF Client on '127.0.0.1:5660'
+[05/12/21 19:06:56]: <0x2402> COM-CLIENT: Connected to http://127.0.0.1:5656
+[05/12/21 19:06:58]: <0x5402> sad_proj_sin application started
+[05/12/21 19:06:59]: <0x2402> COM-PC: destroy session 127.0.0.1 on port 54608 id=#53642160
+[05/12/21 19:07:00]: <0x5A02> Deadman disabled.
+[05/12/21 19:07:01]: <0x5A03> Deadman validated
+[05/12/21 19:07:01]: <0x1603> Settling arm power...
+[05/12/21 19:07:01]: <0x1601> Arm power settled.
+[05/12/21 19:07:16]: <0x5A01> Deadman enabled.
+[05/12/21 19:09:58]: <0x1604> Arm power shutdown...
+[05/12/21 19:09:59]: <0x1602> End of arm power shutdown phase.
+[05/12/21 19:09:59]: <0x5403> sad_proj_sin application stopped
+[05/12/21 19:10:01]: <0x2402> COM-PC: create session 127.0.0.1 on port 54686 id=#53640184
+[05/12/21 19:10:01]: <0x2401> COM-PC: start WCF Client on '127.0.0.1:5660'
+[05/12/21 19:10:01]: <0x2402> COM-CLIENT: Connected to http://127.0.0.1:5656
+[05/12/21 19:10:03]: <0x5402> sad_proj_sin application started
+[05/12/21 19:10:03]: <0x2402> COM-PC: destroy session 127.0.0.1 on port 54686 id=#53640184
+[05/12/21 19:10:06]: <0x2401> Saving controller context...
+[05/12/21 19:10:07]: <0x5A02> Deadman disabled.
+[05/12/21 19:10:07]: <0x5A03> Deadman validated
+[05/12/21 19:10:07]: <0x1603> Settling arm power...
+[05/12/21 19:10:08]: <0x1601> Arm power settled.
+[05/12/21 19:10:22]: <0x5A01> Deadman enabled.
+[05/12/21 19:19:31]: <0x1604> Arm power shutdown...
+[05/12/21 19:19:32]: <0x1602> End of arm power shutdown phase.
+[05/12/21 19:19:32]: <0x5403> sad_proj_sin application stopped
+[05/12/21 19:19:35]: <0x2402> COM-PC: create session 127.0.0.1 on port 54965 id=#53641952
+[05/12/21 19:19:35]: <0x2401> COM-PC: start WCF Client on '127.0.0.1:5660'
+[05/12/21 19:19:35]: <0x2402> COM-CLIENT: Connected to http://127.0.0.1:5656
+[05/12/21 19:19:36]: <0x2401> Saving controller context...
+[05/12/21 19:19:37]: <0x5402> sad_proj_sin application started
+[05/12/21 19:19:37]: <0x2201> New profile : Manual
+[05/12/21 19:19:37]: <0x2402> COM-PC: destroy session 127.0.0.1 on port 54965 id=#53641952
+[05/12/21 19:19:40]: <0x4001> Arm power enable request refused: cabinet working mode is remote or invalid.
+[05/12/21 19:19:45]: <0x5A02> Deadman disabled.
+[05/12/21 19:19:45]: <0x5A03> Deadman validated
+[05/12/21 19:19:46]: <0x1603> Settling arm power...
+[05/12/21 19:19:46]: <0x1601> Arm power settled.
+[05/12/21 19:20:00]: <0x5A01> Deadman enabled.
+[05/12/21 19:20:39]: <0x2201> New profile : Automatic
+[05/12/21 19:21:14]: <0x1604> Arm power shutdown...
+[05/12/21 19:21:15]: <0x1602> End of arm power shutdown phase.
+[05/12/21 19:21:15]: <0x5403> sad_proj_sin application stopped
+[05/12/21 19:21:17]: <0x2402> COM-PC: create session 127.0.0.1 on port 55021 id=#53641640
+[05/12/21 19:21:17]: <0x2401> COM-PC: start WCF Client on '127.0.0.1:5660'
+[05/12/21 19:21:17]: <0x2402> COM-CLIENT: Connected to http://127.0.0.1:5656
+[05/12/21 19:21:18]: <0x2401> Saving controller context...
+[05/12/21 19:21:19]: <0x5402> sad_proj_sin application started
+[05/12/21 19:21:19]: <0x2201> New profile : Manual
+[05/12/21 19:21:19]: <0x2402> COM-PC: destroy session 127.0.0.1 on port 55021 id=#53641640
+[05/12/21 19:21:22]: <0x4001> Arm power enable request refused: cabinet working mode is remote or invalid.
+[05/12/21 19:21:28]: <0x5A02> Deadman disabled.
+[05/12/21 19:21:29]: <0x1802> Working mode:manual.
+[05/12/21 19:21:30]: <0x1804> Working mode:remote.
+[05/12/21 19:21:33]: <0x5A03> Deadman validated
+[05/12/21 19:21:33]: <0x4001> Arm power enable request refused: cabinet working mode is remote or invalid.
+[05/12/21 19:21:33]: <0x2401> Saving controller context...
+[05/12/21 19:21:37]: <0x2402> COM-PC: create session 127.0.0.1 on port 55021 id=#53642056
+[05/12/21 19:21:37]: <0x2401> COM-PC: start WCF Client on '127.0.0.1:5660'
+[05/12/21 19:21:37]: <0x2402> COM-CLIENT: Connected to http://127.0.0.1:5656
+[05/12/21 19:21:37]: <0x5403> sad_proj_sin application stopped
+[05/12/21 19:21:38]: <0x5402> sad_proj_sin application started
+[05/12/21 19:21:38]: <0x2201> New profile : Manual
+[05/12/21 19:21:38]: <0x2402> COM-PC: destroy session 127.0.0.1 on port 55021 id=#53642056
+[05/12/21 19:21:41]: <0x1603> Settling arm power...
+[05/12/21 19:21:42]: <0x1601> Arm power settled.
+[05/12/21 19:21:48]: <0x5A01> Deadman enabled.
+[05/12/21 19:22:39]: <0x2201> New profile : Automatic
+[05/12/21 19:23:00]: <0x1604> Arm power shutdown...
+[05/12/21 19:23:01]: <0x1602> End of arm power shutdown phase.
+[05/12/21 19:23:01]: <0x5403> sad_proj_sin application stopped
+[05/12/21 19:23:02]: <0x5A02> Deadman disabled.
+[05/12/21 19:23:03]: <0x5A03> Deadman validated
+[05/12/21 19:23:03]: <0x4001> Arm power enable request refused: cabinet working mode is remote or invalid.
+[05/12/21 19:23:06]: <0x2401> Saving controller context...
+[05/12/21 19:23:18]: <0x5A01> Deadman enabled.
+[05/12/21 19:43:57]: <0x2402> COM-PC: create session 127.0.0.1 on port 55695 id=#53642160
+[05/12/21 19:43:57]: <0x2401> COM-PC: start WCF Client on '127.0.0.1:5660'
+[05/12/21 19:43:57]: <0x2402> COM-CLIENT: Connected to http://127.0.0.1:5656
+[05/12/21 19:43:58]: <0x5402> sad_proj_sin application started
+[05/12/21 19:43:58]: <0x2201> New profile : Manual
+[05/12/21 19:43:58]: <0x2402> COM-PC: destroy session 127.0.0.1 on port 55695 id=#53642160
+[05/12/21 19:44:01]: <0x1603> Settling arm power...
+[05/12/21 19:44:02]: <0x1601> Arm power settled.
+[05/12/21 19:44:57]: <0x2201> New profile : Automatic
+[05/12/21 19:46:23]: <0x2402> COM-PC: create session 127.0.0.1 on port 55771 id=#53640288
+[05/12/21 19:46:23]: <0x2401> COM-PC: start WCF Client on '127.0.0.1:5660'
+[05/12/21 19:46:23]: <0x2402> COM-CLIENT: Connected to http://127.0.0.1:5656
+[05/12/21 19:46:23]: <0x5403> sad_proj_sin application stopped
+[05/12/21 19:46:24]: <0x1604> Arm power shutdown...
+[05/12/21 19:46:24]: <0x5402> sad_proj_sin application started
+[05/12/21 19:46:24]: <0x2402> COM-PC: destroy session 127.0.0.1 on port 55771 id=#53640288
+[05/12/21 19:46:25]: <0x1602> End of arm power shutdown phase.
+[05/12/21 19:46:25]: <0x5403> sad_proj_sin application stopped
+[05/12/21 19:46:27]: <0x2401> Saving controller context...
+[05/12/21 19:46:38]: <0x2402> COM-PC: create session 127.0.0.1 on port 55790 id=#53640496
+[05/12/21 19:46:38]: <0x2401> COM-PC: start WCF Client on '127.0.0.1:5660'
+[05/12/21 19:46:38]: <0x2402> COM-CLIENT: Connected to http://127.0.0.1:5656
+[05/12/21 19:46:38]: <0x5402> sad_proj_sin application started
+[05/12/21 19:46:38]: <0x2201> New profile : Manual
+[05/12/21 19:46:39]: <0x2402> COM-PC: destroy session 127.0.0.1 on port 55790 id=#53640496
+[05/12/21 19:46:42]: <0x1603> Settling arm power...
+[05/12/21 19:46:42]: <0x1601> Arm power settled.
+[05/12/21 19:47:27]: <0x2201> New profile : Automatic
+[05/12/21 19:47:53]: <0x2201> New profile : Manual
+[05/12/21 19:48:16]: <0x2201> New profile : Automatic
+[05/12/21 19:48:42]: <0x2201> New profile : Manual
+[05/12/21 19:49:04]: <0x2201> New profile : Automatic
+[05/12/21 19:49:30]: <0x2201> New profile : Manual
+[05/12/21 19:49:53]: <0x2201> New profile : Automatic
+[05/12/21 19:50:19]: <0x2201> New profile : Manual
+[05/12/21 19:50:36]: <0x1604> Arm power shutdown...
+[05/12/21 19:50:37]: <0x1602> End of arm power shutdown phase.
+[05/12/21 19:50:40]: <0x2401> Saving controller context...
+[05/12/21 19:58:37]: <0x2402> COM-PC: create session 127.0.0.1 on port 55881 id=#53640912
+[05/12/21 19:58:37]: <0x2401> COM-PC: start WCF Client on '127.0.0.1:5660'
+[05/12/21 19:58:37]: <0x2402> COM-CLIENT: Connected to http://127.0.0.1:5656
+[05/12/21 19:58:37]: <0x5403> sad_proj_sin application stopped
+[05/12/21 19:58:38]: <0x5402> sad_proj_sin application started
+[05/12/21 19:58:38]: <0x2201> New profile : Manual
+[05/12/21 19:58:38]: <0x2402> COM-PC: destroy session 127.0.0.1 on port 55881 id=#53640912
+[05/12/21 19:58:41]: <0x1603> Settling arm power...
+[05/12/21 19:58:41]: <0x1601> Arm power settled.

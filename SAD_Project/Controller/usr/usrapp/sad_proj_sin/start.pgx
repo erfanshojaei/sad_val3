@@ -1,7 +1,9 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Programs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.staubli.com/robotics/VAL3/Program/2">
-  <Program name="start">
-    <Code><![CDATA[begin
+  <Program name="start" access="public">
+    <Code><![CDATA[
+begin
+  
   disablePower()
   cls()
   userPage()
@@ -27,7 +29,9 @@
   taskCreate "DataDisplay",40,show_data()
   taskCreate "DataSending",50,send_data() 
     
-  //////////////////////////////////////////
+  
+  /////////////////////////////////////
+  
   // Go to configuration
   spd_cntl = false
   resetMotion()
@@ -38,15 +42,20 @@
   // Go to Start point - 1st Layer
   spd_cntl = false
   setMonitorSpeed(10)
-  movel(Pnt_1st_lyr[0],tTool[0],mNomSpeed[0])
+  movej(jJoint[0],tTool[0],cnst_vel[0])
+  movel(pPoint[0],tTool[0],cnst_vel[0])
+  movel(pPoint[1],tTool[0],cnst_vel[0])
   waitEndMove()
-     
+  
+  
   // Printing - 1st Layer
   setProfile("Automatic","123")
   spd_cntl = true
-  resetMotion()
-  movel(Pnt_1st_lyr[1],tTool[0],mNomSpeed[0])
-  waitEndMove()
+  resetMotion()  
+  for kk = 2 to 1519 step 1
+    movel(pPoint[kk],tTool[0],mNomSpeed[0])
+    waitEndMove()
+  endFor
   
   
   resetMotion()
@@ -55,59 +64,67 @@
   spd_cntl = false
   resetMotion()
   setMonitorSpeed(100)
-  movel(Pnt_2nd_lyr[0],tTool[0],cnst_vel[0])
-  waitEndMove()
-  movel(Pnt_2nd_lyr[1],tTool[0],cnst_vel[0])
-  waitEndMove()
-  movel(Pnt_2nd_lyr[2],tTool[0],cnst_vel[0])
+  movel(pPoint[1520],tTool[0],cnst_vel[0])
+  movel(pPoint[1521],tTool[0],cnst_vel[0])
+  movel(pPoint[1522],tTool[0],cnst_vel[0])
+  movel(pPoint[1523],tTool[0],cnst_vel[0])
   waitEndMove()
   
   // Printing - 2nd Layer
   setProfile("Automatic","123")
   spd_cntl = true
-  resetMotion()
-  movel(Pnt_2nd_lyr[3],tTool[0],mNomSpeed[0])
-  waitEndMove()
+  resetMotion()  
+  for kk = 1524 to 3041 step 1
+    movel(pPoint[kk],tTool[0],mNomSpeed[0])
+    waitEndMove()
+  endFor
   
-  // Go to Start point - 3rd Layer
+     
+  resetMotion()
   setProfile("Manual","123")
+  // Go to Start point - 3rd Layer
   spd_cntl = false
   resetMotion()
   setMonitorSpeed(100)
-  movel(Pnt_3rd_lyr[0],tTool[0],cnst_vel[0])
+  movel(pPoint[3042],tTool[0],cnst_vel[0])
+  movel(pPoint[3042],tTool[0],cnst_vel[0])
+  movel(pPoint[3043],tTool[0],cnst_vel[0])
+  movel(pPoint[3044],tTool[0],cnst_vel[0])
+  movel(pPoint[3045],tTool[0],cnst_vel[0])
   waitEndMove()
-  movel(Pnt_3rd_lyr[1],tTool[0],cnst_vel[0])
-  waitEndMove()
-  movel(Pnt_3rd_lyr[2],tTool[0],cnst_vel[0])
-  waitEndMove()
+  
   
   // Printing - 3rd Layer
   setProfile("Automatic","123")
   spd_cntl = true
+  resetMotion()  
+  for kk = 3046 to 4563 step 1
+    movel(pPoint[kk],tTool[0],mNomSpeed[0])
+    waitEndMove()
+  endFor
+  
+  
   resetMotion()
-  movel(Pnt_3rd_lyr[3],tTool[0],mNomSpeed[0])
-  waitEndMove()  
-  
-  
-  // Go to Start point - 4th Layer
   setProfile("Manual","123")
+  // Go to Start point - 4th Layer
   spd_cntl = false
   resetMotion()
   setMonitorSpeed(100)
-  movel(Pnt_4th_lyr[0],tTool[0],cnst_vel[0])
-  waitEndMove()
-  movel(Pnt_4th_lyr[1],tTool[0],cnst_vel[0])
-  waitEndMove()
-  movel(Pnt_4th_lyr[2],tTool[0],cnst_vel[0])
+  movel(pPoint[4564],tTool[0],cnst_vel[0])
+  movel(pPoint[4565],tTool[0],cnst_vel[0])
+  movel(pPoint[4566],tTool[0],cnst_vel[0])
+  movel(pPoint[4567],tTool[0],cnst_vel[0])
   waitEndMove()
   
   
   // Printing - 4th Layer
   setProfile("Automatic","123")
   spd_cntl = true
-  resetMotion()
-  movel(Pnt_4th_lyr[3],tTool[0],mNomSpeed[0])
-  waitEndMove() 
+  resetMotion()  
+  for kk = 4568 to 6085 step 1
+    movel(pPoint[kk],tTool[0],mNomSpeed[0])
+    waitEndMove()
+  endFor
   
   ///////////////////////////
   cls()
@@ -130,9 +147,12 @@
   disablePower()
   
   
-  ///////////////////////////////////////////
+  ///////////////////////////////////////////  
+
   
   
-end]]></Code>
+  
+end
+      ]]></Code>
   </Program>
 </Programs>
