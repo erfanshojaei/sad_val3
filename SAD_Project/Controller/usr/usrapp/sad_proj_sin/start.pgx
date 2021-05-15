@@ -7,7 +7,7 @@ begin
   disablePower()
   cls()
   userPage()
-  title(" Concrete 3D Printer-Linear Path ") 
+  title(" Concrete 3D Printer-Sine Path ") 
   putln("Written by Erfan.")
   setProfile("Manual","123")
   if getProfile() == "Manual"
