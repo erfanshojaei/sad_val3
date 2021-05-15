@@ -18,14 +18,14 @@
   endIf
   putln("Arm power is now switched on.")
   delay(5)
-  taskCreate "SocketOpening",10,open_socket()
-  taskCreate "CheckComnunic",20,check_cmt()
-  wait(check_status == true)
-  delay(2)
-  taskCreate "DataReading",40,read_data()
-  taskCreate "MotionControl",40,motion_cntl()
-  taskCreate "DataDisplay",40,show_data()
-  taskCreate "DataSending",50,send_data() 
+  //taskCreate "SocketOpening",10,open_socket()
+  //taskCreate "CheckComnunic",20,check_cmt()
+  //wait(check_status == true)
+  //delay(2)
+  //taskCreate "DataReading",40,read_data()
+  //taskCreate "MotionControl",40,motion_cntl()
+  //taskCreate "DataDisplay",40,show_data()
+  //taskCreate "DataSending",50,send_data() 
     
   //////////////////////////////////////////
   // Go to configuration

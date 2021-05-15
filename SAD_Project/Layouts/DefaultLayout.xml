@@ -8,7 +8,7 @@
 						<UIElement xsi:type="Workspace" AutoHideSize="1198,395" DockedSize="1198,395" DocumentSize="1103.43847754905,599" FloatingSize="1198,395" Size="1103.43847754905,599">
 							<Content xsi:type="TabbedMdiHost">
 								<Content xsi:type="SplitContainer" AutoHideSize="1103.43847754905,599" DockedSize="1103.43847754905,599" DocumentSize="1103.43847754905,599" FloatingSize="1103.43847754905,599" Size="1103.43847754905,599" Orientation="Horizontal">
-									<UIElement xsi:type="TabbedMdiContainer" AutoHideSize="1103.43847754905,599" DockedSize="1103.43847754905,599" DocumentSize="1103.43847754905,599" FloatingSize="1103.43847754905,599" Size="1103.43847754905,599" SelectedWindowUniqueId="a10a642e-7d8b-4b71-96f3-667f6c579207" />
+									<UIElement xsi:type="TabbedMdiContainer" AutoHideSize="1103.43847754905,599" DockedSize="1103.43847754905,599" DocumentSize="1103.43847754905,599" FloatingSize="1103.43847754905,599" Size="1103.43847754905,599" SelectedWindowUniqueId="a44779f6-0d65-44b3-9617-d07c1eab410b" />
 								</Content>
 							</Content>
 						</UIElement>

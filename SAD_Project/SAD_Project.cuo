@@ -17,14 +17,16 @@
     <Nodes>
       <Node Path="SAD_Project" IsExpanded="true" />
       <Node Path="SAD_Project\Controller" IsExpanded="true" />
-      <Node Path="SAD_Project\Controller\sad_proj_sin\frame" IsExpanded="true" />
+      <Node Path="SAD_Project\Controller\sad_proj_sin" IsExpanded="true" />
+      <Node Path="SAD_Project\Controller\sad_proj_sin\bool" IsExpanded="true" />
       <Node Path="SAD_Project\Controller\sad_proj_sin\jointRx" IsExpanded="true" />
       <Node Path="SAD_Project\Controller\sad_proj_sin\mdesc" IsExpanded="true" />
       <Node Path="SAD_Project\Controller\sad_proj_sin\num" IsExpanded="true" />
       <Node Path="SAD_Project\Controller\sad_proj_sin\pointRx" IsExpanded="true" />
+      <Node Path="SAD_Project\Controller\sad_proj_sin\sio" IsExpanded="true" />
       <Node Path="SAD_Project\Controller\sad_project_1" IsExpanded="true" />
-      <Node Path="SAD_Project\Controller\sad_project_1\mdesc" IsExpanded="true" />
-      <Node Path="SAD_Project\Controller\sad_project_1\mdesc\mNomSpeed" IsExpanded="true" />
+      <Node Path="SAD_Project\Controller\sad_project_1\bool" IsExpanded="true" />
+      <Node Path="SAD_Project\Controller\sad_project_1\sio" IsExpanded="true" />
     </Nodes>
   </Option>
   <Option Name="CellExplorer">
@@ -32,7 +34,6 @@
       <Node Path="SAD_Project" IsExpanded="true" />
       <Node Path="SAD_Project\Controller" IsExpanded="true" />
       <Node Path="SAD_Project\Controller\sad_proj_sin" IsExpanded="true" />
-      <Node Path="SAD_Project\Controller\sad_project_1" IsExpanded="true" />
     </Nodes>
   </Option>
   <Option Name="GeometryView">
@@ -40,9 +41,13 @@
       <Node Path="SAD_Project" IsExpanded="true" />
       <Node Path="SAD_Project\Controller" IsExpanded="true" />
       <Node Path="SAD_Project\Controller\sad_proj_sin" IsExpanded="true" />
-      <Node Path="SAD_Project\Controller\sad_project_1" IsExpanded="true" />
+      <Node Path="SAD_Project\Controller\sad_proj_sin\world[0]" IsExpanded="true" />
+      <Node Path="SAD_Project\Controller\sad_proj_sin\world[0]\fReference" IsExpanded="true" />
+      <Node Path="SAD_Project\Controller\sad_proj_sin\world[0]\fReference\fReference[0]" IsExpanded="true" />
       <Node Path="SAD_Project\Controller\sad_project_1\world[0]" IsExpanded="true" />
       <Node Path="SAD_Project\Controller\sad_project_1\world[0]\fReference" IsExpanded="true" />
+      <Node Path="SAD_Project\Controller\sad_project_1\world[0]\fReference\fReference[0]" IsExpanded="true" />
+      <Node Path="SAD_Project\Controller\sad_project_1\jointRx" IsExpanded="true" />
       <Node Path="SAD_Project\Controller\sad_project_cal\world[0]" IsExpanded="true" />
       <Node Path="SAD_Project\Controller\sad_project_cal\world[0]\fReference" IsExpanded="true" />
       <Node Path="SAD_Project\Controller\sad_project_cal\world[0]\fReference\fReference[0]" IsExpanded="true" />
