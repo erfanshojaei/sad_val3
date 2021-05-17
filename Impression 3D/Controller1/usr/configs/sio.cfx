@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<sio>
+  <socketSrv>
+    <String name="name" value="trsf_sv" />
+    <String name="desc" value="" />
+    <Uint name="portNumber" value="1002" />
+    <Int name="endOfString" value="13" />
+    <Float name="timeOut" value="15" />
+    <Bool name="nagle" value="true" />
+  </socketSrv>
+</sio>

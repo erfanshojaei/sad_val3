@@ -1,0 +1,87 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Database xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.staubli.com/robotics/VAL3/Data/2">
+  <Datas>
+    <Data name="fReference" access="public" xsi:type="array" type="frame" size="1">
+      <Value key="0" x="1300" y="217.412" z="-659.53" rz="90" fatherId="world[0]" />
+    </Data>
+    <Data name="jPark" access="public" xsi:type="array" type="jointRx" size="1">
+      <Value key="0" j3="90" j5="90" />
+    </Data>
+    <Data name="jJoint" access="public" xsi:type="array" type="jointRx" size="1">
+      <Value key="0" j1="0.76736" j2="38.58214" j3="106.5226" j5="34.89526" j6="90.76736" />
+    </Data>
+    <Data name="mNomSpeed" access="public" xsi:type="array" type="mdesc" size="1">
+      <Value key="0" blend="off" />
+    </Data>
+    <Data name="mSpeed" access="public" xsi:type="array" type="mdesc" size="12">
+      <Value key="0" tmax="30" rmax="100" leave="0.1" reach="0.1" blend="cartesian" />
+      <Value key="1" tmax="30" rmax="100" leave="0.1" reach="0.1" blend="cartesian" />
+      <Value key="2" tmax="30" rmax="100" leave="0.1" reach="0.1" blend="cartesian" />
+      <Value key="3" tmax="30" rmax="100" leave="0.1" reach="0.1" blend="cartesian" />
+      <Value key="4" tmax="30" rmax="100" leave="0.1" reach="0.1" blend="cartesian" />
+      <Value key="5" tmax="30" rmax="100" leave="0.1" reach="0.1" blend="cartesian" />
+      <Value key="6" tmax="30" rmax="100" leave="0.1" reach="0.1" blend="cartesian" />
+      <Value key="7" tmax="30" rmax="100" leave="0.1" reach="0.1" blend="cartesian" />
+      <Value key="8" tmax="30" rmax="100" leave="0.1" reach="0.1" blend="cartesian" />
+      <Value key="9" tmax="30" rmax="100" leave="0.1" reach="0.1" blend="cartesian" />
+      <Value key="10" tmax="30" rmax="100" leave="0.1" reach="0.1" blend="cartesian" />
+      <Value key="11" tmax="30" rmax="100" leave="0.1" reach="0.1" blend="cartesian" />
+    </Data>
+    <Data name="nTraj" access="public" xsi:type="array" type="num" size="1" />
+    <Data name="nTimeStop" access="private" xsi:type="array" type="num" size="1" />
+    <Data name="nTimeStart" access="private" xsi:type="array" type="num" size="1" />
+    <Data name="nMode" access="private" xsi:type="array" type="num" size="1" />
+    <Data name="nEtat" access="private" xsi:type="array" type="num" size="1" />
+    <Data name="pPoint" access="public" xsi:type="array" type="pointRx" size="40">
+      <Value key="0" x="-200" z="100" rx="-180" shoulder="lefty" elbow="epositive" wrist="wpositive" fatherId="fReference[0]" />
+      <Value key="1" x="-200" rx="180" shoulder="lefty" elbow="epositive" wrist="wpositive" fatherId="fReference[0]" />
+      <Value key="2" x="-200" rx="180" shoulder="lefty" elbow="epositive" wrist="wpositive" fatherId="fReference[0]" />
+      <Value key="3" x="-120" rx="-180" shoulder="lefty" elbow="epositive" wrist="wpositive" fatherId="fReference[0]" />
+      <Value key="4" x="-40" rx="180" shoulder="lefty" elbow="epositive" wrist="wpositive" fatherId="fReference[0]" />
+      <Value key="5" x="40" rx="180" shoulder="lefty" elbow="epositive" wrist="wpositive" fatherId="fReference[0]" />
+      <Value key="6" x="120" rx="-180" shoulder="lefty" elbow="epositive" wrist="wpositive" fatherId="fReference[0]" />
+      <Value key="7" x="200" rx="180" shoulder="lefty" elbow="epositive" wrist="wpositive" fatherId="fReference[0]" />
+      <Value key="8" x="200" rx="180" shoulder="lefty" elbow="epositive" wrist="wpositive" fatherId="fReference[0]" />
+      <Value key="9" x="200" z="100" rx="-180" rz="-179.277" shoulder="lefty" elbow="epositive" wrist="wpositive" fatherId="fReference[0]" />
+      <Value key="10" y="-22" z="100" rx="-180" rz="173.723" shoulder="lefty" elbow="epositive" wrist="wpositive" fatherId="fReference[0]" />
+      <Value key="11" y="-22" rx="180" rz="173.723" shoulder="lefty" elbow="epositive" wrist="wpositive" fatherId="fReference[0]" />
+      <Value key="12" y="-22" rx="-180" rz="90" shoulder="lefty" elbow="epositive" wrist="wpositive" fatherId="fReference[0]" />
+      <Value key="13" y="-102" rx="-180" rz="90" shoulder="lefty" elbow="epositive" wrist="wpositive" fatherId="fReference[0]" />
+      <Value key="14" y="-182" rx="-180" rz="90" shoulder="lefty" elbow="epositive" wrist="wpositive" fatherId="fReference[0]" />
+      <Value key="15" y="-262" rx="-180" rz="90" shoulder="lefty" elbow="epositive" wrist="wpositive" fatherId="fReference[0]" />
+      <Value key="16" y="-342" rx="-180" rz="90" shoulder="lefty" elbow="epositive" wrist="wpositive" fatherId="fReference[0]" />
+      <Value key="17" y="-422" rx="-180" rz="90" shoulder="lefty" elbow="epositive" wrist="wpositive" fatherId="fReference[0]" />
+      <Value key="18" y="-422" rx="-180" rz="90" shoulder="lefty" elbow="epositive" wrist="wpositive" fatherId="fReference[0]" />
+      <Value key="19" y="-422" z="100" rx="-180" rz="90" shoulder="lefty" elbow="epositive" wrist="wpositive" fatherId="fReference[0]" />
+      <Value key="20" y="-422" z="122" rx="-180" rz="90" shoulder="lefty" elbow="epositive" wrist="wpositive" fatherId="fReference[0]" />
+      <Value key="21" y="-422" z="22" rx="-180" rz="90" shoulder="lefty" elbow="epositive" wrist="wpositive" fatherId="fReference[0]" />
+      <Value key="22" y="-422" z="22" rx="180" rz="-90" shoulder="lefty" elbow="epositive" wrist="wpositive" fatherId="fReference[0]" />
+      <Value key="23" y="-342" z="22" rx="180" rz="-90" shoulder="lefty" elbow="epositive" wrist="wpositive" fatherId="fReference[0]" />
+      <Value key="24" y="-262" z="22" rx="180" rz="-90" shoulder="lefty" elbow="epositive" wrist="wpositive" fatherId="fReference[0]" />
+      <Value key="25" y="-182" z="22" rx="180" rz="-90" shoulder="lefty" elbow="epositive" wrist="wpositive" fatherId="fReference[0]" />
+      <Value key="26" y="-102" z="22" rx="180" rz="-90" shoulder="lefty" elbow="epositive" wrist="wpositive" fatherId="fReference[0]" />
+      <Value key="27" y="-22" z="22" rx="180" rz="-90" shoulder="lefty" elbow="epositive" wrist="wpositive" fatherId="fReference[0]" />
+      <Value key="28" y="-22" z="22" rx="180" rz="-90" shoulder="lefty" elbow="epositive" wrist="wpositive" fatherId="fReference[0]" />
+      <Value key="29" y="-22" z="122" rx="-180" rz="-173.723" shoulder="lefty" elbow="epositive" wrist="wpositive" fatherId="fReference[0]" />
+      <Value key="30" x="-200" z="122" rx="-180" rz="-173.723" shoulder="lefty" elbow="epositive" wrist="wpositive" fatherId="fReference[0]" />
+      <Value key="31" x="-200" z="22" rx="-180" rz="-173.723" shoulder="lefty" elbow="epositive" wrist="wpositive" fatherId="fReference[0]" />
+      <Value key="32" x="-200" z="22" rx="-180" shoulder="lefty" elbow="epositive" wrist="wpositive" fatherId="fReference[0]" />
+      <Value key="33" x="-120" z="22" rx="180" shoulder="lefty" elbow="epositive" wrist="wpositive" fatherId="fReference[0]" />
+      <Value key="34" x="-40" z="22" rx="-180" shoulder="lefty" elbow="epositive" wrist="wpositive" fatherId="fReference[0]" />
+      <Value key="35" x="40" z="22" rx="180" shoulder="lefty" elbow="epositive" wrist="wpositive" fatherId="fReference[0]" />
+      <Value key="36" x="120" z="22" rx="-180" shoulder="lefty" elbow="epositive" wrist="wpositive" fatherId="fReference[0]" />
+      <Value key="37" x="200" z="22" rx="-180" shoulder="lefty" elbow="epositive" wrist="wpositive" fatherId="fReference[0]" />
+      <Value key="38" x="200" z="22" rx="-180" shoulder="lefty" elbow="epositive" wrist="wpositive" fatherId="fReference[0]" />
+      <Value key="39" x="200" z="122" rx="180" shoulder="lefty" elbow="epositive" wrist="wpositive" fatherId="fReference[0]" />
+    </Data>
+    <Data name="tTool" access="public" xsi:type="array" type="tool" size="1">
+      <Value key="0" z="452" fatherId="flange[0]" ioLink="valve1" />
+    </Data>
+    <Data name="doValve1" access="private" xsi:type="array" type="dio" size="1">
+      <Value key="0" link="valve1" />
+    </Data>
+    <Data name="Tpompe" access="private" xsi:type="array" type="aio" size="1">
+      <Value key="0" link="CanIO\RemIO\remio0_QW" />
+    </Data>
+  </Datas>
+</Database>

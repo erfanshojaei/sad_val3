@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Database xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.staubli.com/robotics/VAL3/Data/2">
+  <Datas>
+    <Data name="cnst_vel" access="public" xsi:type="array" type="mdesc" size="1">
+      <Value key="0" tmax="100" rmax="100" leave="0.1" reach="0.1" blend="cartesian" />
+    </Data>
+    <Data name="fReference" access="public" xsi:type="array" type="frame" size="1">
+      <Value key="0" x="1365.054" y="-125.975" z="-500" fatherId="world[0]" />
+    </Data>
+    <Data name="Jnt_cnfg" access="public" xsi:type="array" type="jointRx" size="1">
+      <Value key="0" j3="90" j5="90" j6="90" />
+    </Data>
+    <Data name="tTool" access="public" xsi:type="array" type="tool" size="1">
+      <Value key="0" z="200" fatherId="flange[0]" ioLink="valve1" />
+    </Data>
+    <Data name="Pnt_1st_lyr" access="public" xsi:type="array" type="pointRx" size="1">
+      <Value key="0" rx="-180" rz="-90" shoulder="lefty" elbow="epositive" wrist="wpositive" fatherId="fReference[0]" />
+    </Data>
+  </Datas>
+</Database>
