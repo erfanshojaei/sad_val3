@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Programs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.staubli.com/robotics/VAL3/Program/2">
+  <Program name="start">
+    <Code><![CDATA[begin
+  disablePower()
+  cls()
+  userPage()
+  title(" Concrete 3D Printer-Calibration ") 
+  putln("Written by Erfan.")
+  setProfile("Manual","123")
+  if getProfile() == "Manual"
+    putln("Profile is set to Remote Control.")
+  endIf
+  delay(3)
+  enablePower()
+  
+  //////////////////////////////////////////
+  // Go to configuration
+  resetMotion()
+  setMonitorSpeed(10)
+  movej(Jnt_cnfg[0],tTool[0],cnst_vel[0])
+  waitEndMove()
+  
+  // Go to Calibration point
+  
+  movel(Pnt_1st_lyr[0],tTool[0],cnst_vel[0])
+  waitEndMove()
+  
+  putln("Robot reaches the calibration point.")
+  
+  resetMotion()
+  stopMove()
+  
+end]]></Code>
+  </Program>
+</Programs>

@@ -8,7 +8,7 @@
 						<UIElement xsi:type="Workspace" AutoHideSize="1198,395" DockedSize="1198,395" DocumentSize="1103.43847754905,599" FloatingSize="1198,395" Size="1103.43847754905,599">
 							<Content xsi:type="TabbedMdiHost">
 								<Content xsi:type="SplitContainer" AutoHideSize="1103.43847754905,599" DockedSize="1103.43847754905,599" DocumentSize="1103.43847754905,599" FloatingSize="1103.43847754905,599" Size="1103.43847754905,599" Orientation="Horizontal">
-									<UIElement xsi:type="TabbedMdiContainer" AutoHideSize="1103.43847754905,599" DockedSize="1103.43847754905,599" DocumentSize="1103.43847754905,599" FloatingSize="1103.43847754905,599" Size="1103.43847754905,599" SelectedWindowUniqueId="93d260e5-e870-426c-99c2-0005227f89a1" />
+									<UIElement xsi:type="TabbedMdiContainer" AutoHideSize="1103.43847754905,599" DockedSize="1103.43847754905,599" DocumentSize="1103.43847754905,599" FloatingSize="1103.43847754905,599" Size="1103.43847754905,599" SelectedWindowUniqueId="4e7a82b2-080d-4008-bfc3-8d6500f76c2d" />
 								</Content>
 							</Content>
 						</UIElement>
@@ -112,7 +112,7 @@
 				</UIElement>
 			</UIElement>
 			<UIElement xsi:type="SplitContainer" AutoHideSize="200,200" DockedSize="617.731125635527,862" DocumentSize="200,200" FloatingSize="200,200" Size="617.731125635527,862" Orientation="Vertical">
-				<UIElement xsi:type="ToolWindowContainer" AutoHideSize="200,200" DockedSize="617.731125635527,383.655383436182" DocumentSize="200,200" FloatingSize="200,200" Size="617.731125635527,383.655383436182" SelectedWindowUniqueId="06d03f51-3499-4aaf-8fcf-f5474d1ce325">
+				<UIElement xsi:type="ToolWindowContainer" AutoHideSize="200,200" DockedSize="617.731125635527,383.655383436182" DocumentSize="200,200" FloatingSize="200,200" Size="617.731125635527,383.655383436182" SelectedWindowUniqueId="1a5ef5f6-b295-4443-9b5d-5e50bcc004f8">
 					<UIElement xsi:type="ToolWindowRef" UniqueId="3dee95ba-ff20-4757-9457-68b527aaa48d" />
 					<UIElement xsi:type="ToolWindowRef" UniqueId="06d03f51-3499-4aaf-8fcf-f5474d1ce325" />
 					<UIElement xsi:type="ToolWindowRef" UniqueId="1a5ef5f6-b295-4443-9b5d-5e50bcc004f8" />

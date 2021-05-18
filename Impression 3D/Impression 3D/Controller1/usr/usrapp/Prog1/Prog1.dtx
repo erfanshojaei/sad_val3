@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Database xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.staubli.com/robotics/VAL3/Data/2">
+  <Datas>
+    <Data name="fReference" access="public" xsi:type="array" type="frame" size="1">
+      <Value key="0" fatherId="world[0]" />
+    </Data>
+    <Data name="jPark" access="public" xsi:type="array" type="jointRx" size="1">
+      <Value key="0" j3="90" j5="90" />
+    </Data>
+    <Data name="jJoint" access="public" xsi:type="array" type="jointRx" size="1" />
+    <Data name="mNomSpeed" access="public" xsi:type="array" type="mdesc" size="1">
+      <Value key="0" blend="off" />
+    </Data>
+    <Data name="mSpeed" access="public" xsi:type="array" type="mdesc" size="0" />
+    <Data name="nTraj" access="public" xsi:type="array" type="num" size="1" />
+    <Data name="nTimeStop" access="private" xsi:type="array" type="num" size="1" />
+    <Data name="nTimeStart" access="private" xsi:type="array" type="num" size="1" />
+    <Data name="nMode" access="private" xsi:type="array" type="num" size="1" />
+    <Data name="nEtat" access="private" xsi:type="array" type="num" size="1" />
+    <Data name="pPoint" access="public" xsi:type="array" type="pointRx" size="2">
+      <Value key="0" x="1374.251" y="-500" z="294.734" rx="158.451" ry="10.915" rz="133.958" shoulder="lefty" elbow="epositive" wrist="wpositive" fatherId="fReference[0]" />
+      <Value key="1" x="1374.251" y="500" z="294.734" rx="-168.326" ry="14.136" rz="131.26" shoulder="lefty" elbow="epositive" wrist="wpositive" fatherId="fReference[0]" />
+    </Data>
+    <Data name="tTool" access="public" xsi:type="array" type="tool" size="1">
+      <Value key="0" x="-55.6" y="-198.63" z="-982.79" fatherId="flange[0]" ioLink="valve1" />
+    </Data>
+  </Datas>
+</Database>

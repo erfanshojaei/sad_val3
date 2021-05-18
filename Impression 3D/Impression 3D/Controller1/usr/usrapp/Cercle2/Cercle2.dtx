@@ -1,0 +1,315 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Database xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.staubli.com/robotics/VAL3/Data/2">
+  <Datas>
+    <Data name="fReference" access="public" xsi:type="array" type="frame" size="1">
+      <Value key="0" x="1500" y="200" z="-689.53" rz="90" fatherId="world[0]" />
+    </Data>
+    <Data name="jPark" access="public" xsi:type="array" type="jointRx" size="1">
+      <Value key="0" j3="90" j5="90" />
+    </Data>
+    <Data name="jJoint" access="public" xsi:type="array" type="jointRx" size="1">
+      <Value key="0" j1="-0.42016" j2="47.67737" j3="89.12207" j5="43.20056" j6="178.21616" />
+    </Data>
+    <Data name="mNomSpeed" access="public" xsi:type="array" type="mdesc" size="1">
+      <Value key="0" blend="off" />
+    </Data>
+    <Data name="mSpeed" access="public" xsi:type="array" type="mdesc" size="6">
+      <Value key="0" tmax="30" rmax="100" leave="0.1" reach="0.1" blend="cartesian" />
+      <Value key="1" tmax="30" rmax="100" leave="0.1" reach="0.1" blend="cartesian" />
+      <Value key="2" tmax="30" rmax="100" leave="0.1" reach="0.1" blend="cartesian" />
+      <Value key="3" tmax="30" rmax="100" leave="0.1" reach="0.1" blend="cartesian" />
+      <Value key="4" tmax="30" rmax="100" leave="0.1" reach="0.1" blend="cartesian" />
+      <Value key="5" tmax="30" rmax="100" leave="0.1" reach="0.1" blend="cartesian" />
+    </Data>
+    <Data name="nTraj" access="public" xsi:type="array" type="num" size="1" />
+    <Data name="nTimeStop" access="private" xsi:type="array" type="num" size="1" />
+    <Data name="nTimeStart" access="private" xsi:type="array" type="num" size="1" />
+    <Data name="nMode" access="private" xsi:type="array" type="num" size="1" />
+    <Data name="nEtat" access="private" xsi:type="array" type="num" size="1" />
+    <Data name="pPoint" access="public" xsi:type="array" type="pointRx" size="274">
+      <Value key="0" x="-211" z="100" rx="-180" rz="88.636" shoulder="lefty" elbow="epositive" wrist="wpositive" fatherId="fReference[0]" />
+      <Value key="1" x="-211" rx="-180" rz="88.636" shoulder="lefty" elbow="epositive" wrist="wpositive" fatherId="fReference[0]" />
+      <Value key="2" x="-211" rx="-180" rz="88.636" shoulder="lefty" elbow="epositive" wrist="wpositive" fatherId="fReference[0]" />
+      <Value key="3" x="-210.761" y="-10.04" rx="-180" rz="85.909" shoulder="lefty" elbow="epositive" wrist="wpositive" fatherId="fReference[0]" />
+      <Value key="4" x="-210.045" y="-20.057" rx="-180" rz="83.182" shoulder="lefty" elbow="epositive" wrist="wpositive" fatherId="fReference[0]" />
+      <Value key="5" x="-208.852" y="-30.028" rx="-180" rz="80.455" shoulder="lefty" elbow="epositive" wrist="wpositive" fatherId="fReference[0]" />
+      <Value key="6" x="-207.187" y="-39.932" rx="-180" rz="77.727" shoulder="lefty" elbow="epositive" wrist="wpositive" fatherId="fReference[0]" />
+      <Value key="7" x="-205.052" y="-49.745" rx="-180" rz="75" shoulder="lefty" elbow="epositive" wrist="wpositive" fatherId="fReference[0]" />
+      <Value key="8" x="-202.453" y="-59.446" rx="-180" rz="72.273" shoulder="lefty" elbow="epositive" wrist="wpositive" fatherId="fReference[0]" />
+      <Value key="9" x="-199.395" y="-69.011" rx="-180" rz="69.545" shoulder="lefty" elbow="epositive" wrist="wpositive" fatherId="fReference[0]" />
+      <Value key="10" x="-195.886" y="-78.421" rx="-180" rz="66.818" shoulder="lefty" elbow="epositive" wrist="wpositive" fatherId="fReference[0]" />
+      <Value key="11" x="-191.932" y="-87.653" rx="-180" rz="64.091" shoulder="lefty" elbow="epositive" wrist="wpositive" fatherId="fReference[0]" />
+      <Value key="12" x="-187.544" y="-96.686" rx="-180" rz="61.364" shoulder="lefty" elbow="epositive" wrist="wpositive" fatherId="fReference[0]" />
+      <Value key="13" x="-182.731" y="-105.5" rx="180" rz="58.636" shoulder="lefty" elbow="epositive" wrist="wpositive" fatherId="fReference[0]" />
+      <Value key="14" x="-177.505" y="-114.075" rx="-180" rz="55.909" shoulder="lefty" elbow="epositive" wrist="wpositive" fatherId="fReference[0]" />
+      <Value key="15" x="-171.876" y="-122.392" rx="-180" rz="53.182" shoulder="lefty" elbow="epositive" wrist="wpositive" fatherId="fReference[0]" />
+      <Value key="16" x="-165.857" y="-130.432" rx="-180" rz="50.455" shoulder="lefty" elbow="epositive" wrist="wpositive" fatherId="fReference[0]" />
+      <Value key="17" x="-159.463" y="-138.176" rx="-180" rz="47.727" shoulder="lefty" elbow="epositive" wrist="wpositive" fatherId="fReference[0]" />
+      <Value key="18" x="-152.708" y="-145.607" rx="-180" rz="45" shoulder="lefty" elbow="epositive" wrist="wpositive" fatherId="fReference[0]" />
+      <Value key="19" x="-145.607" y="-152.708" rx="-180" rz="42.273" shoulder="lefty" elbow="epositive" wrist="wpositive" fatherId="fReference[0]" />
+      <Value key="20" x="-138.176" y="-159.463" rx="-180" rz="39.545" shoulder="lefty" elbow="epositive" wrist="wpositive" fatherId="fReference[0]" />
+      <Value key="21" x="-130.432" y="-165.857" rx="180" rz="36.818" shoulder="lefty" elbow="epositive" wrist="wpositive" fatherId="fReference[0]" />
+      <Value key="22" x="-122.392" y="-171.876" rx="180" rz="34.091" shoulder="lefty" elbow="epositive" wrist="wpositive" fatherId="fReference[0]" />
+      <Value key="23" x="-114.075" y="-177.505" rx="-180" rz="31.364" shoulder="lefty" elbow="epositive" wrist="wpositive" fatherId="fReference[0]" />
+      <Value key="24" x="-105.5" y="-182.731" rx="-180" rz="28.636" shoulder="lefty" elbow="epositive" wrist="wpositive" fatherId="fReference[0]" />
+      <Value key="25" x="-96.686" y="-187.544" rx="-180" rz="25.909" shoulder="lefty" elbow="epositive" wrist="wpositive" fatherId="fReference[0]" />
+      <Value key="26" x="-87.653" y="-191.932" rx="-180" rz="23.182" shoulder="lefty" elbow="epositive" wrist="wpositive" fatherId="fReference[0]" />
+      <Value key="27" x="-78.421" y="-195.886" rx="-180" rz="20.455" shoulder="lefty" elbow="epositive" wrist="wpositive" fatherId="fReference[0]" />
+      <Value key="28" x="-69.011" y="-199.395" rx="-180" rz="17.727" shoulder="lefty" elbow="epositive" wrist="wpositive" fatherId="fReference[0]" />
+      <Value key="29" x="-59.446" y="-202.453" rx="180" rz="15" shoulder="lefty" elbow="epositive" wrist="wpositive" fatherId="fReference[0]" />
+      <Value key="30" x="-49.745" y="-205.052" rx="180" rz="12.273" shoulder="lefty" elbow="epositive" wrist="wpositive" fatherId="fReference[0]" />
+      <Value key="31" x="-39.932" y="-207.187" rx="180" rz="9.545" shoulder="lefty" elbow="epositive" wrist="wpositive" fatherId="fReference[0]" />
+      <Value key="32" x="-30.028" y="-208.852" rx="-180" rz="6.818" shoulder="lefty" elbow="epositive" wrist="wpositive" fatherId="fReference[0]" />
+      <Value key="33" x="-20.057" y="-210.045" rx="-180" rz="4.091" shoulder="lefty" elbow="epositive" wrist="wpositive" fatherId="fReference[0]" />
+      <Value key="34" x="-10.04" y="-210.761" rx="180" rz="1.364" shoulder="lefty" elbow="epositive" wrist="wpositive" fatherId="fReference[0]" />
+      <Value key="35" y="-211" rx="180" rz="-1.364" shoulder="lefty" elbow="epositive" wrist="wpositive" fatherId="fReference[0]" />
+      <Value key="36" x="10.04" y="-210.761" rx="180" rz="-4.091" shoulder="lefty" elbow="epositive" wrist="wpositive" fatherId="fReference[0]" />
+      <Value key="37" x="20.057" y="-210.045" rx="-180" rz="-6.818" shoulder="lefty" elbow="epositive" wrist="wpositive" fatherId="fReference[0]" />
+      <Value key="38" x="30.028" y="-208.852" rx="180" rz="-9.545" shoulder="lefty" elbow="epositive" wrist="wpositive" fatherId="fReference[0]" />
+      <Value key="39" x="39.932" y="-207.187" rx="180" rz="-12.273" shoulder="lefty" elbow="epositive" wrist="wpositive" fatherId="fReference[0]" />
+      <Value key="40" x="49.745" y="-205.052" rx="-180" rz="-15" shoulder="lefty" elbow="epositive" wrist="wpositive" fatherId="fReference[0]" />
+      <Value key="41" x="59.446" y="-202.453" rx="-180" rz="-17.727" shoulder="lefty" elbow="epositive" wrist="wpositive" fatherId="fReference[0]" />
+      <Value key="42" x="69.011" y="-199.395" rx="180" rz="-20.455" shoulder="lefty" elbow="epositive" wrist="wpositive" fatherId="fReference[0]" />
+      <Value key="43" x="78.421" y="-195.886" rx="-180" rz="-23.182" shoulder="lefty" elbow="epositive" wrist="wpositive" fatherId="fReference[0]" />
+      <Value key="44" x="87.653" y="-191.932" rx="-180" rz="-25.909" shoulder="lefty" elbow="epositive" wrist="wpositive" fatherId="fReference[0]" />
+      <Value key="45" x="96.686" y="-187.544" rx="180" rz="-28.636" shoulder="lefty" elbow="epositive" wrist="wpositive" fatherId="fReference[0]" />
+      <Value key="46" x="105.5" y="-182.731" rx="-180" rz="-31.364" shoulder="lefty" elbow="epositive" wrist="wpositive" fatherId="fReference[0]" />
+      <Value key="47" x="114.075" y="-177.505" rx="180" rz="-34.091" shoulder="lefty" elbow="epositive" wrist="wpositive" fatherId="fReference[0]" />
+      <Value key="48" x="122.392" y="-171.876" rx="180" rz="-36.818" shoulder="lefty" elbow="epositive" wrist="wpositive" fatherId="fReference[0]" />
+      <Value key="49" x="130.432" y="-165.857" rx="180" rz="-39.545" shoulder="lefty" elbow="epositive" wrist="wpositive" fatherId="fReference[0]" />
+      <Value key="50" x="138.176" y="-159.463" rx="180" rz="-42.273" shoulder="lefty" elbow="epositive" wrist="wpositive" fatherId="fReference[0]" />
+      <Value key="51" x="145.607" y="-152.708" rx="180" rz="-45" shoulder="lefty" elbow="epositive" wrist="wpositive" fatherId="fReference[0]" />
+      <Value key="52" x="152.708" y="-145.607" rx="-180" rz="-47.727" shoulder="lefty" elbow="epositive" wrist="wpositive" fatherId="fReference[0]" />
+      <Value key="53" x="159.463" y="-138.176" rx="-180" rz="-50.455" shoulder="lefty" elbow="epositive" wrist="wpositive" fatherId="fReference[0]" />
+      <Value key="54" x="165.857" y="-130.432" rx="180" rz="-53.182" shoulder="lefty" elbow="epositive" wrist="wpositive" fatherId="fReference[0]" />
+      <Value key="55" x="171.876" y="-122.392" rx="-180" rz="-55.909" shoulder="lefty" elbow="epositive" wrist="wpositive" fatherId="fReference[0]" />
+      <Value key="56" x="177.505" y="-114.075" rx="180" rz="-58.636" shoulder="lefty" elbow="epositive" wrist="wpositive" fatherId="fReference[0]" />
+      <Value key="57" x="182.731" y="-105.5" rx="-180" rz="-61.364" shoulder="lefty" elbow="epositive" wrist="wpositive" fatherId="fReference[0]" />
+      <Value key="58" x="187.544" y="-96.686" rx="180" rz="-64.091" shoulder="lefty" elbow="epositive" wrist="wpositive" fatherId="fReference[0]" />
+      <Value key="59" x="191.932" y="-87.653" rx="180" rz="-66.818" shoulder="lefty" elbow="epositive" wrist="wpositive" fatherId="fReference[0]" />
+      <Value key="60" x="195.886" y="-78.421" rx="180" rz="-69.545" shoulder="lefty" elbow="epositive" wrist="wpositive" fatherId="fReference[0]" />
+      <Value key="61" x="199.395" y="-69.011" rx="180" rz="-72.273" shoulder="lefty" elbow="epositive" wrist="wpositive" fatherId="fReference[0]" />
+      <Value key="62" x="202.453" y="-59.446" rx="180" rz="-75" shoulder="lefty" elbow="epositive" wrist="wpositive" fatherId="fReference[0]" />
+      <Value key="63" x="205.052" y="-49.745" rx="180" rz="-77.727" shoulder="lefty" elbow="epositive" wrist="wpositive" fatherId="fReference[0]" />
+      <Value key="64" x="207.187" y="-39.932" rx="180" rz="-80.455" shoulder="lefty" elbow="epositive" wrist="wpositive" fatherId="fReference[0]" />
+      <Value key="65" x="208.852" y="-30.028" rx="180" rz="-83.182" shoulder="lefty" elbow="epositive" wrist="wpositive" fatherId="fReference[0]" />
+      <Value key="66" x="210.045" y="-20.057" rx="180" rz="-85.909" shoulder="lefty" elbow="epositive" wrist="wpositive" fatherId="fReference[0]" />
+      <Value key="67" x="210.761" y="-10.04" rx="180" rz="-88.636" shoulder="lefty" elbow="epositive" wrist="wpositive" fatherId="fReference[0]" />
+      <Value key="68" x="211" rx="-180" rz="-91.364" shoulder="lefty" elbow="epositive" wrist="wpositive" fatherId="fReference[0]" />
+      <Value key="69" x="210.761" y="10.04" rx="-180" rz="-94.091" shoulder="lefty" elbow="epositive" wrist="wpositive" fatherId="fReference[0]" />
+      <Value key="70" x="210.045" y="20.057" rx="-180" rz="-96.818" shoulder="lefty" elbow="epositive" wrist="wpositive" fatherId="fReference[0]" />
+      <Value key="71" x="208.852" y="30.028" rx="-180" rz="-99.545" shoulder="lefty" elbow="epositive" wrist="wpositive" fatherId="fReference[0]" />
+      <Value key="72" x="207.187" y="39.932" rx="-180" rz="-102.273" shoulder="lefty" elbow="epositive" wrist="wpositive" fatherId="fReference[0]" />
+      <Value key="73" x="205.052" y="49.745" rx="-180" rz="-105" shoulder="lefty" elbow="epositive" wrist="wpositive" fatherId="fReference[0]" />
+      <Value key="74" x="202.453" y="59.446" rx="-180" rz="-107.727" shoulder="lefty" elbow="epositive" wrist="wpositive" fatherId="fReference[0]" />
+      <Value key="75" x="199.395" y="69.011" rx="-180" rz="-110.455" shoulder="lefty" elbow="epositive" wrist="wpositive" fatherId="fReference[0]" />
+      <Value key="76" x="195.886" y="78.421" rx="-180" rz="-113.182" shoulder="lefty" elbow="epositive" wrist="wpositive" fatherId="fReference[0]" />
+      <Value key="77" x="191.932" y="87.653" rx="-180" rz="-115.909" shoulder="lefty" elbow="epositive" wrist="wpositive" fatherId="fReference[0]" />
+      <Value key="78" x="187.544" y="96.686" rx="-180" rz="-118.636" shoulder="lefty" elbow="epositive" wrist="wpositive" fatherId="fReference[0]" />
+      <Value key="79" x="182.731" y="105.5" rx="-180" rz="-121.364" shoulder="lefty" elbow="epositive" wrist="wpositive" fatherId="fReference[0]" />
+      <Value key="80" x="177.505" y="114.075" rx="-180" rz="-124.091" shoulder="lefty" elbow="epositive" wrist="wpositive" fatherId="fReference[0]" />
+      <Value key="81" x="171.876" y="122.392" rx="-180" rz="-126.818" shoulder="lefty" elbow="epositive" wrist="wpositive" fatherId="fReference[0]" />
+      <Value key="82" x="165.857" y="130.432" rx="-180" rz="-129.545" shoulder="lefty" elbow="epositive" wrist="wpositive" fatherId="fReference[0]" />
+      <Value key="83" x="159.463" y="138.176" rx="-180" rz="-132.273" shoulder="lefty" elbow="epositive" wrist="wpositive" fatherId="fReference[0]" />
+      <Value key="84" x="152.708" y="145.607" rx="-180" rz="-135" shoulder="lefty" elbow="epositive" wrist="wpositive" fatherId="fReference[0]" />
+      <Value key="85" x="145.607" y="152.708" rx="-180" rz="-137.727" shoulder="lefty" elbow="epositive" wrist="wpositive" fatherId="fReference[0]" />
+      <Value key="86" x="138.176" y="159.463" rx="-180" rz="-140.455" shoulder="lefty" elbow="epositive" wrist="wpositive" fatherId="fReference[0]" />
+      <Value key="87" x="130.432" y="165.857" rx="180" rz="-143.182" shoulder="lefty" elbow="epositive" wrist="wpositive" fatherId="fReference[0]" />
+      <Value key="88" x="122.392" y="171.876" rx="-180" rz="-145.909" shoulder="lefty" elbow="epositive" wrist="wpositive" fatherId="fReference[0]" />
+      <Value key="89" x="114.075" y="177.505" rx="-180" rz="-148.636" shoulder="lefty" elbow="epositive" wrist="wpositive" fatherId="fReference[0]" />
+      <Value key="90" x="105.5" y="182.731" rx="-180" rz="-151.364" shoulder="lefty" elbow="epositive" wrist="wpositive" fatherId="fReference[0]" />
+      <Value key="91" x="96.686" y="187.544" rx="-180" rz="-154.091" shoulder="lefty" elbow="epositive" wrist="wpositive" fatherId="fReference[0]" />
+      <Value key="92" x="87.653" y="191.932" rx="180" rz="-156.818" shoulder="lefty" elbow="epositive" wrist="wpositive" fatherId="fReference[0]" />
+      <Value key="93" x="78.421" y="195.886" rx="-180" rz="-159.545" shoulder="lefty" elbow="epositive" wrist="wpositive" fatherId="fReference[0]" />
+      <Value key="94" x="69.011" y="199.395" rx="180" rz="-162.273" shoulder="lefty" elbow="epositive" wrist="wpositive" fatherId="fReference[0]" />
+      <Value key="95" x="59.446" y="202.453" rx="-180" rz="-165" shoulder="lefty" elbow="epositive" wrist="wpositive" fatherId="fReference[0]" />
+      <Value key="96" x="49.745" y="205.052" rx="180" rz="-167.727" shoulder="lefty" elbow="epositive" wrist="wpositive" fatherId="fReference[0]" />
+      <Value key="97" x="39.932" y="207.187" rx="-180" rz="-170.455" shoulder="lefty" elbow="epositive" wrist="wpositive" fatherId="fReference[0]" />
+      <Value key="98" x="30.028" y="208.852" rx="-180" rz="-173.182" shoulder="lefty" elbow="epositive" wrist="wpositive" fatherId="fReference[0]" />
+      <Value key="99" x="20.057" y="210.045" rx="-180" rz="-175.909" shoulder="lefty" elbow="epositive" wrist="wpositive" fatherId="fReference[0]" />
+      <Value key="100" x="10.04" y="210.761" rx="-180" rz="-178.636" shoulder="lefty" elbow="epositive" wrist="wpositive" fatherId="fReference[0]" />
+      <Value key="101" y="211" rx="180" rz="178.636" shoulder="lefty" elbow="epositive" wrist="wpositive" fatherId="fReference[0]" />
+      <Value key="102" x="-10.04" y="210.761" rx="180" rz="175.909" shoulder="lefty" elbow="epositive" wrist="wpositive" fatherId="fReference[0]" />
+      <Value key="103" x="-20.057" y="210.045" rx="180" rz="173.182" shoulder="lefty" elbow="epositive" wrist="wpositive" fatherId="fReference[0]" />
+      <Value key="104" x="-30.028" y="208.852" rx="180" rz="170.455" shoulder="lefty" elbow="epositive" wrist="wpositive" fatherId="fReference[0]" />
+      <Value key="105" x="-39.932" y="207.187" rx="-180" rz="167.727" shoulder="lefty" elbow="epositive" wrist="wpositive" fatherId="fReference[0]" />
+      <Value key="106" x="-49.745" y="205.052" rx="-180" rz="165" shoulder="lefty" elbow="epositive" wrist="wpositive" fatherId="fReference[0]" />
+      <Value key="107" x="-59.446" y="202.453" rx="-180" rz="162.273" shoulder="lefty" elbow="epositive" wrist="wpositive" fatherId="fReference[0]" />
+      <Value key="108" x="-69.011" y="199.395" rx="-180" rz="159.545" shoulder="lefty" elbow="epositive" wrist="wpositive" fatherId="fReference[0]" />
+      <Value key="109" x="-78.421" y="195.886" rx="180" rz="156.818" shoulder="lefty" elbow="epositive" wrist="wpositive" fatherId="fReference[0]" />
+      <Value key="110" x="-87.653" y="191.932" rx="-180" rz="154.091" shoulder="lefty" elbow="epositive" wrist="wpositive" fatherId="fReference[0]" />
+      <Value key="111" x="-96.686" y="187.544" rx="180" rz="151.364" shoulder="lefty" elbow="epositive" wrist="wpositive" fatherId="fReference[0]" />
+      <Value key="112" x="-105.5" y="182.731" rx="-180" rz="148.636" shoulder="lefty" elbow="epositive" wrist="wpositive" fatherId="fReference[0]" />
+      <Value key="113" x="-114.075" y="177.505" rx="180" rz="145.909" shoulder="lefty" elbow="epositive" wrist="wpositive" fatherId="fReference[0]" />
+      <Value key="114" x="-122.392" y="171.876" rx="180" rz="143.182" shoulder="lefty" elbow="epositive" wrist="wpositive" fatherId="fReference[0]" />
+      <Value key="115" x="-130.432" y="165.857" rx="180" rz="140.455" shoulder="lefty" elbow="epositive" wrist="wpositive" fatherId="fReference[0]" />
+      <Value key="116" x="-138.176" y="159.463" rx="-180" rz="137.727" shoulder="lefty" elbow="epositive" wrist="wpositive" fatherId="fReference[0]" />
+      <Value key="117" x="-145.607" y="152.708" rx="180" rz="135" shoulder="lefty" elbow="epositive" wrist="wpositive" fatherId="fReference[0]" />
+      <Value key="118" x="-152.708" y="145.607" rx="180" rz="132.273" shoulder="lefty" elbow="epositive" wrist="wpositive" fatherId="fReference[0]" />
+      <Value key="119" x="-159.463" y="138.176" rx="180" rz="129.545" shoulder="lefty" elbow="epositive" wrist="wpositive" fatherId="fReference[0]" />
+      <Value key="120" x="-165.857" y="130.432" rx="180" rz="126.818" shoulder="lefty" elbow="epositive" wrist="wpositive" fatherId="fReference[0]" />
+      <Value key="121" x="-171.876" y="122.392" rx="180" rz="124.091" shoulder="lefty" elbow="epositive" wrist="wpositive" fatherId="fReference[0]" />
+      <Value key="122" x="-177.505" y="114.075" rx="180" rz="121.364" shoulder="lefty" elbow="epositive" wrist="wpositive" fatherId="fReference[0]" />
+      <Value key="123" x="-182.731" y="105.5" rx="180" rz="118.636" shoulder="lefty" elbow="epositive" wrist="wpositive" fatherId="fReference[0]" />
+      <Value key="124" x="-187.544" y="96.686" rx="180" rz="115.909" shoulder="lefty" elbow="epositive" wrist="wpositive" fatherId="fReference[0]" />
+      <Value key="125" x="-191.932" y="87.653" rx="180" rz="113.182" shoulder="lefty" elbow="epositive" wrist="wpositive" fatherId="fReference[0]" />
+      <Value key="126" x="-195.886" y="78.421" rx="180" rz="110.455" shoulder="lefty" elbow="epositive" wrist="wpositive" fatherId="fReference[0]" />
+      <Value key="127" x="-199.395" y="69.011" rx="180" rz="107.727" shoulder="lefty" elbow="epositive" wrist="wpositive" fatherId="fReference[0]" />
+      <Value key="128" x="-202.453" y="59.446" rx="180" rz="105" shoulder="lefty" elbow="epositive" wrist="wpositive" fatherId="fReference[0]" />
+      <Value key="129" x="-205.052" y="49.745" rx="180" rz="102.273" shoulder="lefty" elbow="epositive" wrist="wpositive" fatherId="fReference[0]" />
+      <Value key="130" x="-207.187" y="39.932" rx="180" rz="99.545" shoulder="lefty" elbow="epositive" wrist="wpositive" fatherId="fReference[0]" />
+      <Value key="131" x="-208.852" y="30.028" rx="180" rz="96.818" shoulder="lefty" elbow="epositive" wrist="wpositive" fatherId="fReference[0]" />
+      <Value key="132" x="-210.045" y="20.057" rx="180" rz="94.091" shoulder="lefty" elbow="epositive" wrist="wpositive" fatherId="fReference[0]" />
+      <Value key="133" x="-210.761" y="10.04" rx="180" rz="91.364" shoulder="lefty" elbow="epositive" wrist="wpositive" fatherId="fReference[0]" />
+      <Value key="134" x="-211" rx="180" rz="91.364" shoulder="lefty" elbow="epositive" wrist="wpositive" fatherId="fReference[0]" />
+      <Value key="135" x="-211" rx="180" rz="91.364" shoulder="lefty" elbow="epositive" wrist="wpositive" fatherId="fReference[0]" />
+      <Value key="136" x="-211" z="100" rx="180" rz="91.364" shoulder="lefty" elbow="epositive" wrist="wpositive" fatherId="fReference[0]" />
+      <Value key="137" x="-211" z="122" rx="180" rz="91.364" shoulder="lefty" elbow="epositive" wrist="wpositive" fatherId="fReference[0]" />
+      <Value key="138" x="-211" z="22" rx="180" rz="91.364" shoulder="lefty" elbow="epositive" wrist="wpositive" fatherId="fReference[0]" />
+      <Value key="139" x="-211" z="22" rx="180" rz="91.364" shoulder="lefty" elbow="epositive" wrist="wpositive" fatherId="fReference[0]" />
+      <Value key="140" x="-210.761" y="10.04" z="22" rx="180" rz="94.091" shoulder="lefty" elbow="epositive" wrist="wpositive" fatherId="fReference[0]" />
+      <Value key="141" x="-210.045" y="20.057" z="22" rx="180" rz="96.818" shoulder="lefty" elbow="epositive" wrist="wpositive" fatherId="fReference[0]" />
+      <Value key="142" x="-208.852" y="30.028" z="22" rx="180" rz="99.545" shoulder="lefty" elbow="epositive" wrist="wpositive" fatherId="fReference[0]" />
+      <Value key="143" x="-207.187" y="39.932" z="22" rx="180" rz="102.273" shoulder="lefty" elbow="epositive" wrist="wpositive" fatherId="fReference[0]" />
+      <Value key="144" x="-205.052" y="49.745" z="22" rx="180" rz="105" shoulder="lefty" elbow="epositive" wrist="wpositive" fatherId="fReference[0]" />
+      <Value key="145" x="-202.453" y="59.446" z="22" rx="180" rz="107.727" shoulder="lefty" elbow="epositive" wrist="wpositive" fatherId="fReference[0]" />
+      <Value key="146" x="-199.395" y="69.011" z="22" rx="180" rz="110.455" shoulder="lefty" elbow="epositive" wrist="wpositive" fatherId="fReference[0]" />
+      <Value key="147" x="-195.886" y="78.421" z="22" rx="-180" rz="113.182" shoulder="lefty" elbow="epositive" wrist="wpositive" fatherId="fReference[0]" />
+      <Value key="148" x="-191.932" y="87.653" z="22" rx="180" rz="115.909" shoulder="lefty" elbow="epositive" wrist="wpositive" fatherId="fReference[0]" />
+      <Value key="149" x="-187.544" y="96.686" z="22" rx="180" rz="118.636" shoulder="lefty" elbow="epositive" wrist="wpositive" fatherId="fReference[0]" />
+      <Value key="150" x="-182.731" y="105.5" z="22" rx="180" rz="121.364" shoulder="lefty" elbow="epositive" wrist="wpositive" fatherId="fReference[0]" />
+      <Value key="151" x="-177.505" y="114.075" z="22" rx="180" rz="124.091" shoulder="lefty" elbow="epositive" wrist="wpositive" fatherId="fReference[0]" />
+      <Value key="152" x="-171.876" y="122.392" z="22" rx="180" rz="126.818" shoulder="lefty" elbow="epositive" wrist="wpositive" fatherId="fReference[0]" />
+      <Value key="153" x="-165.857" y="130.432" z="22" rx="180" rz="129.545" shoulder="lefty" elbow="epositive" wrist="wpositive" fatherId="fReference[0]" />
+      <Value key="154" x="-159.463" y="138.176" z="22" rx="180" rz="132.273" shoulder="lefty" elbow="epositive" wrist="wpositive" fatherId="fReference[0]" />
+      <Value key="155" x="-152.708" y="145.607" z="22" rx="180" rz="135" shoulder="lefty" elbow="epositive" wrist="wpositive" fatherId="fReference[0]" />
+      <Value key="156" x="-145.607" y="152.708" z="22" rx="180" rz="137.727" shoulder="lefty" elbow="epositive" wrist="wpositive" fatherId="fReference[0]" />
+      <Value key="157" x="-138.176" y="159.463" z="22" rx="180" rz="140.455" shoulder="lefty" elbow="epositive" wrist="wpositive" fatherId="fReference[0]" />
+      <Value key="158" x="-130.432" y="165.857" z="22" rx="180" rz="143.182" shoulder="lefty" elbow="epositive" wrist="wpositive" fatherId="fReference[0]" />
+      <Value key="159" x="-122.392" y="171.876" z="22" rx="-180" rz="145.909" shoulder="lefty" elbow="epositive" wrist="wpositive" fatherId="fReference[0]" />
+      <Value key="160" x="-114.075" y="177.505" z="22" rx="180" rz="148.636" shoulder="lefty" elbow="epositive" wrist="wpositive" fatherId="fReference[0]" />
+      <Value key="161" x="-105.5" y="182.731" z="22" rx="180" rz="151.364" shoulder="lefty" elbow="epositive" wrist="wpositive" fatherId="fReference[0]" />
+      <Value key="162" x="-96.686" y="187.544" z="22" rx="180" rz="154.091" shoulder="lefty" elbow="epositive" wrist="wpositive" fatherId="fReference[0]" />
+      <Value key="163" x="-87.653" y="191.932" z="22" rx="-180" rz="156.818" shoulder="lefty" elbow="epositive" wrist="wpositive" fatherId="fReference[0]" />
+      <Value key="164" x="-78.421" y="195.886" z="22" rx="180" rz="159.545" shoulder="lefty" elbow="epositive" wrist="wpositive" fatherId="fReference[0]" />
+      <Value key="165" x="-69.011" y="199.395" z="22" rx="-180" rz="162.273" shoulder="lefty" elbow="epositive" wrist="wpositive" fatherId="fReference[0]" />
+      <Value key="166" x="-59.446" y="202.453" z="22" rx="-180" rz="165" shoulder="lefty" elbow="epositive" wrist="wpositive" fatherId="fReference[0]" />
+      <Value key="167" x="-49.745" y="205.052" z="22" rx="180" rz="167.727" shoulder="lefty" elbow="epositive" wrist="wpositive" fatherId="fReference[0]" />
+      <Value key="168" x="-39.932" y="207.187" z="22" rx="-180" rz="170.455" shoulder="lefty" elbow="epositive" wrist="wpositive" fatherId="fReference[0]" />
+      <Value key="169" x="-30.028" y="208.852" z="22" rx="180" rz="173.182" shoulder="lefty" elbow="epositive" wrist="wpositive" fatherId="fReference[0]" />
+      <Value key="170" x="-20.057" y="210.045" z="22" rx="-180" rz="175.909" shoulder="lefty" elbow="epositive" wrist="wpositive" fatherId="fReference[0]" />
+      <Value key="171" x="-10.04" y="210.761" z="22" rx="-180" rz="178.636" shoulder="lefty" elbow="epositive" wrist="wpositive" fatherId="fReference[0]" />
+      <Value key="172" y="211" z="22" rx="-180" rz="-178.636" shoulder="lefty" elbow="epositive" wrist="wpositive" fatherId="fReference[0]" />
+      <Value key="173" x="10.04" y="210.761" z="22" rx="180" rz="-175.909" shoulder="lefty" elbow="epositive" wrist="wpositive" fatherId="fReference[0]" />
+      <Value key="174" x="20.057" y="210.045" z="22" rx="-180" rz="-173.182" shoulder="lefty" elbow="epositive" wrist="wpositive" fatherId="fReference[0]" />
+      <Value key="175" x="30.028" y="208.852" z="22" rx="180" rz="-170.455" shoulder="lefty" elbow="epositive" wrist="wpositive" fatherId="fReference[0]" />
+      <Value key="176" x="39.932" y="207.187" z="22" rx="180" rz="-167.727" shoulder="lefty" elbow="epositive" wrist="wpositive" fatherId="fReference[0]" />
+      <Value key="177" x="49.745" y="205.052" z="22" rx="-180" rz="-165" shoulder="lefty" elbow="epositive" wrist="wpositive" fatherId="fReference[0]" />
+      <Value key="178" x="59.446" y="202.453" z="22" rx="-180" rz="-162.273" shoulder="lefty" elbow="epositive" wrist="wpositive" fatherId="fReference[0]" />
+      <Value key="179" x="69.011" y="199.395" z="22" rx="-180" rz="-159.545" shoulder="lefty" elbow="epositive" wrist="wpositive" fatherId="fReference[0]" />
+      <Value key="180" x="78.421" y="195.886" z="22" rx="180" rz="-156.818" shoulder="lefty" elbow="epositive" wrist="wpositive" fatherId="fReference[0]" />
+      <Value key="181" x="87.653" y="191.932" z="22" rx="180" rz="-154.091" shoulder="lefty" elbow="epositive" wrist="wpositive" fatherId="fReference[0]" />
+      <Value key="182" x="96.686" y="187.544" z="22" rx="-180" rz="-151.364" shoulder="lefty" elbow="epositive" wrist="wpositive" fatherId="fReference[0]" />
+      <Value key="183" x="105.5" y="182.731" z="22" rx="-180" rz="-148.636" shoulder="lefty" elbow="epositive" wrist="wpositive" fatherId="fReference[0]" />
+      <Value key="184" x="114.075" y="177.505" z="22" rx="-180" rz="-145.909" shoulder="lefty" elbow="epositive" wrist="wpositive" fatherId="fReference[0]" />
+      <Value key="185" x="122.392" y="171.876" z="22" rx="-180" rz="-143.182" shoulder="lefty" elbow="epositive" wrist="wpositive" fatherId="fReference[0]" />
+      <Value key="186" x="130.432" y="165.857" z="22" rx="-180" rz="-140.455" shoulder="lefty" elbow="epositive" wrist="wpositive" fatherId="fReference[0]" />
+      <Value key="187" x="138.176" y="159.463" z="22" rx="-180" rz="-137.727" shoulder="lefty" elbow="epositive" wrist="wpositive" fatherId="fReference[0]" />
+      <Value key="188" x="145.607" y="152.708" z="22" rx="-180" rz="-135" shoulder="lefty" elbow="epositive" wrist="wpositive" fatherId="fReference[0]" />
+      <Value key="189" x="152.708" y="145.607" z="22" rx="-180" rz="-132.273" shoulder="lefty" elbow="epositive" wrist="wpositive" fatherId="fReference[0]" />
+      <Value key="190" x="159.463" y="138.176" z="22" rx="-180" rz="-129.545" shoulder="lefty" elbow="epositive" wrist="wpositive" fatherId="fReference[0]" />
+      <Value key="191" x="165.857" y="130.432" z="22" rx="-180" rz="-126.818" shoulder="lefty" elbow="epositive" wrist="wpositive" fatherId="fReference[0]" />
+      <Value key="192" x="171.876" y="122.392" z="22" rx="-180" rz="-124.091" shoulder="lefty" elbow="epositive" wrist="wpositive" fatherId="fReference[0]" />
+      <Value key="193" x="177.505" y="114.075" z="22" rx="-180" rz="-121.364" shoulder="lefty" elbow="epositive" wrist="wpositive" fatherId="fReference[0]" />
+      <Value key="194" x="182.731" y="105.5" z="22" rx="-180" rz="-118.636" shoulder="lefty" elbow="epositive" wrist="wpositive" fatherId="fReference[0]" />
+      <Value key="195" x="187.544" y="96.686" z="22" rx="-180" rz="-115.909" shoulder="lefty" elbow="epositive" wrist="wpositive" fatherId="fReference[0]" />
+      <Value key="196" x="191.932" y="87.653" z="22" rx="-180" rz="-113.182" shoulder="lefty" elbow="epositive" wrist="wpositive" fatherId="fReference[0]" />
+      <Value key="197" x="195.886" y="78.421" z="22" rx="-180" rz="-110.455" shoulder="lefty" elbow="epositive" wrist="wpositive" fatherId="fReference[0]" />
+      <Value key="198" x="199.395" y="69.011" z="22" rx="-180" rz="-107.727" shoulder="lefty" elbow="epositive" wrist="wpositive" fatherId="fReference[0]" />
+      <Value key="199" x="202.453" y="59.446" z="22" rx="-180" rz="-105" shoulder="lefty" elbow="epositive" wrist="wpositive" fatherId="fReference[0]" />
+      <Value key="200" x="205.052" y="49.745" z="22" rx="-180" rz="-102.273" shoulder="lefty" elbow="epositive" wrist="wpositive" fatherId="fReference[0]" />
+      <Value key="201" x="207.187" y="39.932" z="22" rx="-180" rz="-99.545" shoulder="lefty" elbow="epositive" wrist="wpositive" fatherId="fReference[0]" />
+      <Value key="202" x="208.852" y="30.028" z="22" rx="-180" rz="-96.818" shoulder="lefty" elbow="epositive" wrist="wpositive" fatherId="fReference[0]" />
+      <Value key="203" x="210.045" y="20.057" z="22" rx="-180" rz="-94.091" shoulder="lefty" elbow="epositive" wrist="wpositive" fatherId="fReference[0]" />
+      <Value key="204" x="210.761" y="10.04" z="22" rx="-180" rz="-91.364" shoulder="lefty" elbow="epositive" wrist="wpositive" fatherId="fReference[0]" />
+      <Value key="205" x="211" z="22" rx="180" rz="-88.636" shoulder="lefty" elbow="epositive" wrist="wpositive" fatherId="fReference[0]" />
+      <Value key="206" x="210.761" y="-10.04" z="22" rx="180" rz="-85.909" shoulder="lefty" elbow="epositive" wrist="wpositive" fatherId="fReference[0]" />
+      <Value key="207" x="210.045" y="-20.057" z="22" rx="180" rz="-83.182" shoulder="lefty" elbow="epositive" wrist="wpositive" fatherId="fReference[0]" />
+      <Value key="208" x="208.852" y="-30.028" z="22" rx="180" rz="-80.455" shoulder="lefty" elbow="epositive" wrist="wpositive" fatherId="fReference[0]" />
+      <Value key="209" x="207.187" y="-39.932" z="22" rx="180" rz="-77.727" shoulder="lefty" elbow="epositive" wrist="wpositive" fatherId="fReference[0]" />
+      <Value key="210" x="205.052" y="-49.745" z="22" rx="180" rz="-75" shoulder="lefty" elbow="epositive" wrist="wpositive" fatherId="fReference[0]" />
+      <Value key="211" x="202.453" y="-59.446" z="22" rx="180" rz="-72.273" shoulder="lefty" elbow="epositive" wrist="wpositive" fatherId="fReference[0]" />
+      <Value key="212" x="199.395" y="-69.011" z="22" rx="180" rz="-69.545" shoulder="lefty" elbow="epositive" wrist="wpositive" fatherId="fReference[0]" />
+      <Value key="213" x="195.886" y="-78.421" z="22" rx="180" rz="-66.818" shoulder="lefty" elbow="epositive" wrist="wpositive" fatherId="fReference[0]" />
+      <Value key="214" x="191.932" y="-87.653" z="22" rx="180" rz="-64.091" shoulder="lefty" elbow="epositive" wrist="wpositive" fatherId="fReference[0]" />
+      <Value key="215" x="187.544" y="-96.686" z="22" rx="-180" rz="-61.364" shoulder="lefty" elbow="epositive" wrist="wpositive" fatherId="fReference[0]" />
+      <Value key="216" x="182.731" y="-105.5" z="22" rx="-180" rz="-58.636" shoulder="lefty" elbow="epositive" wrist="wpositive" fatherId="fReference[0]" />
+      <Value key="217" x="177.505" y="-114.075" z="22" rx="180" rz="-55.909" shoulder="lefty" elbow="epositive" wrist="wpositive" fatherId="fReference[0]" />
+      <Value key="218" x="171.876" y="-122.392" z="22" rx="180" rz="-53.182" shoulder="lefty" elbow="epositive" wrist="wpositive" fatherId="fReference[0]" />
+      <Value key="219" x="165.857" y="-130.432" z="22" rx="180" rz="-50.455" shoulder="lefty" elbow="epositive" wrist="wpositive" fatherId="fReference[0]" />
+      <Value key="220" x="159.463" y="-138.176" z="22" rx="180" rz="-47.727" shoulder="lefty" elbow="epositive" wrist="wpositive" fatherId="fReference[0]" />
+      <Value key="221" x="152.708" y="-145.607" z="22" rx="180" rz="-45" shoulder="lefty" elbow="epositive" wrist="wpositive" fatherId="fReference[0]" />
+      <Value key="222" x="145.607" y="-152.708" z="22" rx="180" rz="-42.273" shoulder="lefty" elbow="epositive" wrist="wpositive" fatherId="fReference[0]" />
+      <Value key="223" x="138.176" y="-159.463" z="22" rx="180" rz="-39.545" shoulder="lefty" elbow="epositive" wrist="wpositive" fatherId="fReference[0]" />
+      <Value key="224" x="130.432" y="-165.857" z="22" rx="180" rz="-36.818" shoulder="lefty" elbow="epositive" wrist="wpositive" fatherId="fReference[0]" />
+      <Value key="225" x="122.392" y="-171.876" z="22" rx="-180" rz="-34.091" shoulder="lefty" elbow="epositive" wrist="wpositive" fatherId="fReference[0]" />
+      <Value key="226" x="114.075" y="-177.505" z="22" rx="180" rz="-31.364" shoulder="lefty" elbow="epositive" wrist="wpositive" fatherId="fReference[0]" />
+      <Value key="227" x="105.5" y="-182.731" z="22" rx="180" rz="-28.636" shoulder="lefty" elbow="epositive" wrist="wpositive" fatherId="fReference[0]" />
+      <Value key="228" x="96.686" y="-187.544" z="22" rx="-180" rz="-25.909" shoulder="lefty" elbow="epositive" wrist="wpositive" fatherId="fReference[0]" />
+      <Value key="229" x="87.653" y="-191.932" z="22" rx="-180" rz="-23.182" shoulder="lefty" elbow="epositive" wrist="wpositive" fatherId="fReference[0]" />
+      <Value key="230" x="78.421" y="-195.886" z="22" rx="180" rz="-20.455" shoulder="lefty" elbow="epositive" wrist="wpositive" fatherId="fReference[0]" />
+      <Value key="231" x="69.011" y="-199.395" z="22" rx="180" rz="-17.727" shoulder="lefty" elbow="epositive" wrist="wpositive" fatherId="fReference[0]" />
+      <Value key="232" x="59.446" y="-202.453" z="22" rx="180" rz="-15" shoulder="lefty" elbow="epositive" wrist="wpositive" fatherId="fReference[0]" />
+      <Value key="233" x="49.745" y="-205.052" z="22" rx="180" rz="-12.273" shoulder="lefty" elbow="epositive" wrist="wpositive" fatherId="fReference[0]" />
+      <Value key="234" x="39.932" y="-207.187" z="22" rx="-180" rz="-9.545" shoulder="lefty" elbow="epositive" wrist="wpositive" fatherId="fReference[0]" />
+      <Value key="235" x="30.028" y="-208.852" z="22" rx="-180" rz="-6.818" shoulder="lefty" elbow="epositive" wrist="wpositive" fatherId="fReference[0]" />
+      <Value key="236" x="20.057" y="-210.045" z="22" rx="-180" rz="-4.091" shoulder="lefty" elbow="epositive" wrist="wpositive" fatherId="fReference[0]" />
+      <Value key="237" x="10.04" y="-210.761" z="22" rx="-180" rz="-1.364" shoulder="lefty" elbow="epositive" wrist="wpositive" fatherId="fReference[0]" />
+      <Value key="238" y="-211" z="22" rx="-180" rz="1.364" shoulder="lefty" elbow="epositive" wrist="wpositive" fatherId="fReference[0]" />
+      <Value key="239" x="-10.04" y="-210.761" z="22" rx="-180" rz="4.091" shoulder="lefty" elbow="epositive" wrist="wpositive" fatherId="fReference[0]" />
+      <Value key="240" x="-20.057" y="-210.045" z="22" rx="180" rz="6.818" shoulder="lefty" elbow="epositive" wrist="wpositive" fatherId="fReference[0]" />
+      <Value key="241" x="-30.028" y="-208.852" z="22" rx="-180" rz="9.545" shoulder="lefty" elbow="epositive" wrist="wpositive" fatherId="fReference[0]" />
+      <Value key="242" x="-39.932" y="-207.187" z="22" rx="-180" rz="12.273" shoulder="lefty" elbow="epositive" wrist="wpositive" fatherId="fReference[0]" />
+      <Value key="243" x="-49.745" y="-205.052" z="22" rx="180" rz="15" shoulder="lefty" elbow="epositive" wrist="wpositive" fatherId="fReference[0]" />
+      <Value key="244" x="-59.446" y="-202.453" z="22" rx="180" rz="17.727" shoulder="lefty" elbow="epositive" wrist="wpositive" fatherId="fReference[0]" />
+      <Value key="245" x="-69.011" y="-199.395" z="22" rx="-180" rz="20.455" shoulder="lefty" elbow="epositive" wrist="wpositive" fatherId="fReference[0]" />
+      <Value key="246" x="-78.421" y="-195.886" z="22" rx="-180" rz="23.182" shoulder="lefty" elbow="epositive" wrist="wpositive" fatherId="fReference[0]" />
+      <Value key="247" x="-87.653" y="-191.932" z="22" rx="-180" rz="25.909" shoulder="lefty" elbow="epositive" wrist="wpositive" fatherId="fReference[0]" />
+      <Value key="248" x="-96.686" y="-187.544" z="22" rx="-180" rz="28.636" shoulder="lefty" elbow="epositive" wrist="wpositive" fatherId="fReference[0]" />
+      <Value key="249" x="-105.5" y="-182.731" z="22" rx="-180" rz="31.364" shoulder="lefty" elbow="epositive" wrist="wpositive" fatherId="fReference[0]" />
+      <Value key="250" x="-114.075" y="-177.505" z="22" rx="-180" rz="34.091" shoulder="lefty" elbow="epositive" wrist="wpositive" fatherId="fReference[0]" />
+      <Value key="251" x="-122.392" y="-171.876" z="22" rx="180" rz="36.818" shoulder="lefty" elbow="epositive" wrist="wpositive" fatherId="fReference[0]" />
+      <Value key="252" x="-130.432" y="-165.857" z="22" rx="-180" rz="39.545" shoulder="lefty" elbow="epositive" wrist="wpositive" fatherId="fReference[0]" />
+      <Value key="253" x="-138.176" y="-159.463" z="22" rx="-180" rz="42.273" shoulder="lefty" elbow="epositive" wrist="wpositive" fatherId="fReference[0]" />
+      <Value key="254" x="-145.607" y="-152.708" z="22" rx="-180" rz="45" shoulder="lefty" elbow="epositive" wrist="wpositive" fatherId="fReference[0]" />
+      <Value key="255" x="-152.708" y="-145.607" z="22" rx="-180" rz="47.727" shoulder="lefty" elbow="epositive" wrist="wpositive" fatherId="fReference[0]" />
+      <Value key="256" x="-159.463" y="-138.176" z="22" rx="-180" rz="50.455" shoulder="lefty" elbow="epositive" wrist="wpositive" fatherId="fReference[0]" />
+      <Value key="257" x="-165.857" y="-130.432" z="22" rx="-180" rz="53.182" shoulder="lefty" elbow="epositive" wrist="wpositive" fatherId="fReference[0]" />
+      <Value key="258" x="-171.876" y="-122.392" z="22" rx="-180" rz="55.909" shoulder="lefty" elbow="epositive" wrist="wpositive" fatherId="fReference[0]" />
+      <Value key="259" x="-177.505" y="-114.075" z="22" rx="-180" rz="58.636" shoulder="lefty" elbow="epositive" wrist="wpositive" fatherId="fReference[0]" />
+      <Value key="260" x="-182.731" y="-105.5" z="22" rx="-180" rz="61.364" shoulder="lefty" elbow="epositive" wrist="wpositive" fatherId="fReference[0]" />
+      <Value key="261" x="-187.544" y="-96.686" z="22" rx="-180" rz="64.091" shoulder="lefty" elbow="epositive" wrist="wpositive" fatherId="fReference[0]" />
+      <Value key="262" x="-191.932" y="-87.653" z="22" rx="-180" rz="66.818" shoulder="lefty" elbow="epositive" wrist="wpositive" fatherId="fReference[0]" />
+      <Value key="263" x="-195.886" y="-78.421" z="22" rx="-180" rz="69.545" shoulder="lefty" elbow="epositive" wrist="wpositive" fatherId="fReference[0]" />
+      <Value key="264" x="-199.395" y="-69.011" z="22" rx="-180" rz="72.273" shoulder="lefty" elbow="epositive" wrist="wpositive" fatherId="fReference[0]" />
+      <Value key="265" x="-202.453" y="-59.446" z="22" rx="-180" rz="75" shoulder="lefty" elbow="epositive" wrist="wpositive" fatherId="fReference[0]" />
+      <Value key="266" x="-205.052" y="-49.745" z="22" rx="-180" rz="77.727" shoulder="lefty" elbow="epositive" wrist="wpositive" fatherId="fReference[0]" />
+      <Value key="267" x="-207.187" y="-39.932" z="22" rx="-180" rz="80.455" shoulder="lefty" elbow="epositive" wrist="wpositive" fatherId="fReference[0]" />
+      <Value key="268" x="-208.852" y="-30.028" z="22" rx="-180" rz="83.182" shoulder="lefty" elbow="epositive" wrist="wpositive" fatherId="fReference[0]" />
+      <Value key="269" x="-210.045" y="-20.057" z="22" rx="-180" rz="85.909" shoulder="lefty" elbow="epositive" wrist="wpositive" fatherId="fReference[0]" />
+      <Value key="270" x="-210.761" y="-10.04" z="22" rx="-180" rz="88.636" shoulder="lefty" elbow="epositive" wrist="wpositive" fatherId="fReference[0]" />
+      <Value key="271" x="-211" z="22" rx="-180" rz="88.636" shoulder="lefty" elbow="epositive" wrist="wpositive" fatherId="fReference[0]" />
+      <Value key="272" x="-211" z="22" rx="-180" rz="88.636" shoulder="lefty" elbow="epositive" wrist="wpositive" fatherId="fReference[0]" />
+      <Value key="273" x="-211" z="122" rx="-180" rz="88.636" shoulder="lefty" elbow="epositive" wrist="wpositive" fatherId="fReference[0]" />
+    </Data>
+    <Data name="tTool" access="public" xsi:type="array" type="tool" size="1">
+      <Value key="0" z="452" fatherId="flange[0]" ioLink="valve1" />
+    </Data>
+    <Data name="doValve1" access="private" xsi:type="array" type="dio" size="1">
+      <Value key="0" link="valve1" />
+    </Data>
+    <Data name="Tpompe" access="private" xsi:type="array" type="aio" size="1">
+      <Value key="0" link="CanIO\RemIO\remio0_QW" />
+    </Data>
+  </Datas>
+</Database>

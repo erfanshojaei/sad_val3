@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Programs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.staubli.com/robotics/VAL3/Program/2">
+  <Program name="read_data" access="public">
+    <Locals>
+      <Local name="sInputData_1" type="string" xsi:type="array" size="1" />
+      <Local name="nRec" type="num" xsi:type="array" size="1" />
+      <Local name="nReceived" type="num" xsi:type="array" size="1" />
+      <Local name="nInputData_1" type="num" xsi:type="array" size="1" />
+    </Locals>
+    <Code><![CDATA[begin
+  
+  putln("Start to read data !")
+     
+  do     
+    sInputData_1 = ""    
+    do
+      nReceived=sioGet(sioASCII,nRec)      
+      sInputData_1 = sInputData_1 + chr(nRec)
+      
+    until nRec == 13 or nReceived == -1   
+    
+    if nReceived != 1
+      check_status = false
+      stopMove()
+      cls()      
+      putln("Communication error !") 
+      disablePower()
+    endIf
+    
+    toNum(sInputData_1 , nInputData_1, check_status) 
+    
+    //put("Reference Velocity [mm/s]: ")
+    //put(nInputData_1)
+    //putln("")
+    Ref_Vel = nInputData_1
+    
+   // putln(Ref_Vel)
+    
+    
+   delay(0.001)    
+    
+  until check_status != true
+  
+end]]></Code>
+  </Program>
+</Programs>

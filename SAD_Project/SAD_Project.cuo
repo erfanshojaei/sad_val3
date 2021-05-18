@@ -23,18 +23,21 @@
       <Node Path="SAD_Project\Controller\sad_proj_sin\num" IsExpanded="true" />
       <Node Path="SAD_Project\Controller\sad_proj_sin\pointRx" IsExpanded="true" />
       <Node Path="SAD_Project\Controller\sad_proj_sin\sio" IsExpanded="true" />
-      <Node Path="SAD_Project\Controller\sad_project_1" IsExpanded="true" />
       <Node Path="SAD_Project\Controller\sad_project_1\aio" IsExpanded="true" />
       <Node Path="SAD_Project\Controller\sad_project_1\bool" IsExpanded="true" />
       <Node Path="SAD_Project\Controller\sad_project_1\dio" IsExpanded="true" />
       <Node Path="SAD_Project\Controller\sad_project_1\sio" IsExpanded="true" />
+      <Node Path="SAD_Project\Controller\sad_project_cal" IsExpanded="true" />
+      <Node Path="SAD_Project\Controller\sad_project_cal\jointRx" IsExpanded="true" />
+      <Node Path="SAD_Project\Controller\sad_project_cal\mdesc" IsExpanded="true" />
+      <Node Path="SAD_Project\Controller\sad_project_cal\pointRx" IsExpanded="true" />
     </Nodes>
   </Option>
   <Option Name="CellExplorer">
     <Nodes>
       <Node Path="SAD_Project" IsExpanded="true" />
       <Node Path="SAD_Project\Controller" IsExpanded="true" />
-      <Node Path="SAD_Project\Controller\sad_project_1" IsExpanded="true" />
+      <Node Path="SAD_Project\Controller\sad_project_cal" IsExpanded="true" />
     </Nodes>
   </Option>
   <Option Name="GeometryView">
