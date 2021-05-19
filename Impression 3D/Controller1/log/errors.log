@@ -5991,3 +5991,460 @@
 [05/18/21 10:53:05]: <0x1602> End of arm power shutdown phase.
 [05/18/21 10:53:05]: <0x5403> sad_proj_sin application stopped
 [05/18/21 10:53:09]: <0x2401> Saving controller context...
+[05/18/21 14:14:05]: <0x2401> Watchdog occurs in Cs8 priority:75
+[05/18/21 14:14:05]: <0x2402> MCP communication disconnected
+[05/18/21 14:14:09]: <0x2402> Mcp = TSimulated
+[05/18/21 14:14:09]: <0x340A> Mcp communication established
+[05/18/21 14:14:09]: <0x1804> Working mode:remote.
+[05/18/21 14:14:11]: <0x2401> Saving controller context...
+[05/18/21 14:14:15]: <0x2402> MCP communication disconnected
+[05/18/21 14:14:18]: <0x2402> Mcp = TSimulated
+[05/18/21 14:14:18]: <0x340A> Mcp communication established
+[05/18/21 14:14:18]: <0x1804> Working mode:remote.
+[05/18/21 14:14:26]: <0x2402> MCP communication disconnected
+[05/18/21 14:14:27]: <0x2402> Mcp = TSimulated
+[05/18/21 14:14:27]: <0x340A> Mcp communication established
+[05/18/21 14:14:27]: <0x1804> Working mode:remote.
+[05/18/21 14:14:37]: <0x2402> MCP communication disconnected
+[05/18/21 14:14:39]: <0x2402> Mcp = TSimulated
+[05/18/21 14:14:39]: <0x340A> Mcp communication established
+[05/18/21 14:14:39]: <0x1804> Working mode:remote.
+[05/18/21 14:14:47]: <0x2402> MCP communication disconnected
+[05/18/21 14:14:48]: <0x2402> Mcp = TSimulated
+[05/18/21 14:14:48]: <0x340A> Mcp communication established
+[05/18/21 14:14:48]: <0x1804> Working mode:remote.
+[05/18/21 14:14:56]: <0x2402> MCP communication disconnected
+[05/18/21 14:14:57]: <0x2402> Mcp = TSimulated
+[05/18/21 14:14:57]: <0x340A> Mcp communication established
+[05/18/21 14:14:57]: <0x1804> Working mode:remote.
+[05/18/21 14:15:07]: <0x2402> MCP communication disconnected
+[05/18/21 14:15:09]: <0x2402> Mcp = TSimulated
+[05/18/21 14:15:09]: <0x340A> Mcp communication established
+[05/18/21 14:15:09]: <0x1804> Working mode:remote.
+[05/18/21 14:15:17]: <0x2402> MCP communication disconnected
+[05/18/21 14:15:18]: <0x2402> Mcp = TSimulated
+[05/18/21 14:15:18]: <0x340A> Mcp communication established
+[05/18/21 14:15:18]: <0x1804> Working mode:remote.
+[05/18/21 14:15:28]: <0x2402> MCP communication disconnected
+[05/18/21 14:15:30]: <0x2402> Mcp = TSimulated
+[05/18/21 14:15:30]: <0x340A> Mcp communication established
+[05/18/21 14:15:31]: <0x1804> Working mode:remote.
+[05/18/21 14:15:38]: <0x2402> MCP communication disconnected
+[05/18/21 14:15:39]: <0x2402> Mcp = TSimulated
+[05/18/21 14:15:39]: <0x340A> Mcp communication established
+[05/18/21 14:15:39]: <0x1804> Working mode:remote.
+[05/18/21 14:15:47]: <0x2402> MCP communication disconnected
+[05/18/21 14:15:48]: <0x2402> Mcp = TSimulated
+[05/18/21 14:15:48]: <0x340A> Mcp communication established
+[05/18/21 14:15:48]: <0x1804> Working mode:remote.
+[05/18/21 14:15:58]: <0x2402> MCP communication disconnected
+[05/18/21 14:16:00]: <0x2402> Mcp = TSimulated
+[05/18/21 14:16:00]: <0x340A> Mcp communication established
+[05/18/21 14:16:01]: <0x1804> Working mode:remote.
+[05/18/21 14:16:08]: <0x2402> MCP communication disconnected
+[05/18/21 14:16:09]: <0x2402> Mcp = TSimulated
+[05/18/21 14:16:09]: <0x340A> Mcp communication established
+[05/18/21 14:16:09]: <0x1804> Working mode:remote.
+[05/18/21 14:16:19]: <0x2402> MCP communication disconnected
+[05/18/21 14:16:21]: <0x2402> Mcp = TSimulated
+[05/18/21 14:16:21]: <0x340A> Mcp communication established
+[05/18/21 14:16:22]: <0x1804> Working mode:remote.
+[05/18/21 14:16:29]: <0x2402> MCP communication disconnected
+[05/18/21 14:16:30]: <0x2402> Mcp = TSimulated
+[05/18/21 14:16:30]: <0x340A> Mcp communication established
+[05/18/21 14:16:31]: <0x1804> Working mode:remote.
+[05/18/21 14:16:38]: <0x2402> MCP communication disconnected
+[05/18/21 14:16:39]: <0x2402> Mcp = TSimulated
+[05/18/21 14:16:39]: <0x340A> Mcp communication established
+[05/18/21 14:16:40]: <0x1804> Working mode:remote.
+[05/18/21 14:16:49]: <0x2402> MCP communication disconnected
+[05/18/21 14:16:51]: <0x2402> Mcp = TSimulated
+[05/18/21 14:16:51]: <0x340A> Mcp communication established
+[05/18/21 14:16:52]: <0x1804> Working mode:remote.
+[05/18/21 14:16:59]: <0x2402> MCP communication disconnected
+[05/18/21 14:17:00]: <0x2402> Mcp = TSimulated
+[05/18/21 14:17:00]: <0x340A> Mcp communication established
+[05/18/21 14:17:01]: <0x1804> Working mode:remote.
+[05/18/21 14:17:10]: <0x2402> MCP communication disconnected
+[05/18/21 14:17:12]: <0x2402> Mcp = TSimulated
+[05/18/21 14:17:17]: <0x3407> Internal error MCP-NoAnswer: char 1
+[05/18/21 14:17:23]: <0x3409> Internal error MCP-ResetTimeout
+[05/18/21 14:17:23]: <0x2402> MCP communication disconnected
+[05/18/21 14:17:57]: <0x2402> Mcp = TSimulated
+[05/18/21 14:17:57]: <0x340A> Mcp communication established
+[05/18/21 14:17:57]: <0x1801> Working mode:automatic.
+[05/18/21 14:18:01]: <0x2401> Saving controller context...
+[05/18/21 14:18:05]: <0x2402> MCP communication disconnected
+[05/18/21 14:18:06]: <0x2402> Mcp = TSimulated
+[05/18/21 14:18:06]: <0x340A> Mcp communication established
+[05/18/21 14:18:06]: <0x1801> Working mode:automatic.
+[05/18/21 14:18:14]: <0x2402> MCP communication disconnected
+[05/18/21 14:18:15]: <0x2402> Mcp = TSimulated
+[05/18/21 14:18:15]: <0x340A> Mcp communication established
+[05/18/21 14:18:15]: <0x1801> Working mode:automatic.
+[05/18/21 14:18:25]: <0x2402> MCP communication disconnected
+[05/18/21 14:18:27]: <0x2402> Mcp = TSimulated
+[05/18/21 14:18:27]: <0x340A> Mcp communication established
+[05/18/21 14:18:27]: <0x1801> Working mode:automatic.
+[05/18/21 14:18:35]: <0x2402> MCP communication disconnected
+[05/18/21 14:18:36]: <0x2402> Mcp = TSimulated
+[05/18/21 14:18:36]: <0x340A> Mcp communication established
+[05/18/21 14:18:36]: <0x1801> Working mode:automatic.
+[05/18/21 14:18:46]: <0x2402> MCP communication disconnected
+[05/18/21 14:18:48]: <0x2402> Mcp = TSimulated
+[05/18/21 14:18:48]: <0x340A> Mcp communication established
+[05/18/21 14:18:49]: <0x1801> Working mode:automatic.
+[05/18/21 14:18:56]: <0x2402> MCP communication disconnected
+[05/18/21 14:18:57]: <0x2402> Mcp = TSimulated
+[05/18/21 14:18:57]: <0x340A> Mcp communication established
+[05/18/21 14:18:57]: <0x1801> Working mode:automatic.
+[05/18/21 14:19:05]: <0x2402> MCP communication disconnected
+[05/18/21 14:19:06]: <0x2402> Mcp = TSimulated
+[05/18/21 14:19:06]: <0x340A> Mcp communication established
+[05/18/21 14:19:06]: <0x1801> Working mode:automatic.
+[05/18/21 14:19:16]: <0x2402> MCP communication disconnected
+[05/18/21 14:19:18]: <0x2402> Mcp = TSimulated
+[05/18/21 14:19:18]: <0x340A> Mcp communication established
+[05/18/21 14:19:19]: <0x1801> Working mode:automatic.
+[05/18/21 14:19:26]: <0x2402> MCP communication disconnected
+[05/18/21 14:19:27]: <0x2402> Mcp = TSimulated
+[05/18/21 14:19:27]: <0x340A> Mcp communication established
+[05/18/21 14:19:27]: <0x1801> Working mode:automatic.
+[05/18/21 14:19:37]: <0x2402> MCP communication disconnected
+[05/18/21 14:19:39]: <0x2402> Mcp = TSimulated
+[05/18/21 14:19:39]: <0x340A> Mcp communication established
+[05/18/21 14:19:40]: <0x1801> Working mode:automatic.
+[05/18/21 14:19:47]: <0x2402> MCP communication disconnected
+[05/18/21 14:19:48]: <0x2402> Mcp = TSimulated
+[05/18/21 14:19:48]: <0x340A> Mcp communication established
+[05/18/21 14:19:48]: <0x1801> Working mode:automatic.
+[05/18/21 14:19:56]: <0x2402> MCP communication disconnected
+[05/18/21 14:19:57]: <0x2402> Mcp = TSimulated
+[05/18/21 14:19:57]: <0x340A> Mcp communication established
+[05/18/21 14:19:57]: <0x1801> Working mode:automatic.
+[05/18/21 14:20:07]: <0x2402> MCP communication disconnected
+[05/18/21 14:20:09]: <0x2402> Mcp = TSimulated
+[05/18/21 14:20:09]: <0x340A> Mcp communication established
+[05/18/21 14:20:10]: <0x1801> Working mode:automatic.
+[05/18/21 14:20:17]: <0x2402> MCP communication disconnected
+[05/18/21 14:20:18]: <0x2402> Mcp = TSimulated
+[05/18/21 14:20:18]: <0x340A> Mcp communication established
+[05/18/21 14:20:19]: <0x1801> Working mode:automatic.
+[05/18/21 14:20:28]: <0x2402> MCP communication disconnected
+[05/18/21 14:20:30]: <0x2402> Mcp = TSimulated
+[05/18/21 14:20:35]: <0x3407> Internal error MCP-NoAnswer: char 1
+[05/18/21 14:20:41]: <0x3409> Internal error MCP-ResetTimeout
+[05/18/21 14:20:41]: <0x2402> MCP communication disconnected
+[05/18/21 14:21:31]: <0x2402> Mcp = TSimulated
+[05/18/21 14:21:31]: <0x340A> Mcp communication established
+[05/18/21 14:21:32]: <0x1801> Working mode:automatic.
+[05/18/21 14:21:39]: <0x2402> MCP communication disconnected
+[05/18/21 14:21:40]: <0x2402> Mcp = TSimulated
+[05/18/21 14:21:40]: <0x340A> Mcp communication established
+[05/18/21 14:21:41]: <0x1801> Working mode:automatic.
+[05/18/21 14:21:47]: <0x2402> COM-PC: create session 127.0.0.1 on port 55742 id=#32451080
+[05/18/21 14:21:47]: <0x2401> COM-PC: start WCF Client on '127.0.0.1:5660'
+[05/18/21 14:21:47]: <0x2402> COM-CLIENT: Connected to http://127.0.0.1:5656
+[05/18/21 14:21:48]: <0x5402> sad_proj_sin application started
+[05/18/21 14:21:48]: <0x2201> New profile : Manual
+[05/18/21 14:21:48]: <0x2402> COM-PC: destroy session 127.0.0.1 on port 55742 id=#32451080
+[05/18/21 14:21:48]: <0x2402> MCP communication disconnected
+[05/18/21 14:21:48]: <0x3408> Internal error MCP-NotConnected
+[05/18/21 14:21:49]: <0x2402> Mcp = TSimulated
+[05/18/21 14:21:49]: <0x340A> Mcp communication established
+[05/18/21 14:21:50]: <0x1801> Working mode:automatic.
+[05/18/21 14:21:51]: <0x4001> Arm power enable request refused: cabinet working mode is remote or invalid.
+[05/18/21 14:21:59]: <0x2402> MCP communication disconnected
+[05/18/21 14:21:59]: <0x3408> Internal error MCP-NotConnected
+[05/18/21 14:22:01]: <0x2402> Mcp = TSimulated
+[05/18/21 14:22:01]: <0x340A> Mcp communication established
+[05/18/21 14:22:02]: <0x1802> Working mode:manual.
+[05/18/21 14:22:03]: <0x1803> Working mode:test.
+[05/18/21 14:22:05]: <0x1804> Working mode:remote.
+[05/18/21 14:22:09]: <0x2402> COM-PC: create session 127.0.0.1 on port 55742 id=#32450872
+[05/18/21 14:22:09]: <0x2401> COM-PC: start WCF Client on '127.0.0.1:5660'
+[05/18/21 14:22:09]: <0x2402> COM-CLIENT: Connected to http://127.0.0.1:5656
+[05/18/21 14:22:09]: <0x5403> sad_proj_sin application stopped
+[05/18/21 14:22:09]: <0x2401> Saving controller context...
+[05/18/21 14:22:09]: <0x5402> sad_proj_sin application started
+[05/18/21 14:22:09]: <0x2201> New profile : Manual
+[05/18/21 14:22:09]: <0x2402> COM-PC: destroy session 127.0.0.1 on port 55742 id=#32450872
+[05/18/21 14:22:09]: <0x3408> Internal error MCP-NotConnected
+[05/18/21 14:22:09]: <0x2402> MCP communication disconnected
+[05/18/21 14:22:10]: <0x2402> Mcp = TSimulated
+[05/18/21 14:22:10]: <0x340A> Mcp communication established
+[05/18/21 14:22:11]: <0x1804> Working mode:remote.
+[05/18/21 14:22:12]: <0x1603> Settling arm power...
+[05/18/21 14:22:13]: <0x1601> Arm power settled.
+[05/18/21 14:22:20]: <0x2402> MCP communication disconnected
+[05/18/21 14:22:20]: <0x1627> Arm power shutdown: working mode change.
+[05/18/21 14:22:20]: <0x1604> Arm power shutdown...
+[05/18/21 14:22:22]: <0x1602> End of arm power shutdown phase.
+[05/18/21 14:22:23]: <0x2402> Mcp = TSimulated
+[05/18/21 14:22:23]: <0x340A> Mcp communication established
+[05/18/21 14:22:23]: <0x1804> Working mode:remote.
+[05/18/21 14:22:24]: <0x2401> Saving controller context...
+[05/18/21 14:22:31]: <0x2402> MCP communication disconnected
+[05/18/21 14:22:32]: <0x2402> Mcp = TSimulated
+[05/18/21 14:22:32]: <0x340A> Mcp communication established
+[05/18/21 14:22:32]: <0x1804> Working mode:remote.
+[05/18/21 14:22:40]: <0x2402> MCP communication disconnected
+[05/18/21 14:22:40]: <0x2402> COM-PC: create session 127.0.0.1 on port 55742 id=#32451392
+[05/18/21 14:22:40]: <0x2401> COM-PC: start WCF Client on '127.0.0.1:5660'
+[05/18/21 14:22:40]: <0x2402> COM-CLIENT: Connected to http://127.0.0.1:5656
+[05/18/21 14:22:40]: <0x5403> sad_proj_sin application stopped
+[05/18/21 14:22:40]: <0x5402> sad_proj_sin application started
+[05/18/21 14:22:40]: <0x2201> New profile : Manual
+[05/18/21 14:22:40]: <0x2402> COM-PC: destroy session 127.0.0.1 on port 55742 id=#32451392
+[05/18/21 14:22:41]: <0x2402> Mcp = TSimulated
+[05/18/21 14:22:41]: <0x340A> Mcp communication established
+[05/18/21 14:22:41]: <0x1804> Working mode:remote.
+[05/18/21 14:22:43]: <0x1603> Settling arm power...
+[05/18/21 14:22:44]: <0x1601> Arm power settled.
+[05/18/21 14:22:51]: <0x2402> MCP communication disconnected
+[05/18/21 14:22:51]: <0x3408> Internal error MCP-NotConnected
+[05/18/21 14:22:51]: <0x1627> Arm power shutdown: working mode change.
+[05/18/21 14:22:51]: <0x1604> Arm power shutdown...
+[05/18/21 14:22:52]: <0x1602> End of arm power shutdown phase.
+[05/18/21 14:22:53]: <0x2402> Mcp = TSimulated
+[05/18/21 14:22:53]: <0x340A> Mcp communication established
+[05/18/21 14:22:53]: <0x1804> Working mode:remote.
+[05/18/21 14:22:54]: <0x2401> Saving controller context...
+[05/18/21 14:23:01]: <0x2402> MCP communication disconnected
+[05/18/21 14:23:02]: <0x2402> Mcp = TSimulated
+[05/18/21 14:23:02]: <0x340A> Mcp communication established
+[05/18/21 14:23:02]: <0x1804> Working mode:remote.
+[05/18/21 14:23:12]: <0x2402> MCP communication disconnected
+[05/18/21 14:23:14]: <0x2402> Mcp = TSimulated
+[05/18/21 14:23:14]: <0x340A> Mcp communication established
+[05/18/21 14:23:14]: <0x1804> Working mode:remote.
+[05/18/21 14:23:22]: <0x2402> MCP communication disconnected
+[05/18/21 14:23:23]: <0x2402> Mcp = TSimulated
+[05/18/21 14:23:23]: <0x340A> Mcp communication established
+[05/18/21 14:23:23]: <0x1804> Working mode:remote.
+[05/18/21 14:23:31]: <0x2402> MCP communication disconnected
+[05/18/21 14:23:32]: <0x2402> Mcp = TSimulated
+[05/18/21 14:23:32]: <0x340A> Mcp communication established
+[05/18/21 14:23:32]: <0x1804> Working mode:remote.
+[05/18/21 14:23:42]: <0x2402> MCP communication disconnected
+[05/18/21 14:23:44]: <0x2402> Mcp = TSimulated
+[05/18/21 14:23:44]: <0x340A> Mcp communication established
+[05/18/21 14:23:44]: <0x1804> Working mode:remote.
+[05/18/21 14:23:50]: <0x2402> COM-PC: destroy session 127.0.0.1 on port 50817 id=#32451288
+[05/18/21 14:24:49]: -----------------------------------------------
+[05/18/21 14:24:49]: Logger started
+[05/18/21 14:24:53]: <0x0003> CPU board: TEKNOR ?Mhz; ?Mb RAM; ?Mb disk; bios: ?; fpga: ?; ataIde: ?
+[05/18/21 14:24:53]: <0x0003> Cycle time set to 0.004s
+[05/18/21 14:24:53]: <0x0003> Simulation cycle time set to 0.1s
+[05/18/21 14:24:53]: <0x0002> Controller IP address could not be updated
+[05/18/21 14:24:53]: <0x0003> Mcp = TSimulated
+[05/18/21 14:24:53]: <0x0002> Default user payload used.
+[05/18/21 14:24:53]: <0x0003> Payload default: mass=100 kg, gravity center: x=0 y=0 z=181 mm, diag inertia: xx=6.4224 yy=6.4224 zz=6.1754 kg.m^2
+[05/18/21 14:24:53]: <0x2401> Power hour count = 47:04:37
+[05/18/21 14:24:53]: <0x2401> Mac Address = 00-1b-21-3a-78-72
+[05/18/21 14:24:53]: <0x2402> COM-PC: server created on all interfaces [5660]
+[05/18/21 14:24:53]: <0x2401> System: s7.7.1 Sep 10 2014
+[05/18/21 14:24:53]: <0x2401> Configuration Version: c1.026 
+[05/18/21 14:24:53]: <0x2401> CPU: TEKNOR 
+[05/18/21 14:24:53]: <0x2401> Option testMode: enabled 
+[05/18/21 14:24:53]: <0x2401> Option 6axesAbsoluteRobot: enabled 
+[05/18/21 14:24:53]: <0x2401> Option VAL 3: enabled 
+[05/18/21 14:24:53]: <0x2401> Option valHSM: enabled 
+[05/18/21 14:24:53]: <0x2401> Machine Number: ? 
+[05/18/21 14:24:53]: <0x2401> Arm: tx200-S3-R3 floor
+[05/18/21 14:24:53]: <0x2401> Arm serial number: ? 
+[05/18/21 14:24:53]: <0x2401> Robot name:  
+[05/18/21 14:24:53]: <0x2401> EP: s7.7 Jul 23 2014
+[05/18/21 14:24:53]: <0x2401> SCA: s7.7 Jul 23 2014
+[05/18/21 14:24:53]: <0x2401> End of controller initialization
+[05/18/21 14:24:54]: <0x1602> End of arm power shutdown phase.
+[05/18/21 14:24:57]: <0x340A> Mcp communication established
+[05/18/21 14:24:57]: <0x2402> COM-PC: create session 127.0.0.1 on port 55848 id=#12331672
+[05/18/21 14:24:57]: <0x1805> Working mode:invalid.
+[05/18/21 14:25:11]: <0x2402> COM-PC: destroy session 127.0.0.1 on port 55848 id=#12331672
+[05/18/21 14:25:11]: <0x2402> COM-PC: create session 127.0.0.1 on port 55856 id=#12331672
+[05/18/21 14:25:11]: <0x2401> COM-PC: start WCF Client on '127.0.0.1:5660'
+[05/18/21 14:25:11]: <0x2402> COM-CLIENT: Connected to http://127.0.0.1:5656
+[05/18/21 14:25:11]: <0x5402> sad_proj_sin application started
+[05/18/21 14:25:11]: <0x2201> New profile : Manual
+[05/18/21 14:25:12]: <0x2402> COM-PC: destroy session 127.0.0.1 on port 55856 id=#12331672
+[05/18/21 14:25:12]: <0x1804> Working mode:remote.
+[05/18/21 14:25:15]: <0x1603> Settling arm power...
+[05/18/21 14:25:15]: <0x1601> Arm power settled.
+[05/18/21 14:25:23]: <0x2402> COM-PC: create session 127.0.0.1 on port 55867 id=#12331672
+[05/18/21 14:25:47]: <0x2201> New profile : Automatic
+[05/18/21 14:31:26]: <0x2201> New profile : Manual
+[05/18/21 14:31:48]: <0x2201> New profile : Automatic
+[05/18/21 14:37:26]: <0x2201> New profile : Manual
+[05/18/21 14:37:49]: <0x2201> New profile : Automatic
+[05/18/21 14:43:27]: <0x2201> New profile : Manual
+[05/18/21 14:43:44]: <0x1604> Arm power shutdown...
+[05/18/21 14:43:45]: <0x1602> End of arm power shutdown phase.
+[05/18/21 14:43:45]: <0x5403> sad_proj_sin application stopped
+[05/18/21 14:43:51]: <0x2401> Saving controller context...
+[05/18/21 14:43:51]: <0x2402> Controller temperature: 28°C
+[05/18/21 14:43:51]: <0x2402> CPU temperature: 28°C
+[05/18/21 15:35:45]: <0x2402> COM-PC: create session 127.0.0.1 on port 55867 id=#12331360
+[05/18/21 15:35:45]: <0x2401> COM-PC: start WCF Client on '127.0.0.1:5660'
+[05/18/21 15:35:45]: <0x2402> COM-CLIENT: Connected to http://127.0.0.1:5656
+[05/18/21 15:35:45]: <0x5402> sad_proj_sin application started
+[05/18/21 15:35:46]: <0x2201> New profile : Manual
+[05/18/21 15:35:46]: <0x2402> COM-PC: destroy session 127.0.0.1 on port 55867 id=#12331360
+[05/18/21 15:35:49]: <0x1603> Settling arm power...
+[05/18/21 15:35:49]: <0x1601> Arm power settled.
+[05/18/21 15:36:27]: <0x1604> Arm power shutdown...
+[05/18/21 15:36:28]: <0x1602> End of arm power shutdown phase.
+[05/18/21 15:36:28]: <0x5403> sad_proj_sin application stopped
+[05/18/21 15:36:33]: <0x2401> Saving controller context...
+[05/18/21 18:11:48]: <0x2402> COM-PC: destroy session 127.0.0.1 on port 55867 id=#12331672
+[05/19/21 10:42:33]: -----------------------------------------------
+[05/19/21 10:42:33]: Logger started
+[05/19/21 10:42:37]: <0x0003> CPU board: TEKNOR ?Mhz; ?Mb RAM; ?Mb disk; bios: ?; fpga: ?; ataIde: ?
+[05/19/21 10:42:37]: <0x0003> Cycle time set to 0.004s
+[05/19/21 10:42:37]: <0x0003> Simulation cycle time set to 0.1s
+[05/19/21 10:42:37]: <0x0002> Controller IP address could not be updated
+[05/19/21 10:42:37]: <0x0003> Mcp = TSimulated
+[05/19/21 10:42:37]: <0x0002> Default user payload used.
+[05/19/21 10:42:37]: <0x0003> Payload default: mass=100 kg, gravity center: x=0 y=0 z=181 mm, diag inertia: xx=6.4224 yy=6.4224 zz=6.1754 kg.m^2
+[05/19/21 10:42:37]: <0x2401> Power hour count = 47:23:44
+[05/19/21 10:42:37]: <0x2401> Mac Address = 00-1b-21-3a-78-72
+[05/19/21 10:42:37]: <0x2402> COM-PC: server created on all interfaces [5660]
+[05/19/21 10:42:37]: <0x2401> System: s7.7.1 Sep 10 2014
+[05/19/21 10:42:37]: <0x2401> Configuration Version: c1.026 
+[05/19/21 10:42:37]: <0x2401> CPU: TEKNOR 
+[05/19/21 10:42:37]: <0x2401> Option testMode: enabled 
+[05/19/21 10:42:37]: <0x2401> Option 6axesAbsoluteRobot: enabled 
+[05/19/21 10:42:37]: <0x2401> Option VAL 3: enabled 
+[05/19/21 10:42:37]: <0x2401> Option valHSM: enabled 
+[05/19/21 10:42:37]: <0x2401> Machine Number: ? 
+[05/19/21 10:42:37]: <0x2401> Arm: tx200-S3-R3 floor
+[05/19/21 10:42:37]: <0x2401> Arm serial number: ? 
+[05/19/21 10:42:37]: <0x2401> Robot name:  
+[05/19/21 10:42:37]: <0x2401> EP: s7.7 Jul 23 2014
+[05/19/21 10:42:37]: <0x2401> SCA: s7.7 Jul 23 2014
+[05/19/21 10:42:37]: <0x2401> End of controller initialization
+[05/19/21 10:42:38]: <0x1602> End of arm power shutdown phase.
+[05/19/21 10:42:40]: <0x340A> Mcp communication established
+[05/19/21 10:42:40]: <0x2402> COM-PC: create session 127.0.0.1 on port 50887 id=#8202904
+[05/19/21 10:42:40]: <0x1805> Working mode:invalid.
+[05/19/21 10:42:56]: <0x2402> COM-PC: destroy session 127.0.0.1 on port 50887 id=#8202904
+[05/19/21 10:45:05]: -----------------------------------------------
+[05/19/21 10:45:05]: Logger started
+[05/19/21 10:45:10]: <0x0003> CPU board: TEKNOR ?Mhz; ?Mb RAM; ?Mb disk; bios: ?; fpga: ?; ataIde: ?
+[05/19/21 10:45:10]: <0x0003> Cycle time set to 0.004s
+[05/19/21 10:45:10]: <0x0003> Simulation cycle time set to 0.1s
+[05/19/21 10:45:10]: <0x0002> Controller IP address could not be updated
+[05/19/21 10:45:10]: <0x0003> Mcp = TSimulated
+[05/19/21 10:45:10]: <0x0002> Default user payload used.
+[05/19/21 10:45:10]: <0x0003> Payload default: mass=100 kg, gravity center: x=0 y=0 z=181 mm, diag inertia: xx=6.4224 yy=6.4224 zz=6.1754 kg.m^2
+[05/19/21 10:45:10]: <0x340A> Mcp communication established
+[05/19/21 10:45:10]: <0x2401> Power hour count = 47:23:44
+[05/19/21 10:45:10]: <0x2401> Mac Address = 00-1b-21-3a-78-72
+[05/19/21 10:45:10]: <0x2402> COM-PC: server created on all interfaces [5660]
+[05/19/21 10:45:10]: <0x2401> System: s7.7.1 Sep 10 2014
+[05/19/21 10:45:10]: <0x2401> Configuration Version: c1.026 
+[05/19/21 10:45:10]: <0x2401> CPU: TEKNOR 
+[05/19/21 10:45:10]: <0x2401> Option testMode: enabled 
+[05/19/21 10:45:10]: <0x2401> Option 6axesAbsoluteRobot: enabled 
+[05/19/21 10:45:10]: <0x2401> Option VAL 3: enabled 
+[05/19/21 10:45:10]: <0x2401> Option valHSM: enabled 
+[05/19/21 10:45:10]: <0x2401> Machine Number: ? 
+[05/19/21 10:45:10]: <0x2401> Arm: tx200-S3-R3 floor
+[05/19/21 10:45:10]: <0x2401> Arm serial number: ? 
+[05/19/21 10:45:10]: <0x2401> Robot name:  
+[05/19/21 10:45:10]: <0x2401> EP: s7.7 Jul 23 2014
+[05/19/21 10:45:10]: <0x2401> SCA: s7.7 Jul 23 2014
+[05/19/21 10:45:10]: <0x2401> End of controller initialization
+[05/19/21 10:45:10]: <0x1A03> System event INTERFACE-Stopped  (Main menu)
+[05/19/21 10:45:10]: <0x1805> Working mode:invalid.
+[05/19/21 10:45:10]: <0x1A04> System event INTERFACE-Stopped  (Main menu). 1 events lost.
+[05/19/21 10:45:10]: <0x2402> COM-PC: create session 127.0.0.1 on port 50952 id=#31599424
+[05/19/21 10:45:10]: <0x1602> End of arm power shutdown phase.
+[05/19/21 10:45:26]: <0x2402> COM-PC: destroy session 127.0.0.1 on port 50952 id=#31599424
+[05/19/21 10:53:24]: <0x2402> COM-PC: create session 127.0.0.1 on port 51119 id=#31599528
+[05/19/21 10:53:24]: <0x2401> COM-PC: start WCF Client on '127.0.0.1:5660'
+[05/19/21 10:53:24]: <0x2402> COM-CLIENT: Connected to http://127.0.0.1:5656
+[05/19/21 10:53:24]: <0x5402> sad_proj_sin application started
+[05/19/21 10:53:24]: <0x2201> New profile : Manual
+[05/19/21 10:53:24]: <0x2402> COM-PC: destroy session 127.0.0.1 on port 51119 id=#31599528
+[05/19/21 10:53:25]: <0x1804> Working mode:remote.
+[05/19/21 10:53:27]: <0x1603> Settling arm power...
+[05/19/21 10:53:28]: <0x1601> Arm power settled.
+[05/19/21 10:53:56]: <0x2402> COM-PC: create session 127.0.0.1 on port 51131 id=#31599528
+[05/19/21 10:55:16]: <0x2201> New profile : Automatic
+[05/19/21 10:55:52]: <0x2402> COM-PC: create session 127.0.0.1 on port 51143 id=#31599632
+[05/19/21 10:55:52]: <0x2401> COM-PC: start WCF Client on '127.0.0.1:5660'
+[05/19/21 10:55:52]: <0x2402> COM-CLIENT: Connected to http://127.0.0.1:5656
+[05/19/21 10:55:52]: <0x5403> sad_proj_sin application stopped
+[05/19/21 10:55:53]: <0x5402> sad_proj_sin application started
+[05/19/21 10:55:53]: <0x1604> Arm power shutdown...
+[05/19/21 10:55:53]: <0x2402> COM-PC: destroy session 127.0.0.1 on port 51143 id=#31599632
+[05/19/21 10:55:54]: <0x1602> End of arm power shutdown phase.
+[05/19/21 10:55:54]: <0x2201> New profile : Manual
+[05/19/21 10:55:56]: <0x5403> sad_proj_sin application stopped
+[05/19/21 10:55:59]: <0x2401> Saving controller context...
+[05/19/21 10:55:59]: <0x2402> Controller temperature: 28°C
+[05/19/21 10:55:59]: <0x2402> CPU temperature: 28°C
+[05/19/21 10:56:00]: <0x2402> COM-PC: create session 127.0.0.1 on port 51143 id=#31599008
+[05/19/21 10:56:00]: <0x2401> COM-PC: start WCF Client on '127.0.0.1:5660'
+[05/19/21 10:56:00]: <0x2402> COM-CLIENT: Connected to http://127.0.0.1:5656
+[05/19/21 10:56:01]: <0x5402> sad_proj_sin application started
+[05/19/21 10:56:01]: <0x2201> New profile : Manual
+[05/19/21 10:56:01]: <0x2402> COM-PC: destroy session 127.0.0.1 on port 51143 id=#31599008
+[05/19/21 10:56:04]: <0x1603> Settling arm power...
+[05/19/21 10:56:04]: <0x1601> Arm power settled.
+[05/19/21 10:56:51]: <0x2201> New profile : Automatic
+[05/19/21 10:57:18]: <0x1604> Arm power shutdown...
+[05/19/21 10:57:19]: <0x1602> End of arm power shutdown phase.
+[05/19/21 10:57:19]: <0x5403> sad_proj_sin application stopped
+[05/19/21 10:57:21]: <0x2401> Saving controller context...
+[05/19/21 10:57:25]: <0x2402> COM-PC: create session 127.0.0.1 on port 51219 id=#31599112
+[05/19/21 10:57:25]: <0x2401> COM-PC: start WCF Client on '127.0.0.1:5660'
+[05/19/21 10:57:25]: <0x2402> COM-CLIENT: Connected to http://127.0.0.1:5656
+[05/19/21 10:57:26]: <0x5402> sad_proj_sin application started
+[05/19/21 10:57:26]: <0x2201> New profile : Manual
+[05/19/21 10:57:26]: <0x2402> COM-PC: destroy session 127.0.0.1 on port 51219 id=#31599112
+[05/19/21 10:57:29]: <0x1603> Settling arm power...
+[05/19/21 10:57:30]: <0x1601> Arm power settled.
+[05/19/21 10:58:34]: <0x2201> New profile : Automatic
+[05/19/21 10:59:27]: <0x2201> New profile : Manual
+[05/19/21 10:59:49]: <0x2201> New profile : Automatic
+[05/19/21 11:00:20]: <0x1604> Arm power shutdown...
+[05/19/21 11:00:21]: <0x1602> End of arm power shutdown phase.
+[05/19/21 11:00:21]: <0x5403> sad_proj_sin application stopped
+[05/19/21 11:00:24]: <0x2402> COM-PC: create session 127.0.0.1 on port 51266 id=#31599112
+[05/19/21 11:00:24]: <0x2401> COM-PC: start WCF Client on '127.0.0.1:5660'
+[05/19/21 11:00:24]: <0x2402> COM-CLIENT: Connected to http://127.0.0.1:5656
+[05/19/21 11:00:24]: <0x2401> Saving controller context...
+[05/19/21 11:00:24]: <0x5402> sad_proj_sin application started
+[05/19/21 11:00:24]: <0x2201> New profile : Manual
+[05/19/21 11:00:24]: <0x2402> COM-PC: destroy session 127.0.0.1 on port 51266 id=#31599112
+[05/19/21 11:00:27]: <0x1603> Settling arm power...
+[05/19/21 11:00:28]: <0x1601> Arm power settled.
+[05/19/21 11:01:20]: <0x2201> New profile : Automatic
+[05/19/21 11:02:13]: <0x2201> New profile : Manual
+[05/19/21 11:02:35]: <0x2201> New profile : Automatic
+[05/19/21 11:03:28]: <0x2201> New profile : Manual
+[05/19/21 11:03:50]: <0x2201> New profile : Automatic
+[05/19/21 11:05:14]: <0x1604> Arm power shutdown...
+[05/19/21 11:05:15]: <0x1602> End of arm power shutdown phase.
+[05/19/21 11:05:15]: <0x5403> sad_proj_sin application stopped
+[05/19/21 11:05:16]: <0x2401> Saving controller context...
+[05/19/21 11:05:20]: <0x2402> COM-PC: create session 127.0.0.1 on port 51355 id=#31599632
+[05/19/21 11:05:20]: <0x2401> COM-PC: start WCF Client on '127.0.0.1:5660'
+[05/19/21 11:05:20]: <0x2402> COM-CLIENT: Connected to http://127.0.0.1:5656
+[05/19/21 11:05:21]: <0x5402> sad_proj_sin application started
+[05/19/21 11:05:21]: <0x2201> New profile : Manual
+[05/19/21 11:05:21]: <0x2402> COM-PC: destroy session 127.0.0.1 on port 51355 id=#31599632
+[05/19/21 11:05:24]: <0x1603> Settling arm power...
+[05/19/21 11:05:24]: <0x1601> Arm power settled.
+[05/19/21 11:06:13]: <0x2201> New profile : Automatic
+[05/19/21 11:07:06]: <0x2201> New profile : Manual
+[05/19/21 11:07:28]: <0x2201> New profile : Automatic
+[05/19/21 11:08:21]: <0x2201> New profile : Manual
+[05/19/21 11:08:44]: <0x2201> New profile : Automatic
+[05/19/21 11:09:37]: <0x2201> New profile : Manual
+[05/19/21 11:09:54]: <0x1604> Arm power shutdown...
+[05/19/21 11:09:55]: <0x1602> End of arm power shutdown phase.
+[05/19/21 11:09:55]: <0x5403> sad_proj_sin application stopped
+[05/19/21 11:09:57]: <0x2401> Saving controller context...
