@@ -3,6 +3,8 @@
   <Parameters version="s7.7.1" stackSize="5000" millimeterUnit="true" />
   <Programs>
     <Program file="check_cmt.pgx" />
+    <Program file="init_prgm.pgx" />
+    <Program file="launch_print.pgx" />
     <Program file="motion_cntl.pgx" />
     <Program file="open_socket.pgx" />
     <Program file="read_data.pgx" />
@@ -10,6 +12,7 @@
     <Program file="show_data.pgx" />
     <Program file="start.pgx" />
     <Program file="stop.pgx" />
+    <Program file="stop_print.pgx" />
   </Programs>
   <Database>
     <Data file="sad_proj_sin.dtx" />

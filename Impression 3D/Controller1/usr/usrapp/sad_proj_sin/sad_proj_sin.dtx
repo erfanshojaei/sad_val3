@@ -4594,7 +4594,7 @@
       <Value key="4563" x="1000" z="44" rx="-180" rz="141.854" shoulder="lefty" elbow="epositive" wrist="wpositive" fatherId="fReference[0]" />
     </Data>
     <Data name="tTool" access="public" xsi:type="array" type="tool" size="1">
-      <Value key="0" z="600" rz="55" fatherId="flange[0]" ioLink="valve1" />
+      <Value key="0" z="600" rz="-125" fatherId="flange[0]" ioLink="valve1" />
     </Data>
     <Data name="kk" access="public" xsi:type="array" type="num" size="1" />
     <Data name="spd_cntl" access="public" xsi:type="array" type="bool" size="1" />
@@ -4617,6 +4617,9 @@
     </Data>
     <Data name="doValve2" access="private" xsi:type="array" type="dio" size="1">
       <Value key="0" link="valve2" />
+    </Data>
+    <Data name="doPompe" access="private" xsi:type="array" type="dio" size="1">
+      <Value key="0" link="CanIO\RemIO\remio0_Q" />
     </Data>
   </Datas>
 </Database>

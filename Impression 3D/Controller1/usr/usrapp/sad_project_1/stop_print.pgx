@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Programs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.staubli.com/robotics/VAL3/Program/2">
+  <Program name="stop_print" access="public">
+    <Code><![CDATA[begin
+  
+      // arrêt pompe 
+    dioSet(doPompe,0)
+    put("Pompe arret")  
+    // fermeture obturateur
+    dioSet(doValve2,0)
+    dioSet(doValve1,1)
+    put("Obturateur fermé")
+  
+end]]></Code>
+  </Program>
+</Programs>

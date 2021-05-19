@@ -5,10 +5,10 @@
       <Local name="ID_val" type="num" xsi:type="array" size="1" />
     </Locals>
     <Code><![CDATA[begin  
-  disablePower()
+   disablePower()
   cls()
-  userPage()
-  title(" Concrete 3D Printer-Sine Path ") 
+  userPage()  
+  title(" Concrete 3D Printer-Linear Path ") 
   putln("Written by Erfan.")
   setProfile("Manual","123")
   if getProfile() == "Manual"
@@ -20,8 +20,12 @@
     putln("Arm power supply cannot be swithced on.")
   endIf
   putln("Arm power is now switched on.")
-  delay(5)
-  ID_val = 0.9
+  delay(3)
+  taskCreate "Initialization",1,init_prgm()
+  putln("Pump has been launched.")
+  putln("Nozzle is closed.")  
+  delay(2)
+  ID_val = 0.75
   //taskCreate "SocketOpening",10,open_socket()
   //taskCreate "CheckComnunic",20,check_cmt()
   //wait(check_status == true)
@@ -33,15 +37,8 @@
     
   
   /////////////////////////////////////
-  // Pump turns OFF
-  aioSet(Tpompe,0)
-  put("Tpompe")
-  putln(aioGet(Tpompe))
-  put("Obturation")
-  dioSet(doValve1, 1)
-  putln(dioGet(doValve1))
-  dioSet(doValve2, 0)
-  putln(dioGet(doValve2))
+  // Stop Printing
+  call stop_print() 
   
   //***************************************  
   
@@ -68,17 +65,8 @@
   spd_cntl = true
   resetMotion()  
   
-  // Pump turns ON 
-  waitEndMove()
-  aioSet(Tpompe,3)
-  put("Tension pompe")
-  putln(aioGet(Tpompe))
-  put("ouverture")
-  dioSet(doValve1, 0)
-  putln(dioGet(doValve1))
-  dioSet(doValve2, 1)
-  putln(dioGet(doValve2))
-  delay(1)
+   // Starting printing
+  call launch_print()
   
   for kk = 3 to 1519 step 1
     setMoveId(0)
@@ -86,15 +74,8 @@
     wait(getMoveId() >= ID_val)
   endFor 
   
-  // Pump turns OFF  
-  waitEndMove()
-  aioSet(Tpompe,0)
-  put("Tension pompe")
-  putln(aioGet(Tpompe))
-  put("Obturation")
-  dioSet(doValve1, 1)
-  putln(dioGet(doValve1))
-  dioSet(doValve2, 0)  
+  // Stop Printing
+  call stop_print() 
   
   //**************************************************
     
@@ -115,17 +96,8 @@
   spd_cntl = true
   resetMotion() 
   
-  // Pump turns ON 
-  waitEndMove()
-  aioSet(Tpompe,3)
-  put("Tension pompe")
-  putln(aioGet(Tpompe))
-  put("ouverture")
-  dioSet(doValve1, 0)
-  putln(dioGet(doValve1))
-  dioSet(doValve2, 1)
-  putln(dioGet(doValve2))
-  delay(1)
+   // Starting printing
+  call launch_print()
   
   for kk = 1525 to 3041 step 1
     setMoveId(0)
@@ -133,15 +105,8 @@
     wait(getMoveId() >= ID_val)
   endFor
   
-  // Pump turns OFF  
-  waitEndMove()
-  aioSet(Tpompe,0)
-  put("Tension pompe")
-  putln(aioGet(Tpompe))
-  put("Obturation")
-  dioSet(doValve1, 1)
-  putln(dioGet(doValve1))
-  dioSet(doValve2, 0)  
+  // Stop Printing
+  call stop_print()   
   
   //******************************************
   
@@ -165,17 +130,8 @@
   spd_cntl = true
   resetMotion()  
   
-  // Pump turns ON 
-  waitEndMove()
-  aioSet(Tpompe,3)
-  put("Tension pompe")
-  putln(aioGet(Tpompe))
-  put("ouverture")
-  dioSet(doValve1, 0)
-  putln(dioGet(doValve1))
-  dioSet(doValve2, 1)
-  putln(dioGet(doValve2))
-  delay(1)
+  // Starting printing
+  call launch_print()
   
   for kk = 3047 to 4563 step 1
     setMoveId(0)
@@ -183,15 +139,8 @@
     wait(getMoveId() >= ID_val)
   endFor
   
-  // Pump turns OFF  
-  waitEndMove()
-  aioSet(Tpompe,0)
-  put("Tension pompe")
-  putln(aioGet(Tpompe))
-  put("Obturation")
-  dioSet(doValve1, 1)
-  putln(dioGet(doValve1))
-  dioSet(doValve2, 0)
+ // Stop Printing
+  call stop_print() 
   
   //**************************************************
    

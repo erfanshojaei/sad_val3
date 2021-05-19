@@ -6448,3 +6448,122 @@
 [05/19/21 11:09:55]: <0x1602> End of arm power shutdown phase.
 [05/19/21 11:09:55]: <0x5403> sad_proj_sin application stopped
 [05/19/21 11:09:57]: <0x2401> Saving controller context...
+[05/19/21 13:18:46]: <0x2402> COM-PC: create session 127.0.0.1 on port 53860 id=#31599112
+[05/19/21 13:18:46]: <0x2401> COM-PC: start WCF Client on '127.0.0.1:5660'
+[05/19/21 13:18:46]: <0x2402> COM-CLIENT: Connected to http://127.0.0.1:5656
+[05/19/21 13:18:47]: <0x5402> sad_project_1 application started
+[05/19/21 13:18:47]: <0x2201> New profile : Manual
+[05/19/21 13:18:47]: <0x2402> COM-PC: destroy session 127.0.0.1 on port 53860 id=#31599112
+[05/19/21 13:18:50]: <0x1603> Settling arm power...
+[05/19/21 13:18:50]: <0x1601> Arm power settled.
+[05/19/21 13:21:52]: <0x2201> New profile : Automatic
+[05/19/21 13:25:16]: <0x2201> New profile : Manual
+[05/19/21 13:28:31]: <0x5403> sad_project_1 application stopped
+[05/19/21 13:41:47]: <0x2402> COM-PC: create session 127.0.0.1 on port 54316 id=#31599112
+[05/19/21 13:41:47]: <0x2401> COM-PC: start WCF Client on '127.0.0.1:5660'
+[05/19/21 13:41:47]: <0x2402> COM-CLIENT: Connected to http://127.0.0.1:5656
+[05/19/21 13:41:48]: <0x5402> sad_project_1 application started
+[05/19/21 13:41:48]: <0x2402> COM-PC: destroy session 127.0.0.1 on port 54316 id=#31599112
+[05/19/21 13:41:48]: <0x1604> Arm power shutdown...
+[05/19/21 13:41:49]: <0x1602> End of arm power shutdown phase.
+[05/19/21 13:41:49]: <0x2201> New profile : Manual
+[05/19/21 13:41:52]: <0x1603> Settling arm power...
+[05/19/21 13:41:53]: <0x1601> Arm power settled.
+[05/19/21 13:41:53]: <0x2401> Saving controller context...
+[05/19/21 13:42:49]: <0x5403> sad_project_1 application stopped
+[05/19/21 13:42:58]: <0x2402> COM-PC: create session 127.0.0.1 on port 54365 id=#31599632
+[05/19/21 13:42:58]: <0x2401> COM-PC: start WCF Client on '127.0.0.1:5660'
+[05/19/21 13:42:58]: <0x2402> COM-CLIENT: Connected to http://127.0.0.1:5656
+[05/19/21 13:42:58]: <0x5402> sad_project_1 application started
+[05/19/21 13:42:58]: <0x2402> COM-PC: destroy session 127.0.0.1 on port 54365 id=#31599632
+[05/19/21 13:42:58]: <0x1604> Arm power shutdown...
+[05/19/21 13:42:59]: <0x1602> End of arm power shutdown phase.
+[05/19/21 13:42:59]: <0x2201> New profile : Manual
+[05/19/21 13:43:02]: <0x1603> Settling arm power...
+[05/19/21 13:43:03]: <0x1601> Arm power settled.
+[05/19/21 13:43:03]: <0x2401> Saving controller context...
+[05/19/21 13:43:49]: <0x2201> New profile : Automatic
+[05/19/21 13:44:13]: <0x2201> New profile : Manual
+[05/19/21 13:44:35]: <0x2201> New profile : Automatic
+[05/19/21 13:44:59]: <0x2201> New profile : Manual
+[05/19/21 13:45:21]: <0x2201> New profile : Automatic
+[05/19/21 13:45:46]: <0x2201> New profile : Manual
+[05/19/21 13:46:08]: <0x2201> New profile : Automatic
+[05/19/21 13:46:32]: <0x2201> New profile : Manual
+[05/19/21 13:46:49]: <0x1604> Arm power shutdown...
+[05/19/21 13:46:50]: <0x1602> End of arm power shutdown phase.
+[05/19/21 13:46:50]: <0x5403> sad_project_1 application stopped
+[05/19/21 13:46:56]: <0x2401> Saving controller context...
+[05/19/21 13:52:58]: <0x2402> COM-PC: create session 127.0.0.1 on port 54540 id=#31599112
+[05/19/21 13:52:58]: <0x2401> COM-PC: start WCF Client on '127.0.0.1:5660'
+[05/19/21 13:52:58]: <0x2402> COM-CLIENT: Connected to http://127.0.0.1:5656
+[05/19/21 13:52:59]: <0x5402> sad_proj_sin application started
+[05/19/21 13:52:59]: <0x2201> New profile : Manual
+[05/19/21 13:52:59]: <0x2402> COM-PC: destroy session 127.0.0.1 on port 54540 id=#31599112
+[05/19/21 13:53:02]: <0x1603> Settling arm power...
+[05/19/21 13:53:02]: <0x1601> Arm power settled.
+[05/19/21 13:53:30]: <0x2201> New profile : Automatic
+[05/19/21 13:54:25]: <0x2201> New profile : Manual
+[05/19/21 13:54:48]: <0x2201> New profile : Automatic
+[05/19/21 13:55:30]: <0x1604> Arm power shutdown...
+[05/19/21 13:55:31]: <0x1602> End of arm power shutdown phase.
+[05/19/21 13:55:31]: <0x5403> sad_proj_sin application stopped
+[05/19/21 13:55:33]: <0x2401> Saving controller context...
+[05/19/21 13:55:38]: <0x2402> COM-PC: create session 127.0.0.1 on port 54592 id=#31599112
+[05/19/21 13:55:38]: <0x2401> COM-PC: start WCF Client on '127.0.0.1:5660'
+[05/19/21 13:55:38]: <0x2402> COM-CLIENT: Connected to http://127.0.0.1:5656
+[05/19/21 13:55:38]: <0x5402> sad_project_1 application started
+[05/19/21 13:55:38]: <0x2201> New profile : Manual
+[05/19/21 13:55:38]: <0x2402> COM-PC: destroy session 127.0.0.1 on port 54592 id=#31599112
+[05/19/21 13:55:41]: <0x1603> Settling arm power...
+[05/19/21 13:55:42]: <0x1601> Arm power settled.
+[05/19/21 13:56:27]: <0x2201> New profile : Automatic
+[05/19/21 13:56:51]: <0x2201> New profile : Manual
+[05/19/21 13:57:13]: <0x2201> New profile : Automatic
+[05/19/21 13:57:37]: <0x2201> New profile : Manual
+[05/19/21 13:57:59]: <0x2201> New profile : Automatic
+[05/19/21 13:58:24]: <0x2201> New profile : Manual
+[05/19/21 13:58:45]: <0x2201> New profile : Automatic
+[05/19/21 13:59:10]: <0x2201> New profile : Manual
+[05/19/21 13:59:27]: <0x1604> Arm power shutdown...
+[05/19/21 13:59:28]: <0x1602> End of arm power shutdown phase.
+[05/19/21 13:59:28]: <0x5403> sad_project_1 application stopped
+[05/19/21 13:59:28]: <0x2401> Saving controller context...
+[05/19/21 14:07:56]: <0x2402> COM-PC: create session 127.0.0.1 on port 54787 id=#31599632
+[05/19/21 14:07:56]: <0x2401> COM-PC: start WCF Client on '127.0.0.1:5660'
+[05/19/21 14:07:56]: <0x2402> COM-CLIENT: Connected to http://127.0.0.1:5656
+[05/19/21 14:07:57]: <0x5402> sad_proj_sin application started
+[05/19/21 14:07:57]: <0x2201> New profile : Manual
+[05/19/21 14:07:57]: <0x2402> COM-PC: destroy session 127.0.0.1 on port 54787 id=#31599632
+[05/19/21 14:08:00]: <0x1603> Settling arm power...
+[05/19/21 14:08:00]: <0x1601> Arm power settled.
+[05/19/21 14:08:32]: <0x2201> New profile : Automatic
+[05/19/21 14:09:28]: <0x2201> New profile : Manual
+[05/19/21 14:09:50]: <0x2201> New profile : Automatic
+[05/19/21 14:10:46]: <0x2201> New profile : Manual
+[05/19/21 14:11:08]: <0x2201> New profile : Automatic
+[05/19/21 14:12:04]: <0x2201> New profile : Manual
+[05/19/21 14:12:21]: <0x1604> Arm power shutdown...
+[05/19/21 14:12:22]: <0x1602> End of arm power shutdown phase.
+[05/19/21 14:12:22]: <0x5403> sad_proj_sin application stopped
+[05/19/21 14:12:24]: <0x2401> Saving controller context...
+[05/19/21 14:12:31]: <0x2402> COM-PC: create session 127.0.0.1 on port 54787 id=#31599632
+[05/19/21 14:12:31]: <0x2401> COM-PC: start WCF Client on '127.0.0.1:5660'
+[05/19/21 14:12:32]: <0x2402> COM-CLIENT: Connected to http://127.0.0.1:5656
+[05/19/21 14:12:32]: <0x5402> sad_project_1 application started
+[05/19/21 14:12:32]: <0x2201> New profile : Manual
+[05/19/21 14:12:32]: <0x2402> COM-PC: destroy session 127.0.0.1 on port 54787 id=#31599632
+[05/19/21 14:12:35]: <0x1603> Settling arm power...
+[05/19/21 14:12:35]: <0x1601> Arm power settled.
+[05/19/21 14:13:04]: <0x2201> New profile : Automatic
+[05/19/21 14:13:29]: <0x2201> New profile : Manual
+[05/19/21 14:13:51]: <0x2201> New profile : Automatic
+[05/19/21 14:14:15]: <0x2201> New profile : Manual
+[05/19/21 14:14:37]: <0x2201> New profile : Automatic
+[05/19/21 14:15:01]: <0x2201> New profile : Manual
+[05/19/21 14:15:23]: <0x2201> New profile : Automatic
+[05/19/21 14:15:47]: <0x2201> New profile : Manual
+[05/19/21 14:16:04]: <0x1604> Arm power shutdown...
+[05/19/21 14:16:05]: <0x1602> End of arm power shutdown phase.
+[05/19/21 14:16:05]: <0x5403> sad_project_1 application stopped
+[05/19/21 14:16:07]: <0x2401> Saving controller context...
