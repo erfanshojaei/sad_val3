@@ -32,7 +32,14 @@
     //put("Reference Velocity [mm/s]: ")
     //put(nInputData_1)
     //putln("")
-    Ref_Vel = nInputData_1
+    
+   
+    
+    if getMoveId() >= 0.05
+      Ref_Vel = nInputData_1
+    elseIf getMoveId() < 0.05
+       Ref_Vel = print_vel    
+    endIf
     
    // putln(Ref_Vel)
     

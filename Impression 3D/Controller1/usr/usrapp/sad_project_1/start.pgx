@@ -14,7 +14,7 @@
   delay(3)
   enablePower()
   if(watch(isPowered(),3) == false)
-    putln("Arm power supply cannot be swithced on.")
+    putln("Arm power supply cannot be switched on.")
   endIf
   putln("Arm power is now switched on.")
   delay(3)
@@ -22,27 +22,29 @@
   putln("Pump has been launched.")
   putln("Nozzle is closed.")  
   delay(2)
-  //taskCreate "SocketOpening",10,open_socket()
-  //taskCreate "CheckComnunic",20,check_cmt()
-  //wait(check_status == true)
-  //delay(2)
-  //taskCreate "DataReading",40,read_data()
-  //taskCreate "MotionControl",40,motion_cntl()
-  //taskCreate "DataDisplay",40,show_data()
-  //taskCreate "DataSending",50,send_data()
-      
+  taskCreate "SocketOpening",10,open_socket()
+  taskCreate "CheckComnunic",20,check_cmt()
+  wait(check_status == true)
+  delay(2)
+  taskCreate "DataReading",40,read_data()
+  taskCreate "MotionControl",40,motion_cntl()
+  taskCreate "DataDisplay",40,show_data()
+  taskCreate "DataSending",50,send_data()
+  print_vel = 50      
   
   //////////////////////////////////////////
   // Go to configuration
   spd_cntl = false
   resetMotion()
   setMonitorSpeed(10)
+  setMoveId(0)
   movej(Jnt_cnfg[0],tTool[0],cnst_vel[0])
   waitEndMove()
   
   // Go to Start point - 1st Layer
   spd_cntl = false
   setMonitorSpeed(10)
+  setMoveId(0)
   movel(Pnt_1st_lyr[0],tTool[0],mNomSpeed[0])
   waitEndMove()
   
@@ -52,17 +54,19 @@
   setProfile("Automatic","123")
   spd_cntl = true
   resetMotion()
-  
+    
   // Starting printing
   call launch_print()
   
+  setMoveId(0)
   movel(Pnt_1st_lyr[1],tTool[0],mNomSpeed[0])
   waitEndMove()
   
   // Stop Printing
   call stop_print() 
  
-  
+  spd_cntl = false
+  setMonitorSpeed(100)
   //************************************************
   
   // Go to Start point - 2nd Layer
@@ -82,17 +86,19 @@
   setProfile("Automatic","123")
   spd_cntl = true
   resetMotion()
-  
+    
   // Starting printing
   call launch_print()
   
+  setMoveId(0)
   movel(Pnt_2nd_lyr[3],tTool[0],mNomSpeed[0])
   waitEndMove()
   
   // Stop Printing
   call stop_print() 
  
-  
+  spd_cntl = false
+  setMonitorSpeed(100)
   //*****************************************  
   
   // Go to Start point - 3rd Layer
@@ -111,16 +117,19 @@
   setProfile("Automatic","123")
   spd_cntl = true
   resetMotion()
-  
+    
   // Starting printing
   call launch_print()
-    
+  
+  setMoveId(0)
   movel(Pnt_3rd_lyr[3],tTool[0],mNomSpeed[0])
   waitEndMove()  
   
   // Stop Printing
   call stop_print() 
   
+  spd_cntl = false
+  setMonitorSpeed(100)
   // **************************************
   
   // Go to Start point - 4th Layer
@@ -141,15 +150,18 @@
   spd_cntl = true
   resetMotion()
   
+  
   // Printing starts
   call launch_print()
   
+  setMoveId(0)
   movel(Pnt_4th_lyr[3],tTool[0],mNomSpeed[0])
   waitEndMove() 
   
   // Stop Printing
-  call stop_print() 
-  
+  call stop_print()
+  spd_cntl = false
+  setMonitorSpeed(100)  
   // **************************************
   
   ///////////////////////////
@@ -162,7 +174,7 @@
   setProfile("Manual","123")
   spd_cntl = false
   resetMotion()
-  setMonitorSpeed(100)
+  setMonitorSpeed(10)
   movej(Jnt_cnfg[0],tTool[0],cnst_vel[0])
   waitEndMove()
   
@@ -170,8 +182,7 @@
   /////////////////////
   
   stopMove()
-  disablePower()
-  
+  disablePower()  
   
   ///////////////////////////////////////////
   

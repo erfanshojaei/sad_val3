@@ -12,6 +12,7 @@
   sioCtrl(sioASCII,"endOfString",13)
   sioCtrl(sioASCII,"nangle",true)  
   
+  putln(" " )  
   putln("The communication socket is open.")
   
   check_status = false  

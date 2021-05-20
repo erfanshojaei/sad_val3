@@ -8,7 +8,7 @@
    disablePower()
   cls()
   userPage()  
-  title(" Concrete 3D Printer-Linear Path ") 
+  title(" Concrete 3D Printer-Sine Path ") 
   putln("Written by Erfan.")
   setProfile("Manual","123")
   if getProfile() == "Manual"
@@ -17,7 +17,7 @@
   delay(3)
   enablePower()
   if(watch(isPowered(),3) == false)
-    putln("Arm power supply cannot be swithced on.")
+    putln("Arm power supply cannot be switched on.")
   endIf
   putln("Arm power is now switched on.")
   delay(3)
@@ -25,15 +25,16 @@
   putln("Pump has been launched.")
   putln("Nozzle is closed.")  
   delay(2)
-  ID_val = 0.75
-  //taskCreate "SocketOpening",10,open_socket()
-  //taskCreate "CheckComnunic",20,check_cmt()
-  //wait(check_status == true)
-  //delay(2)
-  //taskCreate "DataReading",40,read_data()
-  //taskCreate "MotionControl",40,motion_cntl()
-  //taskCreate "DataDisplay",40,show_data()
-  //taskCreate "DataSending",50,send_data() 
+  ID_val = 0.8
+  taskCreate "SocketOpening",10,open_socket()
+  taskCreate "CheckComnunic",20,check_cmt()
+  wait(check_status == true)
+  delay(2)
+  taskCreate "DataReading",40,read_data()
+  taskCreate "MotionControl",40,motion_cntl()
+  taskCreate "DataDisplay",40,show_data()
+  taskCreate "DataSending",50,send_data() 
+  print_vel = 50
     
   
   /////////////////////////////////////
@@ -63,12 +64,20 @@
   // Printing - 1st Layer
   setProfile("Automatic","123")
   spd_cntl = true
-  resetMotion()  
-  
+  resetMotion()   
+    
    // Starting printing
+      
   call launch_print()
   
-  for kk = 3 to 1519 step 1
+  setMoveId(6000)
+  for kk = 3 to 103 step 1
+    movel(pPoint[kk],tTool[0],mNomSpeed[0])
+  endFor
+  
+  wait(getMoveId() >= 6099)
+  
+  for kk = 104 to 1519 step 1
     setMoveId(0)
     movel(pPoint[kk],tTool[0],mNomSpeed[0])
     wait(getMoveId() >= ID_val)
@@ -76,15 +85,16 @@
   
   // Stop Printing
   call stop_print() 
-  
+  waitEndMove()
+  spd_cntl = false
   //**************************************************
     
   // Go to Start point - 2nd Layer
   resetMotion()
+  setMonitorSpeed(100)
   setProfile("Manual","123")
   spd_cntl = false
   resetMotion()
-  setMonitorSpeed(100)
   movel(pPoint[1520],tTool[0],cnst_vel[0])
   movel(pPoint[1521],tTool[0],cnst_vel[0])
   movel(pPoint[1522],tTool[0],cnst_vel[0])
@@ -94,12 +104,19 @@
   // Printing - 2nd Layer
   setProfile("Automatic","123")
   spd_cntl = true
-  resetMotion() 
-  
-   // Starting printing
+  resetMotion()  
+    
+  // Starting printing
   call launch_print()
   
-  for kk = 1525 to 3041 step 1
+  setMoveId(6000)
+  for kk = 1525 to 1625 step 1
+    movel(pPoint[kk],tTool[0],mNomSpeed[0])
+  endFor 
+  
+  wait(getMoveId() >= 6099)
+  
+  for kk = 1626 to 3041 step 1
     setMoveId(0)
     movel(pPoint[kk],tTool[0],mNomSpeed[0])
     wait(getMoveId() >= ID_val)
@@ -107,33 +124,39 @@
   
   // Stop Printing
   call stop_print()   
-  
+  waitEndMove()
+  spd_cntl = false
   //******************************************
   
   // Go to Start point - 3rd Layer
-  
   resetMotion()
+  setMonitorSpeed(100)
   setProfile("Manual","123")
   spd_cntl = false
   resetMotion()
-  setMonitorSpeed(100)
   movel(pPoint[3042],tTool[0],cnst_vel[0])
   movel(pPoint[3042],tTool[0],cnst_vel[0])
   movel(pPoint[3043],tTool[0],cnst_vel[0])
   movel(pPoint[3044],tTool[0],cnst_vel[0])
   movel(pPoint[3045],tTool[0],cnst_vel[0])
-  waitEndMove()
+  waitEndMove()  
   
-   
   // Printing - 3rd Layer
   setProfile("Automatic","123")
   spd_cntl = true
-  resetMotion()  
-  
+  resetMotion() 
+    
   // Starting printing
-  call launch_print()
+  call launch_print()  
   
-  for kk = 3047 to 4563 step 1
+  setMoveId(6000) 
+  for kk = 3047 to 3147 step 1
+    movel(pPoint[kk],tTool[0],mNomSpeed[0])
+  endFor   
+  
+ wait(getMoveId() >= 6099)
+  
+  for kk = 3148 to 4563 step 1
     setMoveId(0)
     movel(pPoint[kk],tTool[0],mNomSpeed[0])
     wait(getMoveId() >= ID_val)
@@ -141,7 +164,7 @@
   
  // Stop Printing
   call stop_print() 
-  
+  waitEndMove()
   //**************************************************
    
   
@@ -152,10 +175,11 @@
   putln("printing procedure has been finished.")
   
   // Go to configuration
+  setMonitorSpeed(10)
+  resetMotion()
   setProfile("Manual","123")
   spd_cntl = false
   resetMotion()
-  setMonitorSpeed(100)
   movej(Jnt_cnfg[0],tTool[0],cnst_vel[0])
   waitEndMove()
   
