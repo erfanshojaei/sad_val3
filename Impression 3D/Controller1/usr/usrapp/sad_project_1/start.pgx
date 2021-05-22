@@ -30,24 +30,26 @@
   taskCreate "MotionControl",40,motion_cntl()
   taskCreate "DataDisplay",40,show_data()
   taskCreate "DataSending",50,send_data()
-  print_vel = 50      
+  print_vel = 75      
   
   //////////////////////////////////////////
   // Go to configuration
   spd_cntl = false
   resetMotion()
-  setMonitorSpeed(10)
-  setMoveId(0)
+  setMonitorSpeed(70)
+  setMoveId(75)
   movej(Jnt_cnfg[0],tTool[0],cnst_vel[0])
   waitEndMove()
   
   // Go to Start point - 1st Layer
   spd_cntl = false
-  setMonitorSpeed(10)
+  setMonitorSpeed(75)
   setMoveId(0)
   movel(Pnt_1st_lyr[0],tTool[0],mNomSpeed[0])
   waitEndMove()
   
+  spd_cntl = false
+  setMonitorSpeed(75)
   //**************************************************   
   
   // Printing - 1st Layer
@@ -66,7 +68,7 @@
   call stop_print() 
  
   spd_cntl = false
-  setMonitorSpeed(100)
+  setMonitorSpeed(75)
   //************************************************
   
   // Go to Start point - 2nd Layer
@@ -74,7 +76,7 @@
   setProfile("Manual","123")
   spd_cntl = false
   resetMotion()
-  setMonitorSpeed(100)
+  setMonitorSpeed(75)
   movel(Pnt_2nd_lyr[0],tTool[0],cnst_vel[0])
   waitEndMove()
   movel(Pnt_2nd_lyr[1],tTool[0],cnst_vel[0])
@@ -98,14 +100,14 @@
   call stop_print() 
  
   spd_cntl = false
-  setMonitorSpeed(100)
+  setMonitorSpeed(75)
   //*****************************************  
   
   // Go to Start point - 3rd Layer
   setProfile("Manual","123")
   spd_cntl = false
   resetMotion()
-  setMonitorSpeed(100)
+  setMonitorSpeed(75)
   movel(Pnt_3rd_lyr[0],tTool[0],cnst_vel[0])
   waitEndMove()
   movel(Pnt_3rd_lyr[1],tTool[0],cnst_vel[0])
@@ -129,14 +131,14 @@
   call stop_print() 
   
   spd_cntl = false
-  setMonitorSpeed(100)
+  setMonitorSpeed(75)
   // **************************************
   
   // Go to Start point - 4th Layer
   setProfile("Manual","123")
   spd_cntl = false
   resetMotion()
-  setMonitorSpeed(100)
+  setMonitorSpeed(75)
   movel(Pnt_4th_lyr[0],tTool[0],cnst_vel[0])
   waitEndMove()
   movel(Pnt_4th_lyr[1],tTool[0],cnst_vel[0])
@@ -161,7 +163,7 @@
   // Stop Printing
   call stop_print()
   spd_cntl = false
-  setMonitorSpeed(100)  
+  setMonitorSpeed(75)  
   // **************************************
   
   ///////////////////////////
@@ -174,7 +176,7 @@
   setProfile("Manual","123")
   spd_cntl = false
   resetMotion()
-  setMonitorSpeed(10)
+  setMonitorSpeed(75)
   movej(Jnt_cnfg[0],tTool[0],cnst_vel[0])
   waitEndMove()
   

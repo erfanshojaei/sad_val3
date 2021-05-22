@@ -11,10 +11,10 @@
     // mise en marche pompe vitesse faible
     dioSet(doPompe,1)
     put("Pompe en marche")
-    delay(2)
     // mise en rotation pompe vitesse donnée
-    aioSet(Tpompe,1.2)
+    aioSet(Tpompe,0.2)
     put("Pompe en rotation")
+    delay(1)
   
 end]]></Code>
   </Program>

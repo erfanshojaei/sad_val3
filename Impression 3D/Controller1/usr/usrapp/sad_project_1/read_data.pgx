@@ -35,16 +35,16 @@
     
    
     
-    if getMoveId() >= 0.05
-      Ref_Vel = nInputData_1
-    elseIf getMoveId() < 0.05
+    if getMoveId() >= 0.1
+       Ref_Vel = nInputData_1
+    elseIf getMoveId() < 0.1
        Ref_Vel = print_vel    
     endIf
     
    // putln(Ref_Vel)
     
     
-   delay(0.001)    
+   //delay(0.001)    
     
   until check_status != true
   

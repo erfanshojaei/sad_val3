@@ -3,10 +3,10 @@
   <Program name="open_socket" access="public">
     <Code><![CDATA[begin
   
-  sioCtrl(sioASCII,"port",11002)
-  //sioCtrl(sioASCII,"port",1002)
+  //sioCtrl(sioASCII,"port",11002)
+  sioCtrl(sioASCII,"port",1002)
   //sioCtrl(sioASCII,"target","10.3.1.185")
-  //sioCtrl(sioASCII,"target","10.10.5.1")
+  sioCtrl(sioASCII,"target","10.10.5.1")
   sioCtrl(sioASCII,"target","169.254.209.1")
   sioCtrl(sioASCII,"timeout",10)
   sioCtrl(sioASCII,"endOfString",13)

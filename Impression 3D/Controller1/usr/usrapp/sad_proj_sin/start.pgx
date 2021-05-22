@@ -46,7 +46,7 @@
   // Go to configuration
   spd_cntl = false
   resetMotion()
-  setMonitorSpeed(10)
+  setMonitorSpeed(70)
   movej(Jnt_cnfg[0],tTool[0],cnst_vel[0])
   waitEndMove()
   
@@ -54,7 +54,7 @@
   
   // Go to Start point - 1st Layer
   spd_cntl = false
-  setMonitorSpeed(10)
+  setMonitorSpeed(70)
   movej(jJoint[0],tTool[0],cnst_vel[0])
   movel(pPoint[0],tTool[0],cnst_vel[0])
   movel(pPoint[1],tTool[0],cnst_vel[0])
