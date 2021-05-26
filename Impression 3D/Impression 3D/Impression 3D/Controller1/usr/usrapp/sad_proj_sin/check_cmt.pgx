@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Programs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.staubli.com/robotics/VAL3/Program/2">
+  <Program name="check_cmt" access="public">
+    <Locals>
+      <Local name="sCheck" type="num" xsi:type="array" size="1" />
+      <Local name="nEOS" type="num" xsi:type="array" size="1" />
+    </Locals>
+    <Code><![CDATA[begin
+  
+  clearBuffer(sioASCII)
+  
+  nEOS = 0
+  sCheck = sioSet(sioASCII,nEOS)
+  sCheck = sioSet(sioASCII,13)
+   
+  if sCheck == 1
+    putln("Communication is OK !")
+    check_status = true
+  elseIf sCheck != 1
+    putln("Communication error !")
+    check_status = false
+  endIf
+  
+end]]></Code>
+  </Program>
+</Programs>

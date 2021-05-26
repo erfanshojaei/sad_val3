@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Programs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.staubli.com/robotics/VAL3/Program/2">
+  <Program name="open_socket1" access="public">
+    <Code><![CDATA[begin
+  
+  sioCtrl(sioASCII,"port",11002)
+  //sioCtrl(sioASCII,"port",1002)
+  //sioCtrl(sioASCII,"target","10.3.1.185")
+  //sioCtrl(sioASCII,"target","10.10.5.1")
+  sioCtrl(sioASCII,"target","169.254.209.1")
+  sioCtrl(sioASCII,"timeout",10)
+  sioCtrl(sioASCII,"endOfString",13)
+  sioCtrl(sioASCII,"nangle",true)  
+  
+  putln("The communication socket is open.")
+  
+  check_status = false  
+    
+end]]></Code>
+  </Program>
+</Programs>

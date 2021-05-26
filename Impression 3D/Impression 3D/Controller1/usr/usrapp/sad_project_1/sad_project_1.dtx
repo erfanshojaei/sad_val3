@@ -3,36 +3,36 @@
   <Datas>
     <Data name="Ref_Vel" access="public" xsi:type="array" type="num" size="1" />
     <Data name="mNomSpeed" access="public" xsi:type="array" type="mdesc" size="1">
-      <Value key="0" tmax="100" rmax="100" leave="0.1" reach="0.1" blend="off" />
+      <Value key="0" tmax="150" rmax="100" leave="0.1" reach="0.1" blend="off" />
     </Data>
     <Data name="Jnt_cnfg" access="public" xsi:type="array" type="jointRx" size="1">
       <Value key="0" j3="90" j5="90" j6="90" />
     </Data>
     <Data name="tTool" access="public" xsi:type="array" type="tool" size="1">
-      <Value key="0" z="600" rz="55" fatherId="flange[0]" ioLink="valve1" />
+      <Value key="0" z="600" rz="56.5" fatherId="flange[0]" ioLink="valve1" />
     </Data>
     <Data name="fReference" access="public" xsi:type="array" type="frame" size="1">
-      <Value key="0" x="1365.054" y="-125.975" z="-1150" fatherId="world[0]" />
+      <Value key="0" x="1365.054" y="-125.975" z="-1164" fatherId="world[0]" />
     </Data>
     <Data name="Pnt_1st_lyr" access="public" xsi:type="array" type="pointRx" size="2">
       <Value key="0" y="-1000" rx="-180" rz="-90" shoulder="lefty" elbow="epositive" wrist="wpositive" fatherId="fReference[0]" />
       <Value key="1" y="1000" rx="-180" rz="-90" shoulder="lefty" elbow="epositive" wrist="wpositive" fatherId="fReference[0]" />
     </Data>
     <Data name="Pnt_2nd_lyr" access="public" xsi:type="array" type="pointRx" size="4">
-      <Value key="0" y="1000" z="77" rx="180" rz="-90" shoulder="lefty" elbow="epositive" wrist="wpositive" fatherId="fReference[0]" />
-      <Value key="1" y="-1000" z="77" rx="180" rz="-90" shoulder="lefty" elbow="epositive" wrist="wpositive" fatherId="fReference[0]" />
+      <Value key="0" x="-30" y="1000" z="77" rx="180" rz="-90" shoulder="lefty" elbow="epositive" wrist="wpositive" fatherId="fReference[0]" />
+      <Value key="1" x="-30" y="-1000" z="77" rx="180" rz="-90" shoulder="lefty" elbow="epositive" wrist="wpositive" fatherId="fReference[0]" />
       <Value key="2" y="-1000" z="22" rx="180" rz="-90" shoulder="lefty" elbow="epositive" wrist="wpositive" fatherId="fReference[0]" />
       <Value key="3" y="1000" z="22" rx="180" rz="-90" shoulder="lefty" elbow="epositive" wrist="wpositive" fatherId="fReference[0]" />
     </Data>
     <Data name="Pnt_3rd_lyr" access="public" xsi:type="array" type="pointRx" size="4">
-      <Value key="0" y="1000" z="99" rx="180" rz="-90" shoulder="lefty" elbow="epositive" wrist="wpositive" fatherId="fReference[0]" />
-      <Value key="1" y="-1000" z="99" rx="180" rz="-90" shoulder="lefty" elbow="epositive" wrist="wpositive" fatherId="fReference[0]" />
+      <Value key="0" x="-30" y="1000" z="99" rx="180" rz="-90" shoulder="lefty" elbow="epositive" wrist="wpositive" fatherId="fReference[0]" />
+      <Value key="1" x="-30" y="-1000" z="99" rx="180" rz="-90" shoulder="lefty" elbow="epositive" wrist="wpositive" fatherId="fReference[0]" />
       <Value key="2" y="-1000" z="44" rx="180" rz="-90" shoulder="lefty" elbow="epositive" wrist="wpositive" fatherId="fReference[0]" />
       <Value key="3" y="1000" z="44" rx="180" rz="-90" shoulder="lefty" elbow="epositive" wrist="wpositive" fatherId="fReference[0]" />
     </Data>
     <Data name="Pnt_4th_lyr" access="public" xsi:type="array" type="pointRx" size="4">
-      <Value key="0" y="1000" z="116" rx="180" rz="-90" shoulder="lefty" elbow="epositive" wrist="wpositive" fatherId="fReference[0]" />
-      <Value key="1" y="-1000" z="116" rx="180" rz="-90" shoulder="lefty" elbow="epositive" wrist="wpositive" fatherId="fReference[0]" />
+      <Value key="0" x="-30" y="1000" z="116" rx="180" rz="-90" shoulder="lefty" elbow="epositive" wrist="wpositive" fatherId="fReference[0]" />
+      <Value key="1" x="30" y="-1000" z="116" rx="180" rz="-90" shoulder="lefty" elbow="epositive" wrist="wpositive" fatherId="fReference[0]" />
       <Value key="2" y="-1000" z="66" rx="180" rz="-90" shoulder="lefty" elbow="epositive" wrist="wpositive" fatherId="fReference[0]" />
       <Value key="3" y="1000" z="66" rx="180" rz="-90" shoulder="lefty" elbow="epositive" wrist="wpositive" fatherId="fReference[0]" />
     </Data>
@@ -43,7 +43,7 @@
     <Data name="check_status" access="public" xsi:type="array" type="bool" size="1" />
     <Data name="spd_cntl" access="public" xsi:type="array" type="bool" size="1" />
     <Data name="cnst_vel" access="public" xsi:type="array" type="mdesc" size="1">
-      <Value key="0" tmax="100" rmax="100" leave="0.1" reach="0.1" blend="cartesian" />
+      <Value key="0" tmax="150" rmax="100" leave="0.1" reach="0.1" blend="cartesian" />
     </Data>
     <Data name="Tpompe" access="private" xsi:type="array" type="aio" size="1">
       <Value key="0" link="CanIO\RemIO\remio0_QW" />
@@ -54,5 +54,9 @@
     <Data name="doValve2" access="private" xsi:type="array" type="dio" size="1">
       <Value key="0" link="valve2" />
     </Data>
+    <Data name="doPompe" access="private" xsi:type="array" type="dio" size="1">
+      <Value key="0" link="CanIO\RemIO\remio0_Q" />
+    </Data>
+    <Data name="print_vel" access="public" xsi:type="array" type="num" size="1" />
   </Datas>
 </Database>

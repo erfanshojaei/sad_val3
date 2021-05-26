@@ -31,7 +31,7 @@
   //putln(snd_msg)
   
   //cls()
-  delay(.4)
+  delay(.2)
   
   until check_status != true
   

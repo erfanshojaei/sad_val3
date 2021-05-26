@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CellUserOptions>
+  <Controller Name="Controller1">
+    <Application>Disk://CurveNew/CurveNew.pjx</Application>
+  </Controller>
+  <Option Name="SynchronizerMode">
+    <Synchronizers>
+      <Synchronizer Controller="Controller1" Mode="Emulator" />
+    </Synchronizers>
+  </Option>
+  <Option Name="3DView">
+    <_3DView Visible="true" />
+  </Option>
+  <Option Name="DataTreeView">
+    <Nodes>
+      <Node Path="Gabinv6" IsExpanded="true" />
+      <Node Path="Gabinv6\Controller1" IsExpanded="true" />
+      <Node Path="Gabinv6\Controller1\CurveNew" IsExpanded="true" />
+      <Node Path="Gabinv6\Controller1\CurveNew\frame" IsExpanded="true" />
+      <Node Path="Gabinv6\Controller1\CurveNew\frame\fReference" IsExpanded="true" />
+      <Node Path="Gabinv6\Controller1\CurveNew\pointRx" IsExpanded="true" />
+    </Nodes>
+  </Option>
+  <Option Name="CellExplorer">
+    <Nodes>
+      <Node Path="Gabinv6" IsExpanded="true" />
+      <Node Path="Gabinv6\Controller1" IsExpanded="true" />
+      <Node Path="Gabinv6\Controller1\CurveNew" IsExpanded="true" />
+      <Node Path="Gabinv6\Controller1\CurveNew\start" IsExpanded="true" />
+      <Node Path="Gabinv6\Controller1\CurveNew\stop" IsExpanded="true" />
+    </Nodes>
+  </Option>
+  <Option Name="GeometryView">
+    <Nodes>
+      <Node Path="Gabinv6" IsExpanded="true" />
+      <Node Path="Gabinv6\Controller1" IsExpanded="true" />
+      <Node Path="Gabinv6\Controller1\CurveNew" IsExpanded="true" />
+      <Node Path="Gabinv6\Controller1\CurveNew\world[0]" IsExpanded="true" />
+      <Node Path="Gabinv6\Controller1\CurveNew\world[0]\fReference" IsExpanded="true" />
+    </Nodes>
+  </Option>
+</CellUserOptions>

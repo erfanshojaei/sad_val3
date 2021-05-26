@@ -1,0 +1,248 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Programs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.staubli.com/robotics/VAL3/Program/2">
+  <Program name="start">
+    <Code><![CDATA[begin
+  disablePower()
+  cls()
+  userPage()
+  title(" Concrete 3D Printer-Linear Path ") 
+  putln("Written by Erfan.")
+  setProfile("Manual","123")
+  if getProfile() == "Manual"
+    putln("Profile is set to Remote Control.")
+  endIf
+  delay(3)
+  enablePower()
+  if(watch(isPowered(),3) == false)
+    putln("Arm power supply cannot be swithced on.")
+  endIf
+  putln("Arm power is now switched on.")
+  delay(5)
+  //taskCreate "SocketOpening",10,open_socket()
+  //taskCreate "CheckComnunic",20,check_cmt()
+  //wait(check_status == true)
+  //delay(2)
+  //taskCreate "DataReading",40,read_data()
+  //taskCreate "MotionControl",40,motion_cntl()
+  //taskCreate "DataDisplay",40,show_data()
+  //taskCreate "DataSending",50,send_data() 
+    
+  // Pump turns OFF
+  aioSet(Tpompe,0)
+  put("Tpompe")
+  putln(aioGet(Tpompe))
+  put("Obturation")
+  dioSet(doValve1, 1)
+  putln(dioGet(doValve1))
+  dioSet(doValve2, 0)
+  putln(dioGet(doValve2))
+  
+  //////////////////////////////////////////
+  // Go to configuration
+  spd_cntl = false
+  resetMotion()
+  setMonitorSpeed(10)
+  movej(Jnt_cnfg[0],tTool[0],cnst_vel[0])
+  waitEndMove()
+  
+  // Go to Start point - 1st Layer
+  spd_cntl = false
+  setMonitorSpeed(10)
+  movel(Pnt_1st_lyr[0],tTool[0],mNomSpeed[0])
+  waitEndMove()
+  
+  //**************************************************   
+  
+  // Printing - 1st Layer
+  setProfile("Automatic","123")
+  spd_cntl = true
+  resetMotion()
+  
+  // Pump turns ON 
+  waitEndMove()
+  aioSet(Tpompe,3)
+  put("Tension pompe")
+  putln(aioGet(Tpompe))
+  put("ouverture")
+  dioSet(doValve1, 0)
+  putln(dioGet(doValve1))
+  dioSet(doValve2, 1)
+  putln(dioGet(doValve2))
+  delay(1)
+  
+  movel(Pnt_1st_lyr[1],tTool[0],mNomSpeed[0])
+  waitEndMove()
+  
+  // Pump turns OFF  
+  waitEndMove()
+  aioSet(Tpompe,0)
+  put("Tension pompe")
+  putln(aioGet(Tpompe))
+  put("Obturation")
+  dioSet(doValve1, 1)
+  putln(dioGet(doValve1))
+  dioSet(doValve2, 0)  
+  
+  //************************************************
+  
+  // Go to Start point - 2nd Layer
+  resetMotion()
+  setProfile("Manual","123")
+  spd_cntl = false
+  resetMotion()
+  setMonitorSpeed(100)
+  movel(Pnt_2nd_lyr[0],tTool[0],cnst_vel[0])
+  waitEndMove()
+  movel(Pnt_2nd_lyr[1],tTool[0],cnst_vel[0])
+  waitEndMove()
+  movel(Pnt_2nd_lyr[2],tTool[0],cnst_vel[0])
+  waitEndMove()
+  
+  // Printing - 2nd Layer
+  setProfile("Automatic","123")
+  spd_cntl = true
+  resetMotion()
+  
+  // Pump turns ON 
+  waitEndMove()
+  aioSet(Tpompe,3)
+  put("Tension pompe")
+  putln(aioGet(Tpompe))
+  put("ouverture")
+  dioSet(doValve1, 0)
+  putln(dioGet(doValve1))
+  dioSet(doValve2, 1)
+  putln(dioGet(doValve2))
+  delay(1)
+  
+  movel(Pnt_2nd_lyr[3],tTool[0],mNomSpeed[0])
+  waitEndMove()
+  
+  // Pump turns OFF  
+  waitEndMove()
+  aioSet(Tpompe,0)
+  put("Tension pompe")
+  putln(aioGet(Tpompe))
+  put("Obturation")
+  dioSet(doValve1, 1)
+  putln(dioGet(doValve1))
+  dioSet(doValve2, 0)  
+  
+  //*****************************************  
+  
+  // Go to Start point - 3rd Layer
+  setProfile("Manual","123")
+  spd_cntl = false
+  resetMotion()
+  setMonitorSpeed(100)
+  movel(Pnt_3rd_lyr[0],tTool[0],cnst_vel[0])
+  waitEndMove()
+  movel(Pnt_3rd_lyr[1],tTool[0],cnst_vel[0])
+  waitEndMove()
+  movel(Pnt_3rd_lyr[2],tTool[0],cnst_vel[0])
+  waitEndMove()
+  
+  // Printing - 3rd Layer
+  setProfile("Automatic","123")
+  spd_cntl = true
+  resetMotion()
+  
+  // Pump turns ON 
+  waitEndMove()
+  aioSet(Tpompe,3)
+  put("Tension pompe")
+  putln(aioGet(Tpompe))
+  put("ouverture")
+  dioSet(doValve1, 0)
+  putln(dioGet(doValve1))
+  dioSet(doValve2, 1)
+  putln(dioGet(doValve2))
+  delay(1)
+    
+  movel(Pnt_3rd_lyr[3],tTool[0],mNomSpeed[0])
+  waitEndMove()  
+  
+  // Pump turns OFF  
+  waitEndMove()
+  aioSet(Tpompe,0)
+  put("Tension pompe")
+  putln(aioGet(Tpompe))
+  put("Obturation")
+  dioSet(doValve1, 1)
+  putln(dioGet(doValve1))
+  dioSet(doValve2, 0)    
+  
+  // **************************************
+  
+  // Go to Start point - 4th Layer
+  setProfile("Manual","123")
+  spd_cntl = false
+  resetMotion()
+  setMonitorSpeed(100)
+  movel(Pnt_4th_lyr[0],tTool[0],cnst_vel[0])
+  waitEndMove()
+  movel(Pnt_4th_lyr[1],tTool[0],cnst_vel[0])
+  waitEndMove()
+  movel(Pnt_4th_lyr[2],tTool[0],cnst_vel[0])
+  waitEndMove()
+  
+  
+  // Printing - 4th Layer
+  setProfile("Automatic","123")
+  spd_cntl = true
+  resetMotion()
+  
+  // Pump turns ON 
+  waitEndMove()
+  aioSet(Tpompe,3)
+  put("Tension pompe")
+  putln(aioGet(Tpompe))
+  put("ouverture")
+  dioSet(doValve1, 0)
+  putln(dioGet(doValve1))
+  dioSet(doValve2, 1)
+  putln(dioGet(doValve2))
+  delay(1)
+  
+  movel(Pnt_4th_lyr[3],tTool[0],mNomSpeed[0])
+  waitEndMove() 
+  
+  // Pump turns OFF  
+  waitEndMove()
+  aioSet(Tpompe,0)
+  put("Tension pompe")
+  putln(aioGet(Tpompe))
+  put("Obturation")
+  dioSet(doValve1, 1)
+  putln(dioGet(doValve1))
+  dioSet(doValve2, 0)    
+  
+  // **************************************
+  
+  ///////////////////////////
+  cls()
+  userPage()
+  title(" Concrete 3D Printer-Linear Path ")
+  putln("printing procedure has been finished.")
+  
+  // Go to configuration
+  setProfile("Manual","123")
+  spd_cntl = false
+  resetMotion()
+  setMonitorSpeed(100)
+  movej(Jnt_cnfg[0],tTool[0],cnst_vel[0])
+  waitEndMove()
+  
+    
+  /////////////////////
+  
+  stopMove()
+  disablePower()
+  
+  
+  ///////////////////////////////////////////
+  
+  
+end]]></Code>
+  </Program>
+</Programs>

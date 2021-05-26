@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Programs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.staubli.com/robotics/VAL3/Program/2">
+  <Program name="read_ID" access="public">
+    <Locals>
+      <Local name="non_stop" type="bool" xsi:type="array" size="1" />
+    </Locals>
+    <Code><![CDATA[begin
+  
+  non_stop = true
+  
+  do
+    
+    putln(getMoveId()) 
+    putln(getMonitorSpeed())
+    
+  until non_stop != true
+  
+end]]></Code>
+  </Program>
+</Programs>

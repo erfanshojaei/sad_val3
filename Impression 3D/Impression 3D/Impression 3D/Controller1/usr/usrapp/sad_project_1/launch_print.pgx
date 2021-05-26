@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Programs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.staubli.com/robotics/VAL3/Program/2">
+  <Program name="launch_print">
+    <Code><![CDATA[begin
+  
+  // ouverture obturateur
+    dioSet(doValve1,0)
+    dioSet(doValve2,1)
+    put("Obturateur ouvert")    
+    delay(2)       
+    // mise en marche pompe vitesse faible
+    dioSet(doPompe,1)
+    put("Pompe en marche")
+    // mise en rotation pompe vitesse donnée
+    aioSet(Tpompe,0.2)
+    put("Pompe en rotation")
+    delay(1)
+  
+end]]></Code>
+  </Program>
+</Programs>

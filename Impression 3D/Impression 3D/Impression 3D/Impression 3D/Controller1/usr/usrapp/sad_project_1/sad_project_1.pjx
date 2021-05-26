@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns="http://www.staubli.com/robotics/VAL3/Project/3">
+  <Parameters version="s7.7.1" stackSize="5000" millimeterUnit="true" />
+  <Programs>
+    <Program file="check_cmt.pgx" />
+    <Program file="motion_cntl.pgx" />
+    <Program file="open_socket.pgx" />
+    <Program file="open_socket1.pgx" />
+    <Program file="read_data.pgx" />
+    <Program file="send_data.pgx" />
+    <Program file="show_data.pgx" />
+    <Program file="start.pgx" />
+    <Program file="stop.pgx" />
+  </Programs>
+  <Database>
+    <Data file="sad_project_1.dtx" />
+  </Database>
+  <Libraries />
+</Project>

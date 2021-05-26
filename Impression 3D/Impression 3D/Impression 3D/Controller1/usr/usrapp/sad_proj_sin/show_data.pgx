@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Programs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.staubli.com/robotics/VAL3/Program/2">
+  <Program name="show_data" access="public">
+    <Code><![CDATA[begin
+  
+   do 
+    cls()
+    put("Reference Velocity [mm/s]: ")
+    put(Ref_Vel)
+    putln("")
+    //cls()
+    put("Robot Velocity [mm/s]: ")
+    put(getSpeed(tTool))
+    putln("")
+    //cls()
+    put("Error (Ref-Rob) [mm/s]: ")
+    put(Ref_Vel - getSpeed(tTool))
+    putln("")
+    //cls()
+    put("Current position: ")
+    put(getMoveId())
+    putln("")
+    
+        
+    delay(0.001)
+    //putln("")
+  until check_status != true
+  
+end]]></Code>
+  </Program>
+</Programs>

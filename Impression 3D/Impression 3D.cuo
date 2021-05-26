@@ -45,6 +45,7 @@
     <Nodes>
       <Node Path="Impression 3D" IsExpanded="true" />
       <Node Path="Impression 3D\Controller1" IsExpanded="true" />
+      <Node Path="Impression 3D\Controller1\sad_project_1" IsExpanded="true" />
     </Nodes>
   </Option>
   <Option Name="GeometryView">

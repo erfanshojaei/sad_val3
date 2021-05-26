@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Programs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.staubli.com/robotics/VAL3/Program/2">
+  <Program name="motion_cntl" access="public">
+    <Code><![CDATA[begin
+  
+  do
+    
+    wait(spd_cntl == true)
+    setMonitorSpeed(Ref_Vel)
+    
+  until check_status != true
+  
+end]]></Code>
+  </Program>
+</Programs>
